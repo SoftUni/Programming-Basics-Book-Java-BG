@@ -6,26 +6,26 @@
 
 ### Четене на цяло число
 
-Необходима ни е променлива, в която да запазим числото (напр. **`num`**), и да използваме стандартната команда за четене на данни от конзолата в съчетание с функцията **`int.Parse(...)`**, която конвертира текст в число:
+Необходима ни е променлива, в която да запазим числото (напр. **`num`**), и да използваме стандартната команда за четене на данни от конзолата в съчетание с функцията **`Integer.parseInt(...)`**, която конвертира текст в число:
 
-```csharp
-var num = int.Parse(Console.ReadLine());
+```java
+Integer num = Integer.parseInt(scan.nextLine());
 ```
 
 ### Четене на дробно число
 
 По същия начин, както четем цяло число, но този път ще използваме функцията **`double.Parse(...)`**:
 
-```csharp
-var num = double.Parse(Console.ReadLine());
+```java
+Double num = Double.parseDouble(scanner.nextLine());
 ```
 
 ## Извеждане на текст по шаблон (placeholder)
 
-**Placeholder** представлява израз, който ще бъде заменен с конкретна стойност при отпечатване. Методите **`Console.Write(...)/WriteLine(...)`** поддържат печатане на текст по шаблон, като първият аргумент, който трябва да подадем, е форматиращият низ, следван от броя аргументи, равен на броя на плейсхолдърите.
+**Placeholder** представлява израз, който ще бъде заменен с конкретна стойност при отпечатване. Метода **`System.out.printf(...)`** поддържа печатане на текст по шаблон, като първият аргумент, който трябва да подадем, е форматиращият низ, следван от броя аргументи, равен на броя на плейсхолдърите.
 
-```csharp
-Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
+```java
+System.out.printf("You are %s %s, a %d-years old person from %s.",
   firstName, lastName, age, town);
 ```
 
@@ -33,38 +33,38 @@ Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
 
 ### Оператор +
 
-```csharp
-var result = 3 + 5; //резултатът е 8
+```java
+Integer result = 3 + 5; //резултатът е 8
 ```
 
 ### Оператор -
 
-```csharp
-var result = 3 - 5; //резултатът е -2
+```java
+Integer result = 3 - 5; //резултатът е -2
 ```
 
 ### Оператор *
 
-```csharp
-var result = 3 * 5; //резултатът е 15
+```java
+Integer result = 3 * 5; //резултатът е 15
 ```
 
 ### Оператор /
 
-```csharp
-var result = 6 / 3; //резултатът е 2 (целочислено деление)
-var result2 = 5 / 2.0; //резултатът е 2.5 (дробно деление)
+```java
+Integer result = 6 / 3; //резултатът е 2 (целочислено деление)
+Double result2 = 5 / 2.0; //резултатът е 2.5 (дробно деление)
 ```
 
 ## Конкатенация
 
 При използване на оператора **`+`** между променливи от тип текст (или между текст и число) се извършва т.нар. конкатенация (слепване на низове).
 
-```csharp
-var firstName = "Ivan";
-var lastName = "Ivanov";
-var age = 19;
-var str = firstName + " " + lastName + " is " + age + " years old";
+```java
+String firstName = "Ivan";
+String lastName = "Ivanov";
+Integer age = 19;
+String str = firstName + " " + lastName + " is " + age + " years old";
 // Ivan Ivanov is 19 years old
 ```
 
