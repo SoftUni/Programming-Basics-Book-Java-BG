@@ -100,7 +100,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#0](https://judge.softuni.bg/Contests/Practice/Index/594#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#0](https://judge.softuni.bg/Contests/Practice/Index/665#0)
 
 ## Методи с параметри
 
@@ -150,7 +150,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#1](https://judge.softuni.bg/Contests/Practice/Index/594#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#1](https://judge.softuni.bg/Contests/Practice/Index/665#1)
 
 ### Незадължителни параметри
 
@@ -194,7 +194,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#2](https://judge.softuni.bg/Contests/Practice/Index/594#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#2](https://judge.softuni.bg/Contests/Practice/Index/665#2)
 
 ### Пример: рисуване на запълнен квадрат
 
@@ -221,7 +221,7 @@
 ![](assets/chapter-10-images/23.draw-filled-square.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#3](https://judge.softuni.bg/Contests/Practice/Index/594#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#3](https://judge.softuni.bg/Contests/Practice/Index/665#3)
 
 ## Връщане на резултат от метод
 
@@ -292,7 +292,7 @@
 ![](assets/chapter-10-images/38.calculate-triangle-area.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#4](https://judge.softuni.bg/Contests/Practice/Index/594#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#4](https://judge.softuni.bg/Contests/Practice/Index/665#4)
 
 ### Пример: степен на число
 
@@ -313,7 +313,7 @@
 След като сме направили нужните изчисления, ни остава да разпечатаме резултата в главния метод (`Main()`) на програмата.
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#5](https://judge.softuni.bg/Contests/Practice/Index/594#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#5](https://judge.softuni.bg/Contests/Practice/Index/665#5)
 
 ### Методи, връщащи няколко стойности
 
@@ -412,7 +412,7 @@ var division = Divide(1, 3);
 ![](assets/chapter-10-images/43.greater-of-two-values.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#6](https://judge.softuni.bg/Contests/Practice/Index/594#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#6](https://judge.softuni.bg/Contests/Practice/Index/665#6)
 
 ## Вложени методи (локални функции)
 
@@ -531,7 +531,7 @@ var division = Divide(1, 3);
 |Peter|Hello, Peter!|
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#7](https://judge.softuni.bg/Contests/Practice/Index/594#7)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#7](https://judge.softuni.bg/Contests/Practice/Index/665#7)
 
 ### Задача: по-малко число
 
@@ -544,7 +544,7 @@ var division = Divide(1, 3);
 |1<br>2<br>3|1|-100<br>-101<br>-102|-102|
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#8](https://judge.softuni.bg/Contests/Practice/Index/594#8)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#8](https://judge.softuni.bg/Contests/Practice/Index/665#8)
 
 ### Задача: повтаряне на низ
 
@@ -561,7 +561,7 @@ var division = Divide(1, 3);
 ![](assets/chapter-10-images/44.repeated-string.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#9](https://judge.softuni.bg/Contests/Practice/Index/594#9)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#9](https://judge.softuni.bg/Contests/Practice/Index/665#9)
 
 ### Задача: n-та цифра
 
@@ -578,7 +578,7 @@ var division = Divide(1, 3);
 За да изпълним алгоритъма, ще използваме **`while`** цикъл, докато дадено число не стане 0. На всяка итерация на **`while`** цикъла ще проверяваме дали настоящият индекс на цифрата не отговаря на индекса, който търсим. Ако отговаря, ще върнем като резултат цифрата на индекса (**`number % 10`**). Ако не отговаря, ще премахнем последната цифра на числото (**`number / 10`**). Трябва да следим коя цифра проверяваме по индекс (от дясно на ляво, започвайки от 1). Когато намерим цифрата, ще върнем индекса. 
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#10](https://judge.softuni.bg/Contests/Practice/Index/594#10)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#10](https://judge.softuni.bg/Contests/Practice/Index/665#10)
 
 ### Задача: число към бройна система
 
@@ -601,7 +601,7 @@ var division = Divide(1, 3);
 * Повтаряме алгоритъма, докато входното число не стане 0.
 
 #### Тестване в Judge системата 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#11](https://judge.softuni.bg/Contests/Practice/Index/594#11)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#11](https://judge.softuni.bg/Contests/Practice/Index/665#11)
 
 ### Задача: известия
 
@@ -643,7 +643,7 @@ var division = Divide(1, 3);
 |3<br>success<br>Database query<br>Updated 2 rows<br>warning<br>error<br>credit card purchase<br>2|Successfully executed Database query.<br>==============================<br>Message: Updated 2 rows.<br>Error: Failed to execute credit card purchase.<br>==============================<br>Error Code: 2.<br>Reason: Invalid Client Data.|
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#12](https://judge.softuni.bg/Contests/Practice/Index/594#12)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#12](https://judge.softuni.bg/Contests/Practice/Index/665#12)
 
 ### Задача: числа към думи
 
@@ -671,7 +671,7 @@ var division = Divide(1, 3);
 Третият специален случай е когато числото, формирано от последните две цифри на входното число, е **по-голямо от 10 и по-малко от 20** (напр. 111, 814, 919 и т.н.). В този случай отпечатваме "one-hundred and eleven", "eight-hundred and fourteen", "nine-hundred and nineteen" и т.н.
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#13](https://judge.softuni.bg/Contests/Practice/Index/594#13)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#13](https://judge.softuni.bg/Contests/Practice/Index/665#13)
 
 ### Задача: криптиране на низ
 
@@ -711,5 +711,5 @@ var division = Divide(1, 3);
 За да намерим първата и последната цифри от ASCII кода, ще използваме алгоритъма, който използвахме за решаване на задача "Число към бройна система".
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/594#14](https://judge.softuni.bg/Contests/Practice/Index/594#14)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#14](https://judge.softuni.bg/Contests/Practice/Index/665#14)
   
