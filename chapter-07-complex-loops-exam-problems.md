@@ -81,7 +81,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#0](https://judge.softuni.bg/Contests/Practice/Index/515#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/660#0](https://judge.softuni.bg/Contests/Practice/Index/660#0)
 
 ### Задача: магически числа
 
@@ -141,7 +141,7 @@
 Както виждаме, един проблем можем да решим с различни видове цикли. Разбира се, за всяка задача има най-подходящ избор. С цел да упражните всеки цикъл - опитайте се да решите всяка от следващите задачи с всички изучени цикли.
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#1](https://judge.softuni.bg/Contests/Practice/Index/515#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/660#1](https://judge.softuni.bg/Contests/Practice/Index/660#1)
 
 ### Задача: спиращо число
 
@@ -193,7 +193,7 @@
 Съответно, ако **условието** на проверката дали числото съвпада със "спиращото" число върне резултат **`false`**, по задание нашата програма трябва да **продължи да печата**. Това всъщност покрива и **четвъртата и последна** част от нашата програма.
 
 #### Tестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#2](https://judge.softuni.bg/Contests/Practice/Index/515#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/660#2](https://judge.softuni.bg/Contests/Practice/Index/660#2)
 
 ### Задача: специални числа
 
@@ -229,7 +229,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#3](https://judge.softuni.bg/Contests/Practice/Index/515#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/660#3](https://judge.softuni.bg/Contests/Practice/Index/660#3)
 
 
 ### Задача: цифри
@@ -265,4 +265,4 @@
 Решете задачата **самостоятелно**, използвайки наученото от предишните. Не забравяйте, че ще е нужно да дефинирате **отделна** променлива за всяка цифра на входното число.
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/515#4](https://judge.softuni.bg/Contests/Practice/Index/515#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/660#4](https://judge.softuni.bg/Contests/Practice/Index/660#4)
