@@ -95,7 +95,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#0](https://judge.softuni.bg/Contests/Practice/Index/517#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#0](https://judge.softuni.bg/Contests/Practice/Index/662#0)
 
 ### Задача: смяна на плочки
 
@@ -155,7 +155,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#1](https://judge.softuni.bg/Contests/Practice/Index/517#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#1](https://judge.softuni.bg/Contests/Practice/Index/662#1)
 
 ### Задача: магазин за цветя
 
@@ -224,7 +224,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#2](https://judge.softuni.bg/Contests/Practice/Index/517#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#2](https://judge.softuni.bg/Contests/Practice/Index/662#2)
 
 ### Задача: оценки
 
@@ -284,7 +284,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#3](https://judge.softuni.bg/Contests/Practice/Index/517#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#3](https://judge.softuni.bg/Contests/Practice/Index/662#3)
 
 ### Задача: коледна шапка
 
@@ -339,7 +339,7 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/517#4](https://judge.softuni.bg/Contests/Practice/Index/517#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#4](https://judge.softuni.bg/Contests/Practice/Index/662#4)
 
 ### Задача: комбинации от букви
 
@@ -392,4 +392,4 @@ _Типът данни за реални числа с десетична точ
 
 #### Тестване в Judge системата
 
-Може да тествате Вашето решение тук: [https://judge.softuni.bg/Contests/Practice/Index/517#5](https://judge.softuni.bg/Contests/Practice/Index/517#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#5](https://judge.softuni.bg/Contests/Practice/Index/662#5)
