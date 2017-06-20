@@ -128,7 +128,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/519#0](https://judge.softuni.bg/Contests/Practice/Index/519#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/664#0](https://judge.softuni.bg/Contests/Practice/Index/664#0)
 
 ### Задача: X Expresion
 
@@ -235,7 +235,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/519#1](https://judge.softuni.bg/Contests/Practice/Index/519#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/664#1](https://judge.softuni.bg/Contests/Practice/Index/664#1)
 
 ### Задача: Bulls and Cows
 
@@ -349,4 +349,4 @@ Aко **не съществуват предполагаеми числа**, к�
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/519#2](https://judge.softuni.bg/Contests/Practice/Index/519#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/664#2](https://judge.softuni.bg/Contests/Practice/Index/664#2)
