@@ -228,7 +228,7 @@ boolean result = a || b || c || d;
 
 #### Решение
 
-![](assets/chapter-4-images/05.Invalid-number-01.png)
+![](assets/chapter-4-images/05.Invalid-number-Java-01.png)
 
 #### Тестване на решението
 
