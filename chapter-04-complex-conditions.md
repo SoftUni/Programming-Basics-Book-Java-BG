@@ -57,10 +57,9 @@ if (условие1) {
 
 ![](assets/chapter-4-images/Personal%20Titles-01.jpg)
 
-След прочитане на входните данни от конзолата ще трябва да се изпълни следната примерна програмна логика:
+След **прочитане на входните данни от конзолата** ще трябва да се изпълни следната **примерна програмна логика**:
 
 ![](assets/chapter-4-images/01.Personal-Titles-Java-01.png)
-
 #### Тестване на решението:
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/653#0](https://judge.softuni.bg/Contests/Practice/Index/653#0)
@@ -89,8 +88,7 @@ if (условие1) {
 
 **Прехвърляме** всички букви в **долен регистър** с функцията **`.toLowerCase()`**, за да сравняваме продукти и градове **без значение** от малки/главни букви.
 
-// TODO prepare and insert the correct image
-![](/assets/chapter-4-images/02.Small-shop-01.png)
+![](/assets/chapter-4-images/02.Small-shop-Java-01.png)
 
 #### Тестване на решението: 
 
