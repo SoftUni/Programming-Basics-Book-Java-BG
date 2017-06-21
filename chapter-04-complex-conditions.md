@@ -114,12 +114,12 @@ if (условие1) {
 
 **Пример**:
 
-```csharp
-bool a = true;
-bool b = true;
-bool c = false;
-bool d = true;
-bool result = a && b && c && d;
+```java
+boolean a = true;
+boolean b = true;
+boolean c = false;
+boolean d = true;
+boolean result = a && b && c && d;
 // false (като d не се проверява)
 ```
 
