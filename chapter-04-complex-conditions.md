@@ -554,6 +554,9 @@ switch (селектор) {
 |-----|-----|-----|-----|
 |15<br>-4<br>7|outside|15<br>30<br>0|border|
 
+#### Решение ####(части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение)
+
+![](assets/chapter-4-images/13.Point-in-the-figure-Java-01.png)
 
 #### Тестване на решението
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/653#12](https://judge.softuni.bg/Contests/Practice/Index/653#12)
