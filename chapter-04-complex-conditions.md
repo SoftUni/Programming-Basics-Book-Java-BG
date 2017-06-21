@@ -145,7 +145,7 @@ boolean result = a && b && c && d;
 * Точката е надолу от горната страна на правоъгълника.
 * Точката е нагоре от долната страна на правоъгълника.
 
-![](/assets/chapter-4-images/03.Point-in-rectangle-Java-01.PNG)
+![](/assets/chapter-4-images/03.Point-in-rectangle-Java-01.png)
 
 #### Тестване на решението
 
