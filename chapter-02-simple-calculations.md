@@ -15,51 +15,65 @@
 <script src="/assets/js/video.js"></script>
 
 ## Системна конзола
-Обикновено наричана само "**конзола**", системната, или още компютърната конзола, представлява устройството, чрез което подаваме команди на компютъра в текстов вид и получаваме резултатите от тяхното изпълнение отново като текст. В повечето случаи системната конзола представлява текстов терминал, т.е. приема и визуализира само **текст**, без графични елементи като например бутони, менюта и т.н.
+Обикновено наричана само "**конзола**", системната или още компютърната конзола, представлява начина, чрез което подаваме команди на компютъра в текстов вид и получаваме резултатите от тяхното изпълнение отново като текст. В повечето случаи системната конзола представлява текстов терминал, т.е. приема и визуализира само **текст**, без графични елементи като например бутони, менюта и т.н.
 
-В повечето операционни системи **конзолата** е достъпна като самостоятелно приложение на което пишем конзолни команди. В Windows се нарича **Command Prompt**, а в Linux и Mac се нарича **Terminal**. В конзолата се изпълняват конзолни приложения. Те четат текстов вход от командния ред и печатат изхода си като текстов изход на конзолата. В настоящата книга ще се учим на програмиране като създаваме предимно **конзолни приложения**.
+В повечето операционни системи, обикновенно **конзолата** е достъпна като самостоятелно приложение на което пишем различни конзолни команди. В Windows се нарича **Command Prompt**, а в Linux и Mac се нарича **Terminal**. В конзолата се изпълняват конзолни приложения. Те четат текстов вход от командния ред и печатат изхода си като текстов изход на конзолата. В настоящата книга ще се учим на програмиране като създаваме предимно **конзолни приложения**.
 
 ## Четене на числа от конзолата
 
-За да прочетем **цяло** (не дробно) **число** от конзолата е необходимо да **декларираме променлива**, да посочим **типа на числото**, както и да използваме стандартната команда за четене на информация от системната конзола:
+Реално в **Java** има няколко начина да прочетем някакъв вход от **конзолата**. Единият е чрез използването на вграденият клас **Scanner**, който ще използваме сега, а другият е с изпозването на **BufferedReader**. Вторият е много по-добър, но ще започнем да го ползваме едва след като се запознаем и с потоците в **Java**.
 
-```csharp
-var num = int.Parse(Console.ReadLine());
+За да прочетем **цяло** (не дробно) **число** от конзолата е необходимо първо да импортнем класа **Scanner**, след това трябва да му създадем нова инстанция като му кажем да използва системния вход, да **декларираме променлива** с някакво име, да посочим **типа на променливата**, както и да използваме стандартната команда за четене на целочислени числа от конзола:
+
+```java
+import java.util.Scanner;
+
+Scanner in = new Scanner(System.in);
+int num = in.nextInt();
 ```
+Сега в променливата **num** от целочислен тип **int** имаме прочетена и записана стойността подадена в **конзолата**.
 
 ### Пример: пресмятане на лице на квадрат със страна **а**
 
 За пример да вземем следната програма, която прочита цяло число от конзолата, умножава го по него самото (вдига го на квадрат) и отпечатва резултата от умножението. Така можем да пресметнем лицето на квадрат по дадена дължина на страната:
 
-```csharp
-Console.Write("a = ");              
-var a = int.Parse(Console.ReadLine());
-var area = a * a;
-Console.Write("Square area = ");
-Console.WriteLine(area);
-```
+```java
+Scanner in = new Scanner(System.in);
 
-Ето как би работила програмата при квадрат с размер на страната 3:
+System.out.print("a = ");
+int a = in.nextInt();
+int area = a * a;
+
+System.out.print("Square area = ");
+System.out.println(area);
+```
+Ето как би работила програмата при квадрат с размер на страната 15:
 
 ![](/assets/chapter-2-images/squareArea.jpg)
 
-Опитайте да въведете грешно число, например "**hello**". Ще получите съобщение за грешка по време на изпълнение (excption). Това е нормално. По-късно ще разберем как можем да прихващаме такива грешки и да караме потребителят да въвежда число наново.
+Опитайте да въведете грешно число, например "**hello**". Ще получите съобщение за грешка по време на изпълнение (exception). 
+
+![](/assets/chapter-2-images/exceptionHallo.jpg)
+
+Това е напълно нормално, защото езика **Java** е силно типизиран език. По-късно ще разберем как можем да прихващаме такива грешки и да караме потребителят да въвежда число наново.
 
 #### Как работи примерът?
 
-Първият ред **`Console.Write("a = ");`** печата информативно съобщение, което подканва потребителя да въведе страната на квадрата **a**. След отпечатването курсорът остава на същия ред. Оставането на същия ред е по-удобно за потребителя, чисто визуално. Използва се **`Console.Write(...)`**, а не **`Console.WriteLine(...)`** и така курсорът остава на същия ред.
+Първият ред **`Scanner in = new Scanner(System.in);`** създава нова инстанция на класа **Scanner** със стандартен системен вход.
 
-Следващият ред **`var a = int.Parse(Console.ReadLine());`** прочита цяло число от конзолата. Всъщност първо се прочита текст (стринг) чрез **`Console.ReadLine()`** и след това се преобразува до цяло число (парсва се) чрез **`int.Parse(...)`**. Резултатът се записва в променлива с име **`a`**.
+Следващият ред **`System.out.print("a = ");`** печата информативно съобщение, което подканва потребителя да въведе страната на квадрата **a**. След отпечатването курсорът остава на същия ред. Оставането на същия ред е по-удобно за потребителя, чисто визуално. Използва се **`System.out.print(...);`**, а не **`System.out.println(...);`** и така курсорът остава на същия ред.
 
-Следващата команда **`var area = a * a;`** записва в нова променлива **`area`** резултата от умножението на **`a`** по **`a`**.
+Следващият ред **`int a = in.nextInt();`** прочита цяло число от конзолата. Резултатът се записва в променлива с име **`a`**.
 
-Следващата команда **`Console.Write("Square area = ");`** отпечатва посочения текст, без да преминава на нов ред. Отново се използва **`Console.Write(...)`**, а не **`Console.WriteLine(...)`** и така курсорът остава на същия ред, за да може след това да се отпечата и изчисленото лице на квадрата.
+Следващата команда **`int area = a * a;`** записва в нова променлива **`area`** резултата от умножението на **`a`** по **`a`**.
 
-Последната команда **`Console.WriteLine(area);`** отпечатва изчислената стойност от променливата **`area`**.
+Следващата команда **`System.out.print("Square area = ");`** отпечатва посочения текст, без да преминава на нов ред. Отново се използва **`System.out.print(...);`**, а не **`System.out.println("...");`** и така курсорът остава на същия ред, за да може след това да се отпечата и изчисленото лице на квадрата.
+
+Последната команда **`System.out.println(area);`** отпечатва изчислената стойност от променливата **`area`**.
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#0](https://judge.softuni.bg/Contests/Practice/Index/504#0).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#0](https://judge.softuni.bg/Contests/Practice/Index/649#0).
 
 ## Пресмятания в програмирането
 
@@ -105,7 +119,7 @@ Console.WriteLine(centimeters);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#1](https://judge.softuni.bg/Contests/Practice/Index/504#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#1](https://judge.softuni.bg/Contests/Practice/Index/649#1)
 
 ## Четене и печатане на текст
 
@@ -131,7 +145,7 @@ Console.WriteLine("Hello, {0}!", name);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#2](https://judge.softuni.bg/Contests/Practice/Index/649#2)
 
 ## Съединяване на текст и числа
 
@@ -164,7 +178,7 @@ Console.WriteLine("{1} + {1} = {0}", 1+1, 1);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#3](https://judge.softuni.bg/Contests/Practice/Index/649#3)
 
 ## Аритметични операции
 
@@ -313,7 +327,7 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#4](https://judge.softuni.bg/Contests/Practice/Index/649#4)
 
 ### Пример: периметър и лице на кръг 
 
@@ -337,7 +351,7 @@ Console.WriteLine("Perimeter = " + 2 * Math.PI * r);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#5](https://judge.softuni.bg/Contests/Practice/Index/504#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#5](https://judge.softuni.bg/Contests/Practice/Index/649#5)
 
 ### Пример: лице на правоъгълник в равнината
 
@@ -369,7 +383,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#6](https://judge.softuni.bg/Contests/Practice/Index/504#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#6](https://judge.softuni.bg/Contests/Practice/Index/649#6)
 
 ## Какво научихме от тази глава?
 
@@ -428,7 +442,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#0](https://judge.softuni.bg/Contests/Practice/Index/504#0). Трябва да получите 100 точки (напълно коректно решение):
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#0](https://judge.softuni.bg/Contests/Practice/Index/649#0). Трябва да получите 100 точки (напълно коректно решение):
 
 ![](assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png)
 
@@ -507,7 +521,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#1](https://judge.softuni.bg/Contests/Practice/Index/504#1).
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#1](https://judge.softuni.bg/Contests/Practice/Index/649#1).
 
 Решението би трябвало да бъде прието като напълно коректно:
 
@@ -533,7 +547,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/504#2](https://judge.softuni.bg/Contests/Practice/Index/504#2)
+Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/649#2](hhttps://judge.softuni.bg/Contests/Practice/Index/649#2)
 
 ### Задача:	съединяване на текст и числа
 
@@ -555,7 +569,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#3](https://judge.softuni.bg/Contests/Practice/Index/504#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#3](https://judge.softuni.bg/Contests/Practice/Index/649#3)
 
 ### Задача:	лице на трапец
 
@@ -577,7 +591,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#4](https://judge.softuni.bg/Contests/Practice/Index/504#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#4](https://judge.softuni.bg/Contests/Practice/Index/649#4)
 
 ### Задача:	периметър и лице на кръг
 
@@ -598,7 +612,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#5](https://judge.softuni.bg/Contests/Practice/Index/504#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#5](https://judge.softuni.bg/Contests/Practice/Index/649#5)
 
 ### Задача: лице на правоъгълник в равнината
 
@@ -616,7 +630,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#6]( https://judge.softuni.bg/Contests/Practice/Index/504#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#6]( https://judge.softuni.bg/Contests/Practice/Index/649#6)
 
 ### Задача:	лице на триъгълник
 
@@ -650,7 +664,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#8](https://judge.softuni.bg/Contests/Practice/Index/504#8)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#8](https://judge.softuni.bg/Contests/Practice/Index/649#8)
 
 ### Задача:	конзолен конвертор - от радиани в градуси
 
@@ -667,7 +681,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#9](https://judge.softuni.bg/Contests/Practice/Index/504#9)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#9](https://judge.softuni.bg/Contests/Practice/Index/649#9)
 
 ### Задача: конзолен конвертор - USD към BGN
 
@@ -683,7 +697,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#10](https://judge.softuni.bg/Contests/Practice/Index/504#10)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#10](https://judge.softuni.bg/Contests/Practice/Index/649#10)
 
 ### Задача:	\* конзолен междувалутен конвертор
 
@@ -706,7 +720,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
  
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#11](https://judge.softuni.bg/Contests/Practice/Index/504#11)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#11](https://judge.softuni.bg/Contests/Practice/Index/649#11)
 
 ### Задача:	** пресмятане с дати - 1000 дни на Земята
 
@@ -728,7 +742,7 @@ Console.WriteLine("Perimeter = " + 2 * (width + height));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#12](https://judge.softuni.bg/Contests/Practice/Index/504#12)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#12](https://judge.softuni.bg/Contests/Practice/Index/649#12)
 
 ## Графични приложения с числови израви
 

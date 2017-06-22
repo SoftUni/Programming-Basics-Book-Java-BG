@@ -6,26 +6,26 @@
 
 ### Четене на цяло число
 
-Необходима ни е променлива, в която да запазим числото (напр. **`num`**), и да използваме стандартната команда за четене на данни от конзолата в съчетание с функцията **`int.Parse(...)`**, която конвертира текст в число:
+Необходима ни е променлива, в която да запазим числото (напр. **`num`**), и да използваме стандартната команда за четене на данни от конзолата в съчетание с функцията **`Integer.parseInt(...)`**, която конвертира текст в число:
 
-```csharp
-var num = int.Parse(Console.ReadLine());
+```java
+int num = Integer.parseInt(scan.nextLine());
 ```
 
 ### Четене на дробно число
 
-По същия начин, както четем цяло число, но този път ще използваме функцията **`double.Parse(...)`**:
+По същия начин, както четем цяло число, но този път ще използваме функцията **`double.parseDouble(...)`**:
 
-```csharp
-var num = double.Parse(Console.ReadLine());
+```java
+double num = Double.parseDouble(scanner.nextLine());
 ```
 
 ## Извеждане на текст по шаблон (placeholder)
 
-**Placeholder** представлява израз, който ще бъде заменен с конкретна стойност при отпечатване. Методите **`Console.Write(...)/WriteLine(...)`** поддържат печатане на текст по шаблон, като първият аргумент, който трябва да подадем, е форматиращият низ, следван от броя аргументи, равен на броя на плейсхолдърите.
+**Placeholder** представлява израз, който ще бъде заменен с конкретна стойност при отпечатване. Метода **`System.out.printf(...)`** поддържа печатане на текст по шаблон, като първият аргумент, който трябва да подадем, е форматиращият низ, следван от броя аргументи, равен на броя на плейсхолдърите.
 
-```csharp
-Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
+```java
+System.out.printf("You are %s %s, a %d-years old person from %s.",
   firstName, lastName, age, town);
 ```
 
@@ -33,38 +33,38 @@ Console.WriteLine("You are {0} {1}, a {2}-years old person from {3}.",
 
 ### Оператор +
 
-```csharp
-var result = 3 + 5; //резултатът е 8
+```java
+int result = 3 + 5; //резултатът е 8
 ```
 
 ### Оператор -
 
-```csharp
-var result = 3 - 5; //резултатът е -2
+```java
+int result = 3 - 5; //резултатът е -2
 ```
 
 ### Оператор *
 
-```csharp
-var result = 3 * 5; //резултатът е 15
+```java
+int result = 3 * 5; //резултатът е 15
 ```
 
 ### Оператор /
 
-```csharp
-var result = 6 / 3; //резултатът е 2 (целочислено деление)
-var result2 = 5 / 2.0; //резултатът е 2.5 (дробно деление)
+```java
+int result = 6 / 3; //резултатът е 2 (целочислено деление)
+double result2 = 5 / 2.0; //резултатът е 2.5 (дробно деление)
 ```
 
 ## Конкатенация
 
 При използване на оператора **`+`** между променливи от тип текст (или между текст и число) се извършва т.нар. конкатенация (слепване на низове).
 
-```csharp
-var firstName = "Ivan";
-var lastName = "Ivanov";
-var age = 19;
-var str = firstName + " " + lastName + " is " + age + " years old";
+```java
+String firstName = "Ivan";
+String lastName = "Ivanov";
+int age = 19;
+String str = firstName + " " + lastName + " is " + age + " years old";
 // Ivan Ivanov is 19 years old
 ```
 
@@ -115,17 +115,18 @@ var str = firstName + " " + lastName + " is " + age + " years old";
 * **Извършване на изчисленията**.
 * **Извеждане на изход** на конзолата.
 
-Първото, което трябва да направим, е да прочетем входните данни от конзолата. С **`Console.ReadLine()`** четем стойностите от конзолата, а с функцията **`double.Parse(...)`** преобразуваме зададената стрингова (текстова) стойност в **`double`**. 
+Първото, което трябва да направим, е да прочетем входните данни от конзолата. С **`scanner.nextLine()`** четем стойностите от конзолата, а с функцията **`double.parseDouble(...)`** преобразуваме зададената стрингова (текстова) стойност в **`double`**. 
 
 ![](assets/chapter-2-2-images/01.Training-lab-03.png)
+![](assets/chapter-2-2-images/01.Training-lab-01_1.png)
 
 Нека пристъпим към изчисленията. Особеното тук е, че след като извършим делението, трябва да запазим в променлива само цялата част от резултата. 
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
-<td><b>Търсете в Google!</b> Винаги, когато имаме идея как да решим даден проблем, но не знаем как да го изпишем на C#, или когато се сблъскаме с такъв, за който предполагаме, че много други хора са имали, най-лесно е да се справим като потърсим информация в Интернет.</td>
+<td><b>Търсете в Google!</b> Винаги, когато имаме идея как да решим даден проблем, но не знаем как да го изпишем на Java, или когато се сблъскаме с такъв, за който предполагаме, че много други хора са имали, най-лесно е да се справим като потърсим информация в Интернет.</td>
 </tr></table>
 
-В случая може да пробваме със следното търсене: *c# get whole number part of double*. Откриваме, че едната възможност е да използваме метода **`Math.Truncate(...)`**. Тъй като той работи с променливи от тип **`double`**, за броя редици и колони създаваме променливи също от този тип.  
+В случая може да пробваме със следното търсене: *java get whole number part of double*. Откриваме, че трябва да използваме метода **`Math.floor(...)`**. Тъй като той работи с променливи от тип **`double`**, за броя редици и колони създаваме променливи също от този тип.  
 
 ![](assets/chapter-2-2-images/01.Training-lab-04.png)
 
@@ -135,13 +136,13 @@ var str = firstName + " " + lastName + " is " + age + " years old";
 
 ![](assets/chapter-2-2-images/01.Training-lab-05.png)
 
-С **`Console.WriteLine(...)`** отпечатваме резултата на конзолата.
+С **`System.out.println(...)`** отпечатваме резултата на конзолата.
 
 ![](assets/chapter-2-2-images/01.Training-lab-06.png)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/505#0](https://judge.softuni.bg/Contests/Practice/Index/505#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/650#0](https://judge.softuni.bg/Contests/Practice/Index/650#0)
 
 ### Задача: зеленчукова борса
 
@@ -211,7 +212,7 @@ var str = firstName + " " + lastName + " is " + age + " years old";
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/505#1](https://judge.softuni.bg/Contests/Practice/Index/505#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/650#1](https://judge.softuni.bg/Contests/Practice/Index/650#1)
 
 ### Задача: ремонт на плочки
 
@@ -291,7 +292,7 @@ var str = firstName + " " + lastName + " is " + age + " years old";
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/505#2](https://judge.softuni.bg/Contests/Practice/Index/505#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/650#2](https://judge.softuni.bg/Contests/Practice/Index/650#2)
 
 ### Задача: Парички
 
@@ -377,7 +378,7 @@ var str = firstName + " " + lastName + " is " + age + " years old";
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/505#3](https://judge.softuni.bg/Contests/Practice/Index/505#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/650#3](https://judge.softuni.bg/Contests/Practice/Index/650#3)
 
 ### Задача: дневна печалба
 
@@ -445,4 +446,4 @@ var str = firstName + " " + lastName + " is " + age + " years old";
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/505#4](https://judge.softuni.bg/Contests/Practice/Index/505#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/650#4](https://judge.softuni.bg/Contests/Practice/Index/650#4)

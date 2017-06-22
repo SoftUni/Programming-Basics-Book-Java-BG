@@ -87,7 +87,7 @@
 ![](assets/exam-prep-1-images/exam-prep-triangle-6.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#0](https://judge.softuni.bg/Contests/Practice/Index/516#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#0](https://judge.softuni.bg/Contests/Practice/Index/661#0)
 
 
 ### Задача: пренасяне на тухли
@@ -142,7 +142,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#1](https://judge.softuni.bg/Contests/Practice/Index/516#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#1](https://judge.softuni.bg/Contests/Practice/Index/661#1)
 
 
 ## Задачи с единична проверка
@@ -207,7 +207,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#2](https://judge.softuni.bg/Contests/Practice/Index/516#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#2](https://judge.softuni.bg/Contests/Practice/Index/661#2)
 
 ### Задача: точка във фигура
 
@@ -258,7 +258,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#3](https://judge.softuni.bg/Contests/Practice/Index/516#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#3](https://judge.softuni.bg/Contests/Practice/Index/661#3)
 
 
 ## Задачи с по-сложни проверки
@@ -317,7 +317,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#4](https://judge.softuni.bg/Contests/Practice/Index/516#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#4](https://judge.softuni.bg/Contests/Practice/Index/661#4)
 
 ### Задача: суми от 3 числа
 
@@ -368,7 +368,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#5](https://judge.softuni.bg/Contests/Practice/Index/516#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#5](https://judge.softuni.bg/Contests/Practice/Index/661#5)
 
 
 ## Задачи с единичен цикъл
@@ -416,7 +416,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#6](https://judge.softuni.bg/Contests/Practice/Index/516#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#6](https://judge.softuni.bg/Contests/Practice/Index/661#6)
 
 ### Задача: Поредица от нарастващи елементи
 
@@ -462,7 +462,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#7](https://judge.softuni.bg/Contests/Practice/Index/516#7)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#7](https://judge.softuni.bg/Contests/Practice/Index/661#7)
 
 
 ## Чертане на фигурки на конзолата
@@ -513,7 +513,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#8](https://judge.softuni.bg/Contests/Practice/Index/516#8)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#8](https://judge.softuni.bg/Contests/Practice/Index/661#8)
 
 ### Задача: правоъгълник със звездички в центъра
 
@@ -557,7 +557,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#9](https://judge.softuni.bg/Contests/Practice/Index/516#9)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#9](https://judge.softuni.bg/Contests/Practice/Index/661#9)
 
 
 ## Задачи с вложени цикли
@@ -606,7 +606,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#10](https://judge.softuni.bg/Contests/Practice/Index/516#10)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#10](https://judge.softuni.bg/Contests/Practice/Index/661#10)
 
 
 ### Задача: генериране на правоъгълници
@@ -664,4 +664,4 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/516#10](https://judge.softuni.bg/Contests/Practice/Index/516#10)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/661#11](https://judge.softuni.bg/Contests/Practice/Index/661#11)
