@@ -27,7 +27,7 @@
 
 ```java
 import java.util.Scanner;
-&
+
 Scanner in = new Scanner(System.in);
 int num = in.nextInt();
 ```
@@ -39,11 +39,11 @@ int num = in.nextInt();
 
 ```java
 Scanner in = new Scanner(System.in);
-&
+
 System.out.print("a = ");
 int a = in.nextInt();
 int area = a * a;
-&
+
 System.out.print("Square area = ");
 System.out.println(area);
 ```
