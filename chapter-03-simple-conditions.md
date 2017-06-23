@@ -139,6 +139,9 @@ if () {
 
 ![](assets/chapter-3-images/03.Even-or-odd-02.png)
 
+Трябва да се получи следният отговор:
+![](assets/chapter-3-images/03.Even-or-odd-01.png)
+
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/651#2](https://judge.softuni.bg/Contests/Practice/Index/651#2)
