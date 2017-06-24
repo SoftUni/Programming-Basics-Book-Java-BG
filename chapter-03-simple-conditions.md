@@ -140,6 +140,7 @@ if () {
 ![](assets/chapter-3-images/03.Even-or-odd-02.png)
 
 Трябва да се получи следният отговор:
+
 ![](assets/chapter-3-images/03.Even-or-odd-01.png)
 
 #### Тестване в Judge системата
