@@ -5,8 +5,8 @@
 ## Видео [TODO - ADD THE LINK TO THE CORRECT VIDEO]
 <div class="video-player">
   Гледайте видео-урок по тази глава тук: <a target="_blank"
-  href="https://www.youtube.com/watch?v=z8XxYIyesz0">
-  https://www.youtube.com/watch?v=z8XxYIyesz0</a>.
+  href="https://www.youtube.com/watch?v=1ZXBO_fCZ4w">
+  https://www.youtube.com/watch?v=1ZXBO_fCZ4w</a>.
 </div>
 <script src="/assets/js/video.js"></script>
 
