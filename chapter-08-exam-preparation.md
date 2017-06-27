@@ -172,40 +172,40 @@
 
 |Вход|Изход|Визуализация|
 |---|---|---|
-|10<br>5<br>7|in<br>2|![](/assets/exam-prep-1-images/03.Poin-on-segment-01.png)|
+|10<br>5<br>7|in<br>2|![](/assets/exam-prep-1-images/03.Point-on-segment-01.png)|
 
 |Вход|Изход|Визуализация|
 |---|---|---|
-|8<br>10<br>5|out<br>3|![](/assets/exam-prep-1-images/03.Poin-on-segment-02.png)|
+|8<br>10<br>5|out<br>3|![](/assets/exam-prep-1-images/03.Point-on-segment-02.png)|
 
 |Вход|Изход|Визуализация|
 |---|---|---|
-|1<br>-2<br>3|out<br>2|![](/assets/exam-prep-1-images/03.Poin-on-segment-03.png)|
+|1<br>-2<br>3|out<br>2|![](/assets/exam-prep-1-images/03.Point-on-segment-03.png)|
 
 
 #### Насоки и подсказки
 
 Четем входа от конзолата.
 
-![](assets/exam-prep-1-images/03.Poin-on-segment-04.png)
+![](assets/exam-prep-1-images/03.Point-on-segment-04.png)
 
 Тъй като не знаем коя **точка** е от ляво и коя е от дясно, ще си направим две променливи, които да ни отбелязват това. Тъй като **лявата точка** е винаги тази с по-малката **х координата**, ще ползваме **`Math.min(...)`**, за да я намерим. Съответно, **дясната** е винаги тази с по-голяма **х координата** и ползваме **`Math.max(...)`**. Ще намерим и разстоянието от **точката x** до **двете точки**. Понеже не знаем положението им една спрямо друга, ще използваме **`Math.abs(...)`**, за да получим положителен резултат.
 
-![](assets/exam-prep-1-images/03.Poin-on-segment-05.png)
+![](assets/exam-prep-1-images/03.Point-on-segment-05.png)
 
-![](assets/exam-prep-1-images/03.Poin-on-segment-06.png)
+![](assets/exam-prep-1-images/03.Point-on-segment-06.png)
 
 По-малкото от двете **разстояния** ще намерим ползвайки **`Math.min(...)`**.
 
-![](assets/exam-prep-1-images/03.Poin-on-segment-07.png)
+![](assets/exam-prep-1-images/03.Point-on-segment-07.png)
 
 Остава да намерим дали **точката** е на линията или извън нея. **Точката** ще се намира на линията винаги, когато тя **съвпада** с някоя от другите две точки или **х координатата ѝ** се намира между тях. В противен случай, **точката** се намира извън линията. След проверката изкарваме едното от двете съобщения, спрямо това коя проверка е удовлетворена.
 
-![](assets/exam-prep-1-images/03.Poin-on-segment-08.png)
+![](assets/exam-prep-1-images/03.Point-on-segment-08.png)
 
 Накрая принтираме **разстоянието**, намерено преди това.
 
-![](assets/exam-prep-1-images/03.Poin-on-segment-09.png)
+![](assets/exam-prep-1-images/03.Point-on-segment-09.png)
 
 #### Тестване в Judge системата
 
