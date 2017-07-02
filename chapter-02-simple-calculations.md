@@ -469,7 +469,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 ![](assets/chapter-2-images/problems/03inchesToCm/01newJavaClassInSRC.png)
 
-Появява се диалогов прозорец в кой изписваме името на файла в нашия случай “InchesToCentimeters” -> [**Next**]:
+Появява се диалогов прозорец в кой изписваме името на файла в нашия случай “InchesToCentimeters” -> [**OK**]:
 
 ![](assets/chapter-2-images/problems/03inchesToCm/02namingJavaClassInSRC.png)
 
@@ -477,7 +477,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 ![](assets/chapter-2-images/problems/03inchesToCm/03InchesToCentimetersCode.png)
 
-**Стартираме програмата** с десен бутон на мишката върху прозореца на текущата програма или натискаме [**Ctrl+Shift+F10**], тази клавишна комбинация ни стартира програмата в настоящия джава клас(този който сме писали последно):
+**Стартираме програмата** с десен бутон на мишката върху прозореца на текущата програма избираме [**Run “InchesToCentim...main()**] или натискаме [**Ctrl+Shift+F10**], тази клавишна комбинация ни стартира програмата в настоящия джава клас(този в който сме писали последно):
 
 ![](assets/chapter-2-images/problems/03inchesToCm/05RunJavaClassWithRightClick.png)
 
@@ -485,15 +485,15 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 ![](assets/chapter-2-images/problems/03inchesToCm/04InchesToCentimitersResult.png)
 
-Сега **да превключим към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``SquareArea.java``** от папката **src** в проекта [**SimpleCalculations”**]:
+Сега **да превключим към предходната програма/задача** (лице на квадрат). Това става с двоен клик на мишката върху файла **``SquareArea.java``** от папката **src** в проекта [**SimpleCalculations**]:
 
 ![](assets/chapter-2-images/problems/03inchesToCm/06RunToAnotherJavaClass.png)
 
-Ако използва [**Shift+F10**] или натиснем една от двете зелени стрелки (които се намират горе в дясно и долу в ляво на прозореца на IntelliJ IDEA):
+Ако използваме [**Shift+F10**] или натиснем една от двете зелени стрелки (които се намират горе в дясно и долу в ляво на прозореца на IntelliJ IDEA):
 
 ![](assets/chapter-2-images/problems/03inchesToCm/07RunJavaClassWithGreenArrow.png)
 
-ще се изпълни последно компилираната програма([**InchesToCentimeters**]). Нея може да видим като име в горния десен ъгъл на прозореца преди едната зелена стрелка:
+ще се изпълни последно компилираната програма(**InchesToCentimeters**). Нея може да видим като име в горния десен ъгъл на прозореца преди едната зелена стрелка:
 
 ![](assets/chapter-2-images/problems/03inchesToCm/08RunWithGreenArrowResult.png)
 
@@ -531,7 +531,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 #### Насоки и подсказки
 
-Първо създаваме **нов Java клас** с име “Greeting” в решението “SimpleCalculations”:
+Първо създаваме **нов Java клас** с име “Greeting” в проекта “SimpleCalculations”:
 
 ![](assets/chapter-2-images/problems/04greetingByName/01Greeting.png)
 
@@ -555,7 +555,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 Добавяме към текущоят IntelliJ IDEA проект още един Java клас с име “ConcatenateData”.	**Пишем кода**, който чете входните данни от конзолата:
 
-![](assets/chapter-2-images/problems/05concatenateData/01Code.png)
+![](assets/chapter-2-images/problems/05concatenateData/01code.png)
 
 **Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
 
