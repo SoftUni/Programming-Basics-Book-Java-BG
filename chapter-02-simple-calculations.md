@@ -28,7 +28,7 @@
 ```java
 import java.util.Scanner;
 
-Scanner in = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 int num = in.nextInt();
 ```
 Сега в променливата **num** от целочислен тип **int** имаме прочетена и записана стойността подадена в **конзолата**.
@@ -38,7 +38,7 @@ int num = in.nextInt();
 За пример да вземем следната програма, която прочита цяло число от конзолата, умножава го по него самото (вдига го на квадрат) и отпечатва резултата от умножението. Така можем да пресметнем лицето на квадрат по дадена дължина на страната:
 
 ```java
-Scanner in = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
 System.out.print("a = ");
 int a = in.nextInt();
@@ -59,7 +59,7 @@ System.out.println(area);
 
 #### Как работи примерът?
 
-Първият ред **`Scanner in = new Scanner(System.in);`** създава нова инстанция на класа **Scanner** със стандартен системен вход.
+Първият ред **`Scanner scanner = new Scanner(System.in);`** създава нова инстанция на класа **Scanner** със стандартен системен вход.
 
 Следващият ред **`System.out.print("a = ");`** печата информативно съобщение, което подканва потребителя да въведе страната на квадрата **a**. След отпечатването курсорът остава на същия ред. Оставането на същия ред е по-удобно за потребителя, чисто визуално. Използва се **`System.out.print(...);`**, а не **`System.out.println(...);`** и така курсорът остава на същия ред.
 
@@ -98,9 +98,9 @@ System.out.println(area);
 За да прочетем **дробно число** от конзолата е необходимо отново да **декларираме променлива**, да посочим **типа на числото**, както и да използваме стандартната команда за четене на информация от системната конзола:
 
 ```java
-Scanner in = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
-Double num = Double.parseDouble(in.nextLine());
+Double num = Double.parseDouble(scanner.nextLine());
 ```
 
 ### Пример: прехвърляне от инчове в сантиметри
@@ -108,10 +108,10 @@ Double num = Double.parseDouble(in.nextLine());
 Да напишем програма, която чете дробно число в инчове и го обръща в сантиметри:
 
 ```java
-Scanner in = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
 System.out.print("Inches = ");              
-Double inches = Double.parseDouble(in.nextLine());
+Double inches = Double.parseDouble(scanner.nextLine());
 Double centimeters = inches * 2.54;
 System.out.print("Centimeters = ");
 System.out.println(centimeters);
@@ -119,7 +119,7 @@ System.out.println(centimeters);
 
 Да стартираме програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](assets/chapter-2-images/inchesToCm.jpg)
+![](assets/chapter-2-images/01ConsoleOutput.png)
 
 #### Тестване в Judge системата
 
@@ -130,9 +130,9 @@ System.out.println(centimeters);
 За да прочетем текст (стринг) от конзолата, отново **декларираме нова променлива** и използваме стандартната **команда за четене на информация от системната конзола**:
 
 ```java
-Scanner in = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
-String str = in.nextLine();
+String str = scanner.nextLine();
 ```
 Нека обърнем внимание на факта, че при **четене на текст не се налага преобразуването в друг тип**. Това е така, защото по подразбиране методът **`in.nextLine(...)`** връща като **резултат текст**. Допълнително, вие можете да зададете текстa да бъде прехвърлен в цяло число чрез **`Integer.parseInt(...)`** или дробно число чрез **`Double.parseDouble(...)`**. Ако това не се направи, за програмата **всяко едно число** ще бъде просто **текст**, с който **не бихме могли да извършваме** аритметични операции.
 
@@ -141,15 +141,15 @@ String str = in.nextLine();
 Да напишем програма, която въвежда името на потребителя и го поздравява с текста "**Hello, *име***".
 
 ```java 
-Scanner in = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
          
-String name = in.nextLine();
+String name = scanner.nextLine();
 System.out.printf("Hello, %s!", name);
 ```
 
 В този случай, изразът **`%s`** e заместен от **първия** подаден аргумент, който в примера е променливата **`name`**:
 
-![](/assets/chapter-2-images/greetingByName.jpg)
+![](/assets/chapter-2-images/02ConsoleOutput.png)
 
 #### Тестване в Judge системата
 
@@ -160,19 +160,19 @@ System.out.printf("Hello, %s!", name);
 При печат в конзолата на текст, числа и други данни, **можем да ги съединим**, като използваме шаблони **`%s`**, **`%d`**, **`%f`** и т.н. В програмирането тези шаблони се наричат **placeholders**. А в зависимост от типа на променливата се използват различни символи. Основните са: %s за текст(стринг), %d за цели числа, %f за десетични числа.
 
 ```java
-Scanner in = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
-String firstName = in.nextLine();
-String lastName = in.nextLine();
-int age = Integer.parseInt(in.nextLine());
-String town = in.nextLine();
+String firstName = scanner.nextLine();
+String lastName = scanner.nextLine();
+int age = Integer.parseInt(scanner.nextLine());
+String town = scanner.nextLine();
 System.out.printf("You are %s %s, a %d-years old person from %s.",
   firstName, lastName, age, town);
 ```
 
 Ето резултатът, който ще получим, след изпълнение на този пример:
 
-![](assets/chapter-2-images/placeholders.jpg)
+![](assets/chapter-2-images/03ConsoleOutput.png)
 
 Обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата и да съответства на типа подаден в plceholder-a**. По същество, шаблонът (**placeholder**) **приема променливи от всякакъв вид**.
 
@@ -196,17 +196,17 @@ int sum = a + b; // резултатът е 12
 Изваждането на числа се извършва с оператора **`-`**:
 
 ```java
-Scanner in = new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
-int a = Integer.parseInt(in.nextLine());
-int b = Integer.parseInt(in.nextLine());
+int a = Integer.parseInt(scanner.nextLine());
+int b = Integer.parseInt(scanner.nextLine());
 int result = a - b;
 System.out.println(result);
 ```
 
 Ето резултатът от изпълнението на програмата (при числа 10 и 3):
 
-![](assets/chapter-2-images/subtracting.jpg)
+![](assets/chapter-2-images/04ConsoleOutput.png)
 
 ### Умножение на числа (оператор **`*`**)
 
@@ -311,9 +311,9 @@ int expr = (3 + 5) * (4 – 2);
 ```java
 Scanner in= new Scanner(System.in);
 
-double b1 = Double.parseDouble(in.nextLine());
-double b2 = Double.parseDouble(in.nextLine());
-double h = Double.parseDouble(in.nextLine());
+double b1 = Double.parseDouble(scanner.nextLine());
+double b2 = Double.parseDouble(scanner.nextLine());
+double h = Double.parseDouble(scanner.nextLine());
 double area = (b1 + b2) * h / 2.0;
 System.out.println("Trapezoid area = " + area);
 ```
@@ -340,17 +340,17 @@ Trapezoid area = 17.5
 - π ≈ 3.14159265358979323846…
 
 ```java
-Scanner in= new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
-System.out.println("Enter circle radius. r = ");
-double r = Double.parseDouble(in.nextLine());
+System.out.print("Enter circle radius. r = ");
+double r = Double.parseDouble(scanner.nextLine());
 System.out.println("Area = " + Math.PI * r * r); 
   // Math.PI - вградена в Java константа за π
 System.out.println("Perimeter = " + 2 * Math.PI * r);
 ```
 Нека изпробваме програмата с **радиус `r = 10`**:
 
-![](/assets/chapter-2-images/circleArea.jpg)
+![](/assets/chapter-2-images/05ConsoleOutput.png)
 
 #### Тестване в Judge системата
 
@@ -365,12 +365,12 @@ System.out.println("Perimeter = " + 2 * Math.PI * r);
 В тази задача трябва да съобразим, че ако от по-големия `x` извадим по-малкия `x`, ще получим дължината на правоъгълника. Аналогично, ако от по-големия `y` извадим по-малкия `y`, ще получим височината на правоъгълника. Остава да умнижим двете страни. Ето примерна имплементация на описаната логика:
 
 ```java
-Scanner in= new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
-double x1 = Double.parseDouble(in.nextLine());
-double y1 = Double.parseDouble(in.nextLine());
-double x2 = Double.parseDouble(in.nextLine());
-double y2 = Double.parseDouble(in.nextLine());
+double x1 = Double.parseDouble(scanner.nextLine());
+double y1 = Double.parseDouble(scanner.nextLine());
+double x2 = Double.parseDouble(scanner.nextLine());
+double y2 = Double.parseDouble(scanner.nextLine());
 
 // Изчисляване страните на правоъгълника:
 double width = Math.max(x1, x2) - Math.min(x1, x2);
@@ -384,7 +384,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
 
-![](/assets/chapter-2-images/rectangleAreaExample.jpg)
+![](/assets/chapter-2-images/06ConsoleOutput.png)
 
 #### Тестване в Judge системата
 
@@ -393,9 +393,9 @@ System.out.println("Perimeter = " + 2 * (width + height));
 ## Какво научихме от тази глава?
 
 Да резюмираме какво научихме от тази глава на книгата:
-- **Въвеждане на текст**: **`String str = in.nextLine();`** (като предварително направим **`Scanner in= new Scanner(System.in);`**)
-- **Въвеждане на цяло число**: **`int num = Integer.parseInt(in.nextLine());`**.
-- **Въвеждане на дробно число**: **`double num = Double.parseDouble(in.nextLine());`**.
+- **Въвеждане на текст**: **`String str = scanner.nextLine();`** (като предварително направим **`Scanner in= new Scanner(System.in);`**)
+- **Въвеждане на цяло число**: **`int num = Integer.parseInt(scanner.nextLine());`**.
+- **Въвеждане на дробно число**: **`double num = Double.parseDouble(scanner.nextLine());`**.
 - **Извършване на пресмятания с числа** и използване на съответните **аритметични оператори** [+, -, \*, /, ()]: **`int sum = 5 + 3;`**.
 - **Извеждане на текст по шаблон** на конзолата: **`System.out.printf("%d + %d = %d", 3, 5, 3 + 5);`**.
 
@@ -445,19 +445,19 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 Вече имаме проект с един java клас в него. Остава да напишем **кода за решаване на задачата**. За целта си дописваме в нашия java клас Main метод(както е показано на картинката) и отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
 
-![](assets/chapter-2-images/problems/02SquareArea/01SquareAreaResult.png)
+![](assets/chapter-2-images/problems/02SquareArea/01SquareAreaCode.png)
 
 Кодът въвежда цяло число чрез **`a = Integer.parseInt(scanner.nextLine())`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+Shft+F10**] и я **тестваме** с различни входни стойности:
 
-![](assets/chapter-2-images/problems/02SquareArea/04result.png)
+![](assets/chapter-2-images/problems/02SquareArea/02SquareAreaResult.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#0](https://judge.softuni.bg/Contests/Practice/Index/649#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](assets/chapter-2-images/problems/02SquareArea/resultSubmission_1.png)
+![](assets/chapter-2-images/problems/02SquareArea/03resultSubmission_1.png)
 
-![](assets/chapter-2-images/problems/02SquareArea/resultSubmission_2.png)
+![](assets/chapter-2-images/problems/02SquareArea/04resultSubmission_2.png)
 
 ### Задача:	от инчове към сантиметри
 
@@ -465,56 +465,43 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 #### Насоки и подсказки
 
-Първо създаваме **нов C# конзолен проект** в решението “Simple-Calculations”. Кликаме с мишката върху решението в **Solution Explorer** и избираме [**Add**] -> [**New Project…**]:
+Първо създаваме **нов Java клас** в проекта “SimpleCalculations”. Кликаме с мишката върху папката **src** и избираме [**New**] -> [**Java Class**]:
 
-![](assets/chapter-2-images/problems/03inchesToCm/01newProject.png)
+![](assets/chapter-2-images/problems/03inchesToCm/01newJavaClassInSRC.png)
 
-Избираме [**Visual C#**] -> [**Windows**] -> [**Console Application**] и задайте име “Inches-to-Centimeters”:
+Появява се диалогов прозорец в кой изписваме името на файла в нашия случай “InchesToCentimeters” -> [**Next**]:
 
-![](assets/chapter-2-images/problems/03inchesToCm/02nameTheProject.png)
+![](assets/chapter-2-images/problems/03inchesToCm/02namingJavaClassInSRC.png)
 
 Следва да напишем **кода на програмата**:
 
-![](assets/chapter-2-images/problems/03inchesToCm/03code.png)
+![](assets/chapter-2-images/problems/03inchesToCm/03InchesToCentimetersCode.png)
 
-**Стартираме програмата** с [**Ctrl+F5**]:
+**Стартираме програмата** с десен бутон на мишката върху прозореца на текущата програма или натискаме [**Ctrl+Shift+F10**], тази клавишна комбинация ни стартира програмата в настоящия джава клас(този който сме писали последно):
 
-![](assets/chapter-2-images/problems/03inchesToCm/04result.png)
+![](assets/chapter-2-images/problems/03inchesToCm/05RunJavaClassWithRightClick.png)
 
-Изненада! Какво става? Програмата не работи правилно… Всъщност това не е ли предходната програма?
-Във Visual Studio **текущият активен проект** в един solution е маркиран в получерно и може да се сменя:
+При което получаваме следния резултат:
 
-![](assets/chapter-2-images/problems/03inchesToCm/05surprise.png)
+![](assets/chapter-2-images/problems/03inchesToCm/04InchesToCentimitersResult.png)
 
-За да включим режим на **автоматично преминаване към текущия проект**, кликаме върху главния solution с десния бутон на мишката и избираме [**Set StartUp Projects…**]:
+Сега **да превключим към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``SquareArea.java``** от папката **src** в проекта [**SimpleCalculations”**]:
 
-![](assets/chapter-2-images/problems/03inchesToCm/06startupPorject_1.png)
+![](assets/chapter-2-images/problems/03inchesToCm/06RunToAnotherJavaClass.png)
 
-Ще се появи диалогов прозорец, от който трябва да се избере [**Startup Project**] -> [**Current Selection**]:
+Ако използва [**Shift+F10**] или натиснем една от двете зелени стрелки (които се намират горе в дясно и долу в ляво на прозореца на IntelliJ IDEA):
 
-![](assets/chapter-2-images/problems/03inchesToCm/06startupPorject_2.png)
+![](assets/chapter-2-images/problems/03inchesToCm/07RunJavaClassWithGreenArrow.png)
 
-Сега отново **стартираме програмата**, както обикновено с [**Ctrl+F5**]. Този път ще се стартира **текущата отворена програма**, която преобразува инчове в сантиметри. Изглежда работи коректно:
+ще се изпълни последно компилираната програма([**InchesToCentimeters**]). Нея може да видим като име в горния десен ъгъл на прозореца преди едната зелена стрелка:
 
-![](assets/chapter-2-images/problems/03inchesToCm/07resultCorrect.png)
-
-Сега **да превключим към преходната програма** (лице на квадрат). Това става с двоен клик на мишката върху файла **``Program.cs``** от предходния проект **“Square-Area”** в панела [**Solution Explorer**] на Visual Studio:
-
-![](assets/chapter-2-images/problems/03inchesToCm/08switchProjects.png)
-
-Натискаме пак [**Ctrl+F5**]. Този път трябва да се стартира другият проект:
-
-![](assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_4.png)
-
-Превключваме обратно към проекта **“Inches-to-Centimeters”** и го стартираме с [**Ctrl+F5**]:
-
-![](assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_2.png)
+![](assets/chapter-2-images/problems/03inchesToCm/08RunWithGreenArrowResult.png)
 
 **Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
 
 Да тестваме с дробни числа, например с **2.5**:
 
-![](assets/chapter-2-images/problems/03inchesToCm/07resultCorrect_3.png)
+![](assets/chapter-2-images/problems/03inchesToCm/09InchesToCentimitersWithDoubleResult.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>В зависимост от регионалните настройки на операционната система, е възможно вместо <b>десетична точка</b> (US настройки) да се използва <b>десетична запетая</b> (BG настройки).</td>
@@ -536,7 +523,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](assets/chapter-2-images/problems/03inchesToCm/11judgeResult.png)
+![](assets/chapter-2-images/problems/03inchesToCm/10resultInJudge.png)
 
 ### Задача: поздрав по име
 
@@ -544,17 +531,17 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 #### Насоки и подсказки
 
-Първо създаваме **нов C# конзолен проект** с име “Greeting” в решението “Simple-Calculations”:
+Първо създаваме **нов Java клас** с име “Greeting” в решението “SimpleCalculations”:
 
-![](assets/chapter-2-images/problems/04greetingByName/01newProject.png)
+![](assets/chapter-2-images/problems/04greetingByName/01Greeting.png)
 
 **Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-![](assets/chapter-2-images/problems/04greetingByName/02code.png)
+![](assets/chapter-2-images/problems/04greetingByName/02Greeting.png)
 
-**Стартираме** програмата с [**Ctrl+F5**] и я тестваме дали работи:
+**Стартираме** програмата с [**Ctrl+Shift+F10**] и я тестваме дали работи:
 
-![](assets/chapter-2-images/problems/04greetingByName/03result.png)
+![](assets/chapter-2-images/problems/04greetingByName/03GreetingResult.png)
 
 #### Тестване в Judge системата
 
@@ -562,21 +549,21 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 ### Задача:	съединяване на текст и числа
 
-Напишете C# програма, която прочита от конзолата име, фамилия, възраст и град и печата съобщение от следния вид: **`You are <firstName> <lastName>, a <age>-years old person from <town>`**.
+Напишете Java програма, който прочита от конзолата име, фамилия, възраст и град и печата съобщение от следния вид: **`You are <firstName> <lastName>, a <age>-years old person from <town>`**.
 
 #### Насоки и подсказки
 
-Добавяме към текущото Visual Studio решение още един конзолен C# проект с име “Concatenate-Data”.	**Пишем кода**, който чете входните данни от конзолата:
+Добавяме към текущоят IntelliJ IDEA проект още един Java клас с име “ConcatenateData”.	**Пишем кода**, който чете входните данни от конзолата:
 
-![](assets/chapter-2-images/problems/05concatenateData/01code.png)
+![](assets/chapter-2-images/problems/05concatenateData/01Code.png)
 
 **Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
 
-![](assets/chapter-2-images/problems/05concatenateData/01code_2.png)
+![](assets/chapter-2-images/problems/05concatenateData/02Code.png)
 
 На горната картинка кодът е нарочно даден замъглен, за да помислите как да си го напишете сами.
 
-Следва да се тества решението локално с [**Ctrl+F5**] и въвеждане на примерни входни данни.
+Следва да се тества решението локално с [**Ctrl+Shift+F10**] и въвеждане на примерни входни данни.
 
 #### Тестване в Judge системата
 
@@ -592,13 +579,13 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 #### Насоки и подсказки
 
-Отново трябва да добавим към текущото Visual Studio решение още един **конзолен C# проект** с име ""Trapezoid-Area" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
+Отново трябва да добавим към текущия проект в IntelliJ IDEA още един **Java клас** с име ""TrapezoidArea" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-![](assets/chapter-2-images/problems/06trapezoidArea/code.png)
+![](assets/chapter-2-images/problems/06trapezoidArea/02Code.png)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
-**Тествайте** решението локално с [**Ctrl+F5**] и въвеждане на примерни данни.
+**Тествайте** решението локално с [**Ctrl+Shift+F10**] и въвеждане на примерни данни.
 
 #### Тестване в Judge системата
 
@@ -748,7 +735,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 |14-06-1980|10-03-1983|
 
 #### Насоки и подсказки 
-* Потърсете информация за типа **``DateTime``** в C# и по-конкретно разгледайте методите **``ParseExact(str, format)``**, **``AddDays(count)``** и **``ToString(format)``**. С тяхна помощ може да решите задачата, без да е необходимо да изчислявате дни, месеци и високосни години.
+* Потърсете информация за типа **``DateTime``** в Java и по-конкретно разгледайте методите **``ParseExact(str, format)``**, **``AddDays(count)``** и **``ToString(format)``**. С тяхна помощ може да решите задачата, без да е необходимо да изчислявате дни, месеци и високосни години.
 * **Не печатайте** нищо допълнително на конзолата освен изискваната дата!
 
 #### Тестване в Judge системата
