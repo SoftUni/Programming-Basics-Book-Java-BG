@@ -403,25 +403,31 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 Нека затвърдим наученото в тази глава с няколко задачи.
 
-### Празно Visual Studio решение (Blank Solution)
+### Празно IntelliJ IDEA решение (Blank Solution)
 
-Започваме, като създадем празно решение **(Blank Solution)** във Visual Studio. Решенията (solutions) във Visual Studio обединяват **група проекти**. Тази възможност е **изключително удобна**, когато искаме да **работим по няколко проекта** и бързо да превключваме между тях или искаме да **обединим логически няколко взаимносвързани проекта**.
-В настоящото практическо занимание ще използваме **Blank Solution с няколко проекта**, за да организираме решенията на задачите от упражненията – всяка задача в отделен проект и всички проекти в общ solution.
+Започваме, като създадем празно решение **(Project)** във IntelliJ IDEA. Проектите (project) във IntelliJ IDEA обединяват **група задачи**. Тази възможност е **изключително удобна**, когато искаме да **работим по няколко задачи** и бързо да превключваме между тях или искаме да **обединим логически няколко взаимносвързани задачи**.
+В настоящото практическо занимание ще използваме **Project с няколко задачи (.java класове)**, за да организираме решенията на задачите от упражненията – всяка задача в отделен .java клас и всички .java класове в общ проект.
 
-*	Стартираме Visual Studio.
-* Създаваме нов **Blank Solution:** [**File**] -> [**New**] -> [**Project**].
+* Стартираме IntelliJ IDEA.
+* Създаваме нов **Project:** [**File**] -> [**New**] -> [**Project**].
 
-![](assets/chapter-2-images/problems/01newBlankSolution.png)
+![](assets/chapter-2-images/problems/01newProject.png)
 
-Избираме от диалоговия прозорец [**Templates**] -> [**Other Project Types**] -> [**Visual Studio Solutions**] -> [**Blank Solution**] и даваме подходящо име на проекта, например “Simple-Calculations”:
+Избираме от диалоговия прозорец [**Java**], в полето Project SDK уточняваме каква версия на Java ще използваме и накрая даваме [**Next**] -> [**Next**]:
 
-![](assets/chapter-2-images/problems/02namingTheSolution.png)
+![](assets/chapter-2-images/problems/02newProject.png)
 
-Сега имаме създаден **празен Visual Studio Solution** (с 0 проекта в него):
+![](assets/chapter-2-images/problems/03newProject.png)
 
-![](assets/chapter-2-images/problems/03blankSolution.png)
+Даваме подходящо име на проекта, например “SimpleCalculations” и също така къде да бъде съхранен нашия проект -> [**Finish**]:
 
-Целта на този blank solution e да добавяме в него **по един проект за всяка задача** от упражненията.
+![](assets/chapter-2-images/problems/04namingProject.png)
+
+Сега имаме създаден **празен IntelliJ IDEA Project** (с 0 .java класа в него, които трябва да се съхранят в папката src):
+
+![](assets/chapter-2-images/problems/05newProject.png)
+
+Целта на този project e да добавяме в него **по един .java клас за всяка задача** от упражненията.
 
 ### Задача:	пресмятане на лице на квадрат
 
@@ -429,29 +435,29 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 #### Насоки и подсказки
 
-Създаваме **нов проект** в съществуващото Visual Studio решение. В **Solution Explorer** кликнете с десен бутон на мишката върху **Solution 'Simple-Calculations'**. Изберете [**Add**] -> [**New Project...**]:
+Създаваме **нов .java клас** в съществуващ IntelliJIDEA проект. Върху **src** папката кликнете с десен бутон на мишката. Изберете [**New**] -> [**Java Class**]:
 
-![](assets/chapter-2-images/problems/02SquareArea/01newProject.png)
+![](assets/chapter-2-images/problems/02SquareArea/01newJavaClass.png)
 
-Ще се отвори **диалогов прозорец** за избор на **тип проект** за създаване. Избираме **C# конзолно приложение** с име “Square-Area”:
+Ще се отвори **диалогов прозорец** за избор на име на Джава класа, примерно “SquareArea”:
 
-![](assets/chapter-2-images/problems/02SquareArea/02namingTheProject.png)
+![](assets/chapter-2-images/problems/02SquareArea/02namingJavaClass.png)
 
-Вече имаме solution с едно конзолно приложение в него. Остава да напишем **кода за решаване на задачата**. За целта отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
+Вече имаме проект с един java клас в него. Остава да напишем **кода за решаване на задачата**. За целта си дописваме в нашия java клас Main метод(както е показано на картинката) и отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
 
 ![](assets/chapter-2-images/problems/02SquareArea/03code.png)
 
-Кодът въвежда цяло число чрез **`a = int.Parse(Console.ReadLine())`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+F5**] и я **тестваме** с различни входни стойности:
+Кодът въвежда цяло число чрез **`a = Integer.parseInt(scanner.nextLine())`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+Shft+F10**] и я **тестваме** с различни входни стойности:
 
-![](assets/chapter-2-images/problems/02SquareArea/04result.png)
+![](assets/chapter-2-images/problems/02SquareArea/01SquareAreaResult.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#0](https://judge.softuni.bg/Contests/Practice/Index/649#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](assets/chapter-2-images/problems/02SquareArea/05resultSubmission_1.png)
+![](assets/chapter-2-images/problems/02SquareArea/resultSubmission_1.png)
 
-![](assets/chapter-2-images/problems/02SquareArea/05resultSubmission_2.png)
+![](assets/chapter-2-images/problems/02SquareArea/resultSubmission_2.png)
 
 ### Задача:	от инчове към сантиметри
 
