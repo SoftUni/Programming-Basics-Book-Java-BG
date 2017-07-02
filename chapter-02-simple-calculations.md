@@ -445,11 +445,11 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 Вече имаме проект с един java клас в него. Остава да напишем **кода за решаване на задачата**. За целта си дописваме в нашия java клас Main метод(както е показано на картинката) и отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
 
-![](assets/chapter-2-images/problems/02SquareArea/03code.png)
+![](assets/chapter-2-images/problems/02SquareArea/01SquareAreaResult.png)
 
 Кодът въвежда цяло число чрез **`a = Integer.parseInt(scanner.nextLine())`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+Shft+F10**] и я **тестваме** с различни входни стойности:
 
-![](assets/chapter-2-images/problems/02SquareArea/01SquareAreaResult.png)
+![](assets/chapter-2-images/problems/02SquareArea/04result.png)
 
 #### Тестване в Judge системата
 
