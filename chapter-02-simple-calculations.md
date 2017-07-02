@@ -393,7 +393,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 ## Какво научихме от тази глава?
 
 Да резюмираме какво научихме от тази глава на книгата:
-- **Въвеждане на текст**: **`String str = in.nextLine();`**. (като предварително направим Scanner in= new Scanner(System.in);)
+- **Въвеждане на текст**: **`String str = in.nextLine();`** (като предварително направим **`Scanner in= new Scanner(System.in);`**)
 - **Въвеждане на цяло число**: **`int num = Integer.parseInt(in.nextLine());`**.
 - **Въвеждане на дробно число**: **`double num = Double.parseDouble(in.nextLine());`**.
 - **Извършване на пресмятания с числа** и използване на съответните **аритметични оператори** [+, -, \*, /, ()]: **`int sum = 5 + 3;`**.
@@ -403,7 +403,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 Нека затвърдим наученото в тази глава с няколко задачи.
 
-### Празно IntelliJ IDEA решение (Blank Solution)
+### Празно IntelliJ IDEA решение (Project)
 
 Започваме, като създадем празно решение **(Project)** във IntelliJ IDEA. Проектите (project) във IntelliJ IDEA обединяват **група задачи**. Тази възможност е **изключително удобна**, когато искаме да **работим по няколко задачи** и бързо да превключваме между тях или искаме да **обединим логически няколко взаимносвързани задачи**.
 В настоящото практическо занимание ще използваме **Project с няколко задачи (.java класове)**, за да организираме решенията на задачите от упражненията – всяка задача в отделен .java клас и всички .java класове в общ проект.
@@ -423,7 +423,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 ![](assets/chapter-2-images/problems/04namingProject.png)
 
-Сега имаме създаден **празен IntelliJ IDEA Project** (с 0 .java класа в него, които трябва да се съхранят в папката src):
+Сега имаме създаден **празен IntelliJ IDEA Project** (с 0 .java класа в него, които трябва да се намират в папката src):
 
 ![](assets/chapter-2-images/problems/05newProject.png)
 
@@ -435,7 +435,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 #### Насоки и подсказки
 
-Създаваме **нов .java клас** в съществуващ IntelliJIDEA проект. Върху **src** папката кликнете с десен бутон на мишката. Изберете [**New**] -> [**Java Class**]:
+Създаваме **нов .java клас** в съществуващ IntelliJ IDEA проект. Върху **src** папката кликнете с десен бутон на мишката. Изберете [**New**] -> [**Java Class**]:
 
 ![](assets/chapter-2-images/problems/02SquareArea/01newJavaClass.png)
 
