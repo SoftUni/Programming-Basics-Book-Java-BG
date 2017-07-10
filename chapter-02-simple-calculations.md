@@ -366,6 +366,7 @@ System.out.println("Perimeter = " + 2 * Math.PI * r);
 
 ```java
 Scanner scanner = new Scanner(System.in);
+DecimalFormat decimalFormat = new DecimalFormat("#.#########");
 
 double x1 = Double.parseDouble(scanner.nextLine());
 double y1 = Double.parseDouble(scanner.nextLine());
@@ -376,8 +377,8 @@ double y2 = Double.parseDouble(scanner.nextLine());
 double width = Math.max(x1, x2) - Math.min(x1, x2);
 double height = Math.max(y1, y2) - Math.min(y1, y2);
 
-System.out.println("Area = " + width * height);
-System.out.println("Perimeter = " + 2 * (width + height));
+System.out.println(decimalFormat.format(width * height));
+System.out.println(decimalFormat.format(2 * (width + height)));
 ```
 
 Използваме **`Math.max(a, b)`**, за да намерим по-голямата измежду стойностите **`a`** и **`b`** и аналогично **`Math.min(a, b)`** за намиране на по-малката от двете стойности.
@@ -666,7 +667,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 
 ### Задача:	конзолен конвертор - от радиани в градуси
 
-Напишете програма, която чете **ъгъл в [радиани](https://bg.wikipedia.org/wiki/Радиан)** (**`rad`**) и го преобразува в **[градуси](https://bg.wikipedia.org/wiki/Градус_(ъгъл))** (`deg`). Потърсете в Интернет подходяща формула. Числото **π** в C# програмите е достъпно чрез **``Math.PI``**. Закръглете резултата до най-близкото цяло число използвайки метода **``Math.Round(...)``**.
+Напишете програма, която чете **ъгъл в [радиани](https://bg.wikipedia.org/wiki/Радиан)** (**`rad`**) и го преобразува в **[градуси](https://bg.wikipedia.org/wiki/Градус_(ъгъл))** (`deg`). Потърсете в Интернет подходяща формула. Числото **π** в Java програмите е достъпно чрез **``Math.PI``**. Закръглете резултата до най-близкото цяло число използвайки метода **``Math.round(...)``**.
 
 #### Примерен вход и изход
 
@@ -735,7 +736,7 @@ System.out.println("Perimeter = " + 2 * (width + height));
 |14-06-1980|10-03-1983|
 
 #### Насоки и подсказки 
-* Потърсете информация за типа **``DateTime``** в Java и по-конкретно разгледайте методите **``ParseExact(str, format)``**, **``AddDays(count)``** и **``ToString(format)``**. С тяхна помощ може да решите задачата, без да е необходимо да изчислявате дни, месеци и високосни години.
+* Потърсете информация за типовете **``Date``**, **``Calendar``** и **``SimpleDateFormat``** в Java и по-конкретно разгледайте методите **``setTime(date)``**(Calendar), **``add(countDays)``**(Calendar) и **``format(date)``**(SimpleDateFormat). С тяхна помощ може да решите задачата, без да е необходимо да изчислявате дни, месеци и високосни години.
 * **Не печатайте** нищо допълнително на конзолата освен изискваната дата!
 
 #### Тестване в Judge системата
