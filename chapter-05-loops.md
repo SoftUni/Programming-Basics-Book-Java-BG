@@ -364,9 +364,6 @@
 
 ### Задача: чертане с костенурка – графично GUI приложение
 
-//TODO: To Update or to Delete this part
-// Има промени направени с Replace
-
 Целта на следващото упражнение е да си поиграем с една **библиотека за рисуване**, известна като **“графика с костенурка” (turtle graphics)**. Ще изградим графично приложение, в което ще **рисуваме различни фигури**, придвижвайки нашата **“костенурка”** по екрана чрез операции от типа “отиди напред 100 позиции”, “завърти се надясно на 30 градуса”, “отиди напред още 50 позиции”. Приложението ще изглежда приблизително така:
 
 ![](assets/chapter-5-images/13.Turtle-graphics-01.png)
@@ -377,57 +374,87 @@
 * статия за “turtle graphics” в Wikipedia – [https://en.wikipedia.org/wiki/Turtle_graphics](https://en.wikipedia.org/wiki/Turtle_graphics)
 * интерактивен онлайн инструмент за чертане с костенурка – [https://blockly-games.appspot.com/turtle](https://blockly-games.appspot.com/turtle)
 
-Започваме, като създаваме нов **Java Windows Forms проект**:
+Започваме, като създаваме нов **Java проект** в **IntelliJ IDEA**. След това, добавяме нов пакет **app**. (описано по-рано в тази глава). 
+Сваляме **MyTurtle.java** и **jturtle-0.1.1.jar** от [https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets](https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets). **MyTurtle.java** е предварително написан клас, който ще ни помогне по-бързо да се запознаем с библиотеката **jturtle-0.1.1.jar**, която управлява **костенурката**. Като използваме файл навигатор, копираме **MyTurtle.java** в директорията **app** на създадения проект. След това трябва да добавим външната библиотека **jturtle-0.1.1.jar** в нашия проект. Това става по следния начин:
+
+* Избираме **File** от **File menu**
+* Натискаме **Project Structure** (CTRL + SHIFT + ALT + S)
+* Натискаме **Select Modules** в левия панел
+* Натискаме **Dependencies tab**
+* Натискаме **'+'** → **JARs or directories**
 
 ![](assets/chapter-5-images/13.Turtle-graphics-02.png)
 
-Инсталираме **NuGet** пакета **"Nakov.TurtleGraphics"** към нашия нов Windows Forms проект. От IntelliJ IDEA може да се добавят **външни библиотеки** (пакети) към съществуващ Java проект. Те добавят допълнителна функционалност към нашите приложения. Официалното хранилище (repository) за Java библиотеки се поддържа от Microsoft и се нарича **NuGet** ([http://www.nuget.org/](http://www.nuget.org/)).
-
-Кликаме с десен бутон на мишката върху проекта в **Solution Explorer** и избираме [**Manage NuGet Packages…**]:
+На следващият прозорец задаваме пътя до **jturtle-0.1.1.jar**, след това натискаме **ОК**.
  
 ![](assets/chapter-5-images/13.Turtle-graphics-03.png)
 
-Ще се отвори прозорец за търсене и инсталиране на **NuGet** пакети. Нека потърсим пакети по ключова дума **`nakov`**. Ще излязат няколко пакета. От тях избираме пакет **`Nakov.TurtleGraphics`**. Натискаме [**Install**], за да го инсталираме към нашия Java проект:
+На следващият прозорец маркираме само **classes check box**, след това натискаме **ОК**.
  
 ![](assets/chapter-5-images/13.Turtle-graphics-04.png)
 
-Към нашия Java проект вече е включена външната библиотека **`Nakov.TurtleGraphics`**. Тя дефинира клас **`Turtle`**, който представлява **костенурка за рисуване**. За да го използваме, трябва да добавим в Java кода за нашата форма (**`Form1.cs`**). Добавяме следния код, най-отгоре в началото на файла:
+На следващият прозорец избираме **ОК** и сме готови да отворим **MyTurtle.java**.
   
-![](assets/chapter-5-images/13.Turtle-graphics-05.png)
-
-Сега трябва да сложим **три бутона** във формата и да променим **имената** и **свойствата** им, както е посочено по-долу:
- 
 ![](assets/chapter-5-images/13.Turtle-graphics-06.png)
 
-Кликваме два пъти върху бутона [**Draw**], за да въведем кода, който да се изпълни при натискането му. Пишем следния код:
+#### Основни Методи на класа Turtle
+
+| Връщана <br> стойност | Метод и неговото описание |
+| --- | --- |
+| Turtle| **back**(double distance) <br>Same as bk(double distance). | 
+| Turtle| **bk**(double distance) <br>Moves the Turtle backwards.|
+| Turtle| **fd**(double distance) <br>Moves the Turtle forwards. |
+| Turtle| **forward**(double distance) <br> Same as fd(double distance). |
+| Turtle| **hideTurtle()** <br> Hides the turtle. |
+| Turtle| **home()** <br> Move the Turtle back "home", i.e. set its position to the origin, facing NORTH. |
+| Turtle| **ht()** <br> Hides the turtle. |
+| Turtle| **left()** <br> Same as lt(double degrees)|
+| Turtle| **lt()** <br> Turns the Turtle degrees degrees to the left.|
+| Turtle| **pd()** <br> Lowers the Turtles Pen down so it will draw a line when moving. |
+| Turtle| **penDown()** <br> Lowers the Turtles Pen down so it will draw a line when moving. |
+| Turtle| **penUp()** <br> Lifts the Turtles Pen up so it won't draw a line anymore when moving. |
+| Turtle| **penWidth**(int newWidth) <br> Set the pen width.|
+| Turtle| **pu**(int newWidth) <br> Lifts the Turtles Pen up so it won't draw a line anymore when moving.|
+| Turtle| **right**(double degrees) <br>Same as rt(double degrees).|
+| Turtle| **rt**(double degrees) <br>Turns the Turtle degrees degrees to the right.|
+| Turtle| **setColor**(Color color) <br>Set the turtle's color to the specified one.|
+| Turtle| **setLineWidth**(double lineWidth) <br>Set the Line Thickness.|
+| Turtle| **setPenColor**(Color color) <br>Set the Turtles Pen color.|
+| Turtle| **setPos**(double x, double y) <br>Put the turtle to a new position with specified x- and y-coordinates.|
+| Turtle| **showTurtle**() <br>The same as st().|
+| Turtle| **speed**(double newSpeed) <br>Set the Turtles speed.|
+| Turtle| **st**() <br>Sets the turtle to show mode.|
+
+
+За да създадем метод който чертае триъгълник, в **MyTurtle.java** намираме празния метода **drawTriangle()** и написваме следния код: 
 
 ![](assets/chapter-5-images/13.Turtle-graphics-07.png)
 
 Този код мести и върти костенурката, която в началото е в центъра на екрана (в средата на формата), и чертае равностранен триъгълник. Може да го редактирате и да си поиграете с него.
 
-**Стартираме** приложението с [**Ctrl+F5**]. Тестваме го дали работи (натискаме [**Draw**] бутона няколко пъти):
+**Стартираме** приложението с [**Shift + F10**]. Тестваме го дали работи (натискаме [**Draw**] бутона няколко пъти):
 
 ![](assets/chapter-5-images/13.Turtle-graphics-08.png)
 
-Сега може да променим и усложним кода на **костенурката**: 
+Сега може да променим и усложним кода на **костенурката**, като добавим следния код към нашия метод **drawTriangle()**: 
 
 ![](assets/chapter-5-images/13.Turtle-graphics-09.png)
 
-Отново **стартираме** приложението с [**Ctrl+F5**]. Тестваме дали работи новата програма за костенурката:
+Отново **стартираме** приложението с [**Shift + F10**]. Тестваме дали работи новата програма за костенурката:
 
 ![](assets/chapter-5-images/13.Turtle-graphics-10.png)
 
-Вече нашата костенурката чертае по-сложни фигури чрез приятно анимирано движение.
+Вече нашата костенурката чертае по-сложни фигури.
 
-Нека напишем кода и за останалите два бутона. Целта на бутона [**Reset**] е да изтрие графиката и да започне да чертае на чисто:
+Нека напишем кода и за останалите два бутона: целта на бутона [**Reset**] е да изтрие начертаната графика и да позиционира костенурката в нейната начална позиция, допълваме метода **resetTurtle()** със следния код:
 
 ![](assets/chapter-5-images/13.Turtle-graphics-11.png)
 
-Целта на бутона [**Show / Hide Turtle**] е да показва или скрива костенурката: 
+Целта на бутона [**Hide / Show Turtle**] е да показва или скрива костенурката, допълваме метода **showTurtle()** със следния код:: 
 
 ![](assets/chapter-5-images/13.Turtle-graphics-12.png)
 
-Отново **стартираме** приложението с [**Ctrl+F5**] и го тестваме, дали работи коректно.
+Отново **стартираме** приложението с [**Shift + F10**] и тестваме, дали двата бутона работят коректно.
 
 ### Задача: * чертане на шестоъгълник с костенурката
 
@@ -441,6 +468,32 @@
 * Ротация на 60 градуса.
 * Движение напред 100.
 
+### Добавяне на нов бутон за чертане на фигура
+
+За добавяне нов бутон за чертане на нова фигура, може да проследим логиката в **MyTurtle.java** за бутона **Draw** и да създадем нов бутон за чертане на шестоъгълник **Hexagon**.
+
+Първо добавяме новата фигура в **`enum Shape`**:
+
+![](assets/chapter-5-images/13.Turtle-graphics-20.png)
+
+Създаваме нов бутон и му добавяме **ActionListener**, който присвоява на **`shape`** новата **`enum`** стойност:
+
+![](assets/chapter-5-images/13.Turtle-graphics-18.png)
+
+След това добавяме новия бутон в **`bList`**:
+
+![](assets/chapter-5-images/13.Turtle-graphics-19.png)
+
+Създаваме нов метод **`drawHex()`**, чрез който костенурката чертае шестоъгълник.
+Задължително в края на метода **`shape = ""`**, този ред предотвратява многократното изпълнение на нашия метод!
+
+![](assets/chapter-5-images/13.Turtle-graphics-21.png)
+
+В **`Thread t`** добавяме **case "Hexagon"**, който да извиква метода **`drawHex()`**:
+
+![](assets/chapter-5-images/13.Turtle-graphics-22.png)
+
+
 ### Задача: * чертане на звезда с костенурката
 
 Добавете бутон [**Star**], който чертае звезда с 5 върха (**петолъчка**), като на фигурата по-долу:
@@ -449,13 +502,13 @@
 
 **Подсказка:**
 
-Сменете цвета: **`Turtle.PenColor` = `Color.Green`**. 
+Сменете цвета: **`turtle.setPenColor(Color.green);`**. 
 
 В цикъл повторете 5 пъти следното:
 * Движение напред 200.
 * Ротация на 144 градуса.
 
-### Задача * чертане на спирала с костенурката
+### Задача: * чертане на спирала с костенурката
 
 Добавете бутон [**Spiral**], който чертае спирала с 20 върха като на фигурата по-долу:
 
@@ -481,4 +534,5 @@
 
 Чертайте в цикъл като движите напред и завъртате. С всяка стъпка увеличавайте с 10 дължината на движението напред и завъртайте на 120 градуса. Повторете 3 пъти за трите триъгълника.
 
-Ако имате проблеми с примерния проект по-горе, **гледайте видеото** в началото на тази глава. Там приложението е направено на живо стъпка по стъпка с много обяснения. Или питайте във **форума на СофтУни**: https://softuni.bg/forum.
+Ако имате проблеми с примерния проект по-горе попитайте във **форума на СофтУни**: https://softuni.bg/forum.
+
