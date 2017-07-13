@@ -200,7 +200,7 @@
 
 Настоящата книга по **основи на програмирането с Java** за начинаещи е достъпна за свободно ползване в Интернет от адрес:
 
-<p align="center"><strong><a href="https://java-book.softuni.bg/">https://java-book.softuni.bg/</a></strong></p>
+<p align="center"><strong><a href="https://java-book.softuni.bg/">https://java-book.softuni.bg</a></strong></p>
 
 Това е **официалният сайт на книгата** и там ще бъде качвана нейната последна версия. Книгата е преведена огледално и на други езици за програмиране, посочени на нейния сайт.
 
