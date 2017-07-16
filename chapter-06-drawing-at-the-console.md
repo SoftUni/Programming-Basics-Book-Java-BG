@@ -285,7 +285,7 @@
 * Започваме с цикъл от 0 до n (изключено).
 * Отпечатваме на конзолата: `|` + `*` (**`n - 2`** на брой пъти) + `|`.
 
-![](assets/chapter-6-images/house/base-printing.png)
+![](assets/chapter-6-images/house/base-printing.PNG)
 
 Ако всичко сме написали както трябва, задачата ни е решена.
 
