@@ -67,6 +67,7 @@ for(int i=0;i<5;i++)
 System.out.println(i);
 }
 ```
+
 Ако натиснем [**CTRL + ALT + L**], което е нашата комбинация за форматиране на **целия документ**, ще получим код, форматиран според **общоприетите конвенции за Java**, който ще изглежда по следния начин:
 
 ```java
@@ -74,6 +75,7 @@ for (int i = 0; i < 5; i++) {
     System.out.println(i);
 }
 ```
+
 Тази комбинация може да ни помогне, ако попаднем на лошо форматиран код.
 
 ## Именуване на елементите на кода
@@ -136,11 +138,17 @@ for (int i = 0; i < 5; i++) {
 
 В IntelliJ IDEA съществуват т.нар. **шаблони с код** (code snippets), при изписването на които се генерира шаблон с код. Примерно при изписването на [**`sout` + Enter**]" се генерира кодът **`System.out.println();`**:
 
-![](/assets/chapter-11-images/Snippet_sout.png)
+![](/assets/chapter-11-images/01.Code-snippet-01.png)
 
 В тази подглава ще покажем как сами да си **направим собствен шаблон**. Ще разгледаме **как се прави code snippet** за **`scanner.nextLine();`**. Като за начало ще си създадем нов празен проект и ще отидем на [**File-> Settings -> Editor -> Live Templates**], като избираме [**+** -> **LiveTemplate**], както е показано на снимката по-долу.
 
-В новия прозорец попълваме следната информация:
+![](/assets/chapter-11-images/01.Code-snippet-02.png)
+
+Излиза нов прозорец, който изглежда както на картинката по-долу.
+
+![](/assets/chapter-11-images/01.Code-snippet-03.png)
+
+Тук попълваме следната информация:
 * **[Abbreviation]** - тук попълваме conde snippet-a, който ще използваме. В конкретния случай това е `scnl`.
 * **[Description]** - тук попълваме описание за snippet-a. В нашия случай това е `scanner.nextLine()`
 * **[Template text]** - тук попълваме кода, който ще се генерира при изписване на съкращението. В този случай, това е кода по-долу:
@@ -149,15 +157,14 @@ for (int i = 0; i < 5; i++) {
 Scanner scanner = new scanner(Sysrtem.in);
 String s = scanner.nextLine();
 ```
-![](/assets/chapter-11-images/11_1_LiveTemplate.png)
 
 След това маркираме **[Reformat according to style]**, a от **[Define]** избираме **[Java]**, след което натискаме **[OK]**, както е показано на картинката по-долу.
 
-![](/assets/chapter-11-images/11_2_LiveTemplate.png)
+![](/assets/chapter-11-images/01.Code-snippet-04.png)
 
 Вече когато напишем **`scnl`** в IntelliJ IDEA, **нашият нов snippet** се появява:
 
-![](/assets/chapter-11-images/11_3_LiveTemplate.png) 
+![](/assets/chapter-11-images/01.Code-snippet-05.png)
 
 ## Техники за дебъгване на кода
 
@@ -182,19 +189,19 @@ public static void main(String[] args) {
 
 Ще сложим стопер (breakpoint) на функцията **`System.out.println(...)`**. За целта трябва да преместим курсора на реда, който печата на конзолата, и да натиснем [**Ctrl + F8**] или кликнете с десния бутон на мишката от дясно на номера на реда. Появява се **точка на прекъсване**, където програмата ще **спре** изпълнението си:
 
-![](/assets/chapter-11-images/Debugger_BR.jpg) 
+![](/assets/chapter-11-images/02.Debugger-01.jpg) 
 
 За да стартираме **програмата в режим на дебъгване**, избираме [**Run**] -> [**Debugg \<Class Name\>**] или натискаме [**SHIFT + F9**]:
 
-![](/assets/chapter-11-images/Debugger_Menu.jpg) 
+![](/assets/chapter-11-images/02.Debugger-02.png) 
 
 След стартиране на програмата виждаме, че тя **спира изпълнението си** на ред 8, където сложихме стопера (breakpoint). Кодът на текущия ред се **маркира в допълнителен цвят** и можем да го **изпълняваме постъпково**. За да преминем на **следващ ред** използваме клавиш [**F8**]. **Забелязваме, че кодът на текущия ред все още не е изпълнен**. **Изпълнява се, когато преминем на следващия ред**. В зелено се показва текущите стойност на променливата, на снимката по-долу **`i = 0`**.
 
-![Debugger](/assets/chapter-11-images/Debugger_Test.jpg) 
+![Debugger](/assets/chapter-11-images/02.Debugger-03.png) 
 
 От прозореца **Variables** можем да наблюдаваме **промените по локалните променливи**.
 
-![Debugger](/assets/chapter-11-images/Debugger_Locals.jpg)  
+![Debugger](/assets/chapter-11-images/02.Debugger-04.png)  
 
 ## Справочник с хитрости
 
