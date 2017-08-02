@@ -29,7 +29,7 @@
 import java.util.Scanner;
 
 Scanner scanner = new Scanner(System.in);
-int num = in.nextInt();
+int num = scanner.nextInt();
 ```
 Сега в променливата **num** от целочислен тип **int** имаме прочетена и записана стойността подадена в **конзолата**.
 
@@ -41,7 +41,7 @@ int num = in.nextInt();
 Scanner scanner = new Scanner(System.in);
 
 System.out.print("a = ");
-int a = in.nextInt();
+int a = scanner.nextInt();
 int area = a * a;
 
 System.out.print("Square area = ");
@@ -63,7 +63,7 @@ System.out.println(area);
 
 Следващият ред **`System.out.print("a = ");`** печата информативно съобщение, което подканва потребителя да въведе страната на квадрата **a**. След отпечатването курсорът остава на същия ред. Оставането на същия ред е по-удобно за потребителя, чисто визуално. Използва се **`System.out.print(...);`**, а не **`System.out.println(...);`** и така курсорът остава на същия ред.
 
-Следващият ред **`int a = in.nextInt();`** прочита цяло число от конзолата. Резултатът се записва в променлива с име **`a`**.
+Следващият ред **`int a = scanner.nextInt();`** прочита цяло число от конзолата. Резултатът се записва в променлива с име **`a`**.
 
 Следващата команда **`int area = a * a;`** записва в нова променлива **`area`** резултата от умножението на **`a`** по **`a`**.
 
@@ -100,7 +100,7 @@ System.out.println(area);
 ```java
 Scanner scanner = new Scanner(System.in);
 
-Double num = Double.parseDouble(scanner.nextLine());
+Double num = scanner.nextDouble();
 ```
 
 ### Пример: прехвърляне от инчове в сантиметри
@@ -111,7 +111,7 @@ Double num = Double.parseDouble(scanner.nextLine());
 Scanner scanner = new Scanner(System.in);
 
 System.out.print("Inches = ");              
-Double inches = Double.parseDouble(scanner.nextLine());
+Double inches = scanner.nextDouble();
 Double centimeters = inches * 2.54;
 System.out.print("Centimeters = ");
 System.out.println(centimeters);
@@ -134,7 +134,7 @@ Scanner scanner = new Scanner(System.in);
 
 String str = scanner.nextLine();
 ```
-Нека обърнем внимание на факта, че при **четене на текст не се налага преобразуването в друг тип**. Това е така, защото по подразбиране методът **`in.nextLine(...)`** връща като **резултат текст**. Допълнително, вие можете да зададете текстa да бъде прехвърлен в цяло число чрез **`Integer.parseInt(...)`** или дробно число чрез **`Double.parseDouble(...)`**. Ако това не се направи, за програмата **всяко едно число** ще бъде просто **текст**, с който **не бихме могли да извършваме** аритметични операции.
+Нека обърнем внимание на факта, че при **четене на текст не се налага преобразуването в друг тип**. Това е така, защото по подразбиране методът **`scanner.nextLine(...)`** връща като **резултат текст**. Допълнително, вие можете да зададете текстa да бъде прехвърлен в цяло число чрез **`Integer.parseInt(...)`** или дробно число чрез **`Double.parseDouble(...)`**. Ако това не се направи, за програмата **всяко едно число** ще бъде просто **текст**, с който **не бихме могли да извършваме** аритметични операции.
 
 ### Пример: поздрав по име
 
@@ -309,7 +309,7 @@ int expr = (3 + 5) * (4 – 2);
 Да напишем програма, която въвежда дължините на двете основи на трапец и неговата височина (по едно дробно число на ред) и пресмята **лицето на трапеца** по стандартната математическа формула:
 
 ```java
-Scanner in= new Scanner(System.in);
+Scanner scanner = new Scanner(System.in);
 
 double b1 = Double.parseDouble(scanner.nextLine());
 double b2 = Double.parseDouble(scanner.nextLine());
@@ -394,7 +394,7 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 ## Какво научихме от тази глава?
 
 Да резюмираме какво научихме от тази глава на книгата:
-- **Въвеждане на текст**: **`String str = scanner.nextLine();`** (като предварително направим **`Scanner in= new Scanner(System.in);`**)
+- **Въвеждане на текст**: **`String str = scanner.nextLine();`** (като предварително направим **`Scanner scanner = new Scanner(System.in);`**)
 - **Въвеждане на цяло число**: **`int num = Integer.parseInt(scanner.nextLine());`**.
 - **Въвеждане на дробно число**: **`double num = Double.parseDouble(scanner.nextLine());`**.
 - **Извършване на пресмятания с числа** и използване на съответните **аритметични оператори** [+, -, \*, /, ()]: **`int sum = 5 + 3;`**.
