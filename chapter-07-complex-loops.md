@@ -344,7 +344,7 @@ print а;
 
 **Грешно** решение:
 
-![](assets/chapter-7-1-images/00.Nested-and-break-undesired-result-02.png)
+![](assets/chapter-7-1-images/00.Nested-and-break-desired-result-02.png)
 
 Ако оставим програмата ни по този начин, резултатът ни ще е
 
