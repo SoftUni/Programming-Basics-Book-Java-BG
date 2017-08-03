@@ -340,7 +340,7 @@ print а;
 
 Желаният резултат е:
 
-![](assets/chapter-7-images/00.Nested-and-break-desired-result.png)
+![](assets/chapter-7-images/00.Nested-and-break-desired-result-01.png)
 
 **Грешно** решение:
 
@@ -348,7 +348,7 @@ print а;
 
 Ако оставим програмата ни по този начин, резултатът ни ще е
 
-![](assets/chapter-7-images/01.Nested-and-break-undesired-result-01.png)
+![](assets/chapter-7-1-images/00.Nested-and-break-undesired-result-01.png)
 
 Защо се получава така? Както виждаме, в резултата **липсва "1 1"**. Когато програмата стига до там, че **`i = 1`** и **`j = 1`**, тя влиза в **`if`** проверката и изпълнява **`break`** операцията. По този начин се излиза от вътрешния цикъл, но след това продължава изпълнението на външния. **`i`** нараства, програмата влиза във вътрешния цикъл и принтира резултата.
 
