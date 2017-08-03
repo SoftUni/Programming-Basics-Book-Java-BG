@@ -259,20 +259,11 @@ print а;
 
 Ето как изглежда **безкраен `while`** цикъл:
 
-```java
-while (true) {
-	System.out.println("Infinite loop");
-}
-```
+![](assets/chapter-7-1-images/00.Infinite-while-loop-01.png)
 
 А така изглежда **безкраен `for`** цикъл:
 
-```java
-for (;;) {
-	System.out.println("Infinite loop");
-}
-```
-
+![](assets/chapter-7-1-images/00.Infinite-for-loop-01.png)
 
 ### Оператор break
 
@@ -353,16 +344,7 @@ for (;;) {
 
 **Грешно** решение:
 
-```java
-for (int i = 1; i <= 3; i++) {
-	for (int j = 1; j <= 3; j++) {
-		if (i + j == 2) {
-			break;
-		}
-		System.out.println(i + " " + j);	
-	}
-}
-```
+![](assets/chapter-7-1-images/00.Nested-and-break-undesired-result-02.png)
 
 Ако оставим програмата ни по този начин, резултатът ни ще е
 
@@ -376,20 +358,7 @@ for (int i = 1; i <= 3; i++) {
 
 Какво е **правилното решение**? Един начин за решаването на този проблем е чрез деклариране на **`bool` променлива**, която следи за това, дали трябва да продължава въртенето на цикъла. Цялото решение на задачата:
 
-```java
-bool hasToEnd = false;
-for (int i = 1; i <= 3; i++) {
-	if (hasToEnd == false) {
-		for (int j = 1; j <= 3; j++) {
-			if (i + j == 2) {
-				hasToEnd = true;
-				break;
-			}
-			System.out.println(i + " " + j);
-		}
-	}
-}
-```
+![](assets/chapter-7-1-images/00.Nested-and-break-undesired-result-02.png)
 
 По този начин, когато **`i + j = 2`**, програмата ще направи променливата **`hasToEnd = true`** и ще излезе от вътрешния цикъл. При следващото завъртане на външния цикъл, чрез **`if`** проверката, програмата няма да може да стигне до вътрешния цикъл и ще прекъсне изпълнението си.
 
@@ -407,7 +376,7 @@ for (int i = 1; i <= 3; i++) {
 
 **`Try-catch`** има различни видове конструкции, но за сега ще се запознаем само с най-основната: 
 
- ![](aassets/chapter-7-1-images/00.Try-catch-01.png)
+ ![](assets/chapter-7-1-images/00.Try-catch-01.png)
 
 В следващата задача ще видим нагледно, как да се справим в ситуация, в която потребителят въвежда вход, различен от число (например **`string`** вместо **`int`**), чрез **`try-catch`**.
 
