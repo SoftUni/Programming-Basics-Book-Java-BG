@@ -340,7 +340,7 @@ print а;
 
 Желаният резултат е:
 
-![](assets/chapter-7-images/00.Nested-and-break-desired-result-01.png)
+![](assets/chapter-7-1-images/00.Nested-and-break-desired-result-01.png)
 
 **Грешно** решение:
 
