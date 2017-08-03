@@ -14,7 +14,7 @@ for (int row = 1; row <= 5; row++) {
 
 Декларирахме си и собствен метод **`repeatStr(...)`**, който ни помага да печатаме **даден символ** (или поредица от символи) **определен** от нас брой пъти:
 
-![](assets/chapter-6-2-images/00.repeatStr-custom-method.png)
+![](assets/chapter-6-2-images/00.RepeatStr-custom-method-01.png)
 
 ## Изпитни задачи
 
