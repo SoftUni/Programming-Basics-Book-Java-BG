@@ -173,7 +173,7 @@
 
 #### Насоки и подсказки
 
-Първо въвеждаме числото **n**, след това първите **n** числа (**лявата** половина) и ги сумираме. Продължаваме с въвеждането на още **n** числа (**дясната** половина) и намираме и тяхната сума. Изчисляваме **разликата** между намерените суми по абсолютна стойност: **`Math.Abs(leftSum - rightSum)`**. Ако разликата е **0**, отпечатваме **"Yes" + сумата**, в противен случай - отпечатваме **"No" + разликата**.
+Първо въвеждаме числото **n**, след това първите **n** числа (**лявата** половина) и ги сумираме. Продължаваме с въвеждането на още **n** числа (**дясната** половина) и намираме и тяхната сума. Изчисляваме **разликата** между намерените суми по абсолютна стойност: **`Math.abs(leftSum - rightSum)`**. Ако разликата е **0**, отпечатваме **"Yes" + сумата**, в противен случай - отпечатваме **"No" + разликата**.
 
 ![](assets/chapter-5-images/07.Left-and-right-sum-01.png)
 
@@ -199,7 +199,7 @@
 
 ![](assets/chapter-5-images/08.Odd-even-sum-01.png)
 
-**`+=`** - често използван комбиниран оператор за присвояване, добавя стойността на десния операнд към левия операнд и присвоява крайния резултат на левия операнд.
+**`+=`** е често използван **комбиниран оператор за присвояване**, добавя стойността на десния операнд към левия операнд и присвоява крайния резултат на левия операнд.
 **C += A** е еквивалентно на **C = C + A**.
 
 #### Тестване в Judge системата
@@ -261,12 +261,12 @@
 
 ![](assets/chapter-5-images/03_NewProject.png)
 
-Наименуваме проекта (Project name:) **Loops** и избираме директория където да го запазим (Project locaition:).
+Наименуваме проекта (Project name:) **Loops** и избираме директория където да го запазим (Project location:).
 След което натискаме **FINISH**.
 
 ![](assets/chapter-5-images/04_NewProject.png)
  
-На следващият прозорец избираме **ОК** за да създадем **Project locaition**, ако не сме създали предварително.
+На следващият прозорец избираме **ОК** за да създадем **Project location**, ако не сме създали предварително.
 
 ![](assets/chapter-5-images/05_NewProject.png)
 
@@ -377,11 +377,11 @@
 Започваме, като създаваме нов **Java проект** в **IntelliJ IDEA**. След това, добавяме нов пакет **app**. (описано по-рано в тази глава). 
 Сваляме **MyTurtle.java** и **jturtle-0.1.1.jar** от [https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets](https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets). **MyTurtle.java** е предварително написан клас, който ще ни помогне по-бързо да се запознаем с библиотеката **jturtle-0.1.1.jar**, която управлява **костенурката**. Като използваме файл навигатор, копираме **MyTurtle.java** в директорията **app** на създадения проект. След това трябва да добавим външната библиотека **jturtle-0.1.1.jar** в нашия проект. Това става по следния начин:
 
-* Избираме **File** от **File menu**
-* Натискаме **Project Structure** (CTRL + SHIFT + ALT + S)
-* Натискаме **Select Modules** в левия панел
-* Натискаме **Dependencies tab**
-* Натискаме **'+'** → **JARs or directories**
+* Избираме **File** от **File menu**.
+* Натискаме **Project Structure** (CTRL + SHIFT + ALT + S).
+* Натискаме **Select Modules** в левия панел.
+* Натискаме **Dependencies tab**.
+* Натискаме **'+'** → **JARs or directories**.
 
 ![](assets/chapter-5-images/13.Turtle-graphics-02.png)
 
@@ -401,29 +401,29 @@
 
 | Връщана <br> стойност | Метод и неговото описание |
 | --- | --- |
-| Turtle| **back**(double distance) <br>Same as bk(double distance). | 
-| Turtle| **bk**(double distance) <br>Moves the Turtle backwards.|
-| Turtle| **fd**(double distance) <br>Moves the Turtle forwards. |
-| Turtle| **forward**(double distance) <br> Same as fd(double distance). |
-| Turtle| **hideTurtle()** <br> Hides the turtle. |
-| Turtle| **home()** <br> Move the Turtle back "home", i.e. set its position to the origin, facing NORTH. |
-| Turtle| **ht()** <br> Hides the turtle. |
-| Turtle| **left()** <br> Same as lt(double degrees)|
-| Turtle| **lt()** <br> Turns the Turtle degrees degrees to the left.|
-| Turtle| **pd()** <br> Lowers the Turtles Pen down so it will draw a line when moving. |
-| Turtle| **penDown()** <br> Lowers the Turtles Pen down so it will draw a line when moving. |
-| Turtle| **penUp()** <br> Lifts the Turtles Pen up so it won't draw a line anymore when moving. |
-| Turtle| **penWidth**(int newWidth) <br> Set the pen width.|
-| Turtle| **pu**(int newWidth) <br> Lifts the Turtles Pen up so it won't draw a line anymore when moving.|
-| Turtle| **right**(double degrees) <br>Same as rt(double degrees).|
-| Turtle| **rt**(double degrees) <br>Turns the Turtle degrees degrees to the right.|
-| Turtle| **setColor**(Color color) <br>Set the turtle's color to the specified one.|
-| Turtle| **setLineWidth**(double lineWidth) <br>Set the Line Thickness.|
-| Turtle| **setPenColor**(Color color) <br>Set the Turtles Pen color.|
-| Turtle| **setPos**(double x, double y) <br>Put the turtle to a new position with specified x- and y-coordinates.|
-| Turtle| **showTurtle**() <br>The same as st().|
-| Turtle| **speed**(double newSpeed) <br>Set the Turtles speed.|
-| Turtle| **st**() <br>Sets the turtle to show mode.|
+| Turtle| **back**(double distance) - Same as bk(double distance). | 
+| Turtle| **bk**(double distance) - Moves the Turtle backwards.|
+| Turtle| **fd**(double distance) - Moves the Turtle forwards. |
+| Turtle| **forward**(double distance) - Same as fd(double distance). |
+| Turtle| **hideTurtle()** - Hides the turtle. |
+| Turtle| **home()** - Move the Turtle back "home", i.e. set its position to the origin, facing NORTH. |
+| Turtle| **ht()** - Hides the turtle. |
+| Turtle| **left()** - Same as lt(double degrees)|
+| Turtle| **lt()** - Turns the Turtle degrees degrees to the left.|
+| Turtle| **pd()** - Lowers the Turtles Pen down so it will draw a line when moving. |
+| Turtle| **penDown()** - Lowers the Turtles Pen down so it will draw a line when moving. |
+| Turtle| **penUp()** - Lifts the Turtles Pen up so it won't draw a line anymore when moving. |
+| Turtle| **penWidth**(int newWidth) - Set the pen width.|
+| Turtle| **pu**(int newWidth) - Lifts the Turtles Pen up so it won't draw a line anymore when moving.|
+| Turtle| **right**(double degrees) - Same as rt(double degrees).|
+| Turtle| **rt**(double degrees) - Turns the Turtle degrees degrees to the right.|
+| Turtle| **setColor**(Color color) - Set the turtle's color to the specified one.|
+| Turtle| **setLineWidth**(double lineWidth) - Set the Line Thickness.|
+| Turtle| **setPenColor**(Color color) - Set the Turtles Pen color.|
+| Turtle| **setPos**(double x, double y) - Put the turtle to a new position with specified x- and y-coordinates.|
+| Turtle| **showTurtle**() - The same as st().|
+| Turtle| **speed**(double newSpeed) - Set the Turtles speed.|
+| Turtle| **st**() - Sets the turtle to show mode.|
 
 
 За да създадем метод който чертае триъгълник, в **MyTurtle.java** намираме празния метода **drawTriangle()** и написваме следния код: 
