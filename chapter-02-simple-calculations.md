@@ -1,7 +1,7 @@
 # Глава 2.1. Прости пресмятания с числа
 
-В настоящата глава ще се запознаем със следните концепции и програмни техники:
 - Какво представлява **системната конзола**?
+В настоящата глава ще се запознаем със следните концепции и програмни техники:
 - Как да **прочитаме числа** от системната конзола?
 - Как да работим с **типове данни и променливи**, които са ни необходими при обработка на числа и операциите между тях?
 - Как да **изведем** резултат (число) на системната конзола?
@@ -49,11 +49,11 @@ System.out.println(area);
 ```
 Ето как би работила програмата при квадрат с размер на страната 15:
 
-![](/assets/chapter-2-images/squareArea.jpg)
+![](/assets/chapter-2-1-images/01.Square-area-01.jpg)
 
 Опитайте да въведете грешно число, например "**hello**". Ще получите съобщение за грешка по време на изпълнение (exception). 
 
-![](/assets/chapter-2-images/exceptionHallo.jpg)
+![](/assets/chapter-2-1-images/02.Exception-hello-01.jpg)
 
 Това е напълно нормално, защото езика **Java** е силно типизиран език. По-късно ще разберем как можем да прихващаме такива грешки и да караме потребителят да въвежда число наново.
 
@@ -79,7 +79,7 @@ System.out.println(area);
 
 За компютрите знаем, че са машини, които обработват данни. Всички **данни** се записват в компютърната памет (RAM памет) в **променливи**. Променливите са именовани области от паметта, които пазят данни от определен тип, например число или текст. Всяка една **променлива** в Java има **име**, **тип** и **стойност**. Ето как бихме дефинирали една променлива, като едновременно с декларацията ѝ, ѝ присвояваме и стойност:
 
-![](/assets/chapter-2-images/declaringVariables.png)
+![](/assets/chapter-2-1-images/03.Declaring-variables-01.png)
 
 След тяхната обработка, данните се записват отново в променливи (т.е. някъде в паметта, заделена от нашата програма).
 
@@ -119,7 +119,7 @@ System.out.println(centimeters);
 
 Да стартираме програмата и да се уверим, че при подаване на стойност в инчове, получаваме коректен резултат в сантиметри:
 
-![](assets/chapter-2-images/01ConsoleOutput.png)
+![](assets/chapter-2-1-images/04.Console-output-01.png)
 
 #### Тестване в Judge системата
 
@@ -149,7 +149,7 @@ System.out.printf("Hello, %s!", name);
 
 В този случай, изразът **`%s`** e заместен от **първия** подаден аргумент, който в примера е променливата **`name`**:
 
-![](/assets/chapter-2-images/02ConsoleOutput.png)
+![](/assets/chapter-2-1-images/04.Console-output-02.png)
 
 #### Тестване в Judge системата
 
@@ -172,7 +172,7 @@ System.out.printf("You are %s %s, a %d-years old person from %s.",
 
 Ето резултатът, който ще получим, след изпълнение на този пример:
 
-![](assets/chapter-2-images/03ConsoleOutput.png)
+![](assets/chapter-2-1-images/04.Console-output-03.png)
 
 Обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата и да съответства на типа подаден в plceholder-a**. По същество, шаблонът (**placeholder**) **приема променливи от всякакъв вид**.
 
@@ -206,7 +206,7 @@ System.out.println(result);
 
 Ето резултатът от изпълнението на програмата (при числа 10 и 3):
 
-![](assets/chapter-2-images/04ConsoleOutput.png)
+![](assets/chapter-2-1-images/04.Console-output-04.png)
 
 ### Умножение на числа (оператор **`*`**)
 
@@ -350,7 +350,7 @@ System.out.println("Perimeter = " + 2 * Math.PI * r);
 ```
 Нека изпробваме програмата с **радиус `r = 10`**:
 
-![](/assets/chapter-2-images/05ConsoleOutput.png)
+![](/assets/chapter-2-1-images/04.Console-output-05.png)
 
 #### Тестване в Judge системата
 
@@ -360,7 +360,7 @@ System.out.println("Perimeter = " + 2 * Math.PI * r);
 
 Правоъгълник е зададен с **координатите на два от своите два срещуположни ъгъла**. Да се пресметнат **площта и периметъра** му:
 
-<img alt="rectangleArea" src="/assets/chapter-2-images/rectangleArea.png" width="250" height="200" />
+<img alt="rectangleArea" src="/assets/chapter-2-1-images/05.Rectangle-area-01.png" width="250" height="200" />
 
 В тази задача трябва да съобразим, че ако от по-големия `x` извадим по-малкия `x`, ще получим дължината на правоъгълника. Аналогично, ако от по-големия `y` извадим по-малкия `y`, ще получим височината на правоъгълника. Остава да умнижим двете страни. Ето примерна имплементация на описаната логика:
 
@@ -385,7 +385,7 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 При стартиране на програмата със стойностите от координатната система в условието, получаваме следния резултат:
 
-![](/assets/chapter-2-images/06ConsoleOutput.png)
+![](/assets/chapter-2-1-images/04.Console-output-06.png)
 
 #### Тестване в Judge системата
 
@@ -412,21 +412,21 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 * Стартираме IntelliJ IDEA.
 * Създаваме нов **Project:** [**File**] -> [**New**] -> [**Project**].
 
-![](assets/chapter-2-images/problems/01newProject.png)
+![](assets/chapter-2-1-images/06.New-project-01.png)
 
 Избираме от диалоговия прозорец [**Java**], в полето Project SDK уточняваме каква версия на Java ще използваме и накрая даваме [**Next**] -> [**Next**]:
 
-![](assets/chapter-2-images/problems/02newProject.png)
+![](assets/chapter-2-1-images/06.New-project-02.png)
 
-![](assets/chapter-2-images/problems/03newProject.png)
+![](assets/chapter-2-1-images/06.New-project-03.png)
 
 Даваме подходящо име на проекта, например “SimpleCalculations” и също така къде да бъде съхранен нашия проект -> [**Finish**]:
 
-![](assets/chapter-2-images/problems/04namingProject.png)
+![](assets/chapter-2-1-images/06.New-project-04.png)
 
 Сега имаме създаден **празен IntelliJ IDEA Project** (с 0 .java класа в него, които трябва да се намират в папката src):
 
-![](assets/chapter-2-images/problems/05newProject.png)
+![](assets/chapter-2-1-images/06.New-project-05.png)
 
 Целта на този project e да добавяме в него **по един .java клас за всяка задача** от упражненията.
 
@@ -438,27 +438,27 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 Създаваме **нов .java клас** в съществуващ IntelliJ IDEA проект. Върху **src** папката кликнете с десен бутон на мишката. Изберете [**New**] -> [**Java Class**]:
 
-![](assets/chapter-2-images/problems/02SquareArea/01newJavaClass.png)
+![](assets/chapter-2-1-images/07.Square-area-01.png)
 
 Ще се отвори **диалогов прозорец** за избор на име на Джава класа, примерно “SquareArea”:
 
-![](assets/chapter-2-images/problems/02SquareArea/02namingJavaClass.png)
+![](assets/chapter-2-1-images/07.Square-area-02.png)
 
 Вече имаме проект с един java клас в него. Остава да напишем **кода за решаване на задачата**. За целта си дописваме в нашия java клас Main метод(както е показано на картинката) и отиваме в тялото на метода **`Main(string[] args)`** и пишем следния код:
 
-![](assets/chapter-2-images/problems/02SquareArea/01SquareAreaCode.png)
+![](assets/chapter-2-1-images/07.Square-area-03.png)
 
 Кодът въвежда цяло число чрез **`a = Integer.parseInt(scanner.nextLine())`**, след това изчислява **`area = a * a`** и накрая печата стойността на променливата **`area`**. **Стартираме** програмата с [**Ctrl+Shft+F10**] и я **тестваме** с различни входни стойности:
 
-![](assets/chapter-2-images/problems/02SquareArea/02SquareAreaResult.png)
+![](assets/chapter-2-1-images/07.Square-area-04.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#0](https://judge.softuni.bg/Contests/Practice/Index/649#0). Трябва да получите 100 точки (напълно коректно решение):
 
-![](assets/chapter-2-images/problems/02SquareArea/03resultSubmission_1.png)
+![](assets/chapter-2-1-images/07.Square-area-05.png)
 
-![](assets/chapter-2-images/problems/02SquareArea/04resultSubmission_2.png)
+![](assets/chapter-2-1-images/07.Square-area-06.png)
 
 ### Задача:	от инчове към сантиметри
 
@@ -468,41 +468,41 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 Първо създаваме **нов Java клас** в проекта “SimpleCalculations”. Кликаме с мишката върху папката **src** и избираме [**New**] -> [**Java Class**]:
 
-![](assets/chapter-2-images/problems/03inchesToCm/01newJavaClassInSRC.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-01.png)
 
 Появява се диалогов прозорец в кой изписваме името на файла в нашия случай “InchesToCentimeters” -> [**OK**]:
 
-![](assets/chapter-2-images/problems/03inchesToCm/02namingJavaClassInSRC.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-02.png)
 
 Следва да напишем **кода на програмата**:
 
-![](assets/chapter-2-images/problems/03inchesToCm/03InchesToCentimetersCode.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-03.png)
 
 **Стартираме програмата** с десен бутон на мишката върху прозореца на текущата програма избираме [**Run “InchesToCentim...main()**] или натискаме [**Ctrl+Shift+F10**], тази клавишна комбинация ни стартира програмата в настоящия джава клас(този в който сме писали последно):
 
-![](assets/chapter-2-images/problems/03inchesToCm/05RunJavaClassWithRightClick.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-04.png)
 
 При което получаваме следния резултат:
 
-![](assets/chapter-2-images/problems/03inchesToCm/04InchesToCentimitersResult.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-05.png)
 
 Сега **да превключим към предходната програма/задача** (лице на квадрат). Това става с двоен клик на мишката върху файла **``SquareArea.java``** от папката **src** в проекта [**SimpleCalculations**]:
 
-![](assets/chapter-2-images/problems/03inchesToCm/06RunToAnotherJavaClass.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-06.png)
 
 Ако използваме [**Shift+F10**] или натиснем една от двете зелени стрелки (които се намират горе в дясно и долу в ляво на прозореца на IntelliJ IDEA):
 
-![](assets/chapter-2-images/problems/03inchesToCm/07RunJavaClassWithGreenArrow.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-07.png)
 
 ще се изпълни последно компилираната програма(**InchesToCentimeters**). Нея може да видим като име в горния десен ъгъл на прозореца преди едната зелена стрелка:
 
-![](assets/chapter-2-images/problems/03inchesToCm/08RunWithGreenArrowResult.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-08.png)
 
 **Превключването между проектите** е много лесно, нали? Просто избираме файла със сорс кода на програмата, кликваме го два пъти с мишката и при стартиране тръгва програмата от този файл.
 
 Да тестваме с дробни числа, например с **2.5**:
 
-![](assets/chapter-2-images/problems/03inchesToCm/09InchesToCentimitersWithDoubleResult.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-09.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>В зависимост от регионалните настройки на операционната система, е възможно вместо <b>десетична точка</b> (US настройки) да се използва <b>десетична запетая</b> (BG настройки).</td>
@@ -510,13 +510,13 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 Ако програмата очаква десетична точка и бъде въведено число с десетична запетая или обратното (бъде въведена десетична точка, когато се очаква десетична запетая), ще се получи следната грешка:
 
-![](assets/chapter-2-images/problems/03inchesToCm/09result_exception.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-10.png)
 
 Препоръчително е **да променим настройките на компютъра си**, така че да се използва **десетична точка**:
 
-![](assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_1.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-11.png)
 
-![](assets/chapter-2-images/problems/03inchesToCm/10changeWinSettings_2.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-12.png)
 
 #### Тестване в Judge системата
 
@@ -524,7 +524,7 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 Решението би трябвало да бъде прието като напълно коректно:
 
-![](assets/chapter-2-images/problems/03inchesToCm/10resultInJudge.png)
+![](assets/chapter-2-1-images/08.Inches-to-centimeters-13.png)
 
 ### Задача: поздрав по име
 
@@ -534,15 +534,15 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 Първо създаваме **нов Java клас** с име “Greeting” в проекта “SimpleCalculations”:
 
-![](assets/chapter-2-images/problems/04greetingByName/01Greeting.png)
+![](assets/chapter-2-1-images/09.Greeting-by-name-01.png)
 
 **Следва да напишем кода** на програмата. Ако се затруднявате, може да ползвате примерния код по-долу:
 
-![](assets/chapter-2-images/problems/04greetingByName/02Greeting.png)
+![](assets/chapter-2-1-images/09.Greeting-by-name-02.png)
 
 **Стартираме** програмата с [**Ctrl+Shift+F10**] и я тестваме дали работи:
 
-![](assets/chapter-2-images/problems/04greetingByName/03GreetingResult.png)
+![](assets/chapter-2-1-images/09.Greeting-by-name-03.png)
 
 #### Тестване в Judge системата
 
@@ -556,11 +556,11 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 Добавяме към текущоят IntelliJ IDEA проект още един Java клас с име “ConcatenateData”.	**Пишем кода**, който чете входните данни от конзолата:
 
-![](assets/chapter-2-images/problems/05concatenateData/01code.png)
+![](assets/chapter-2-1-images/10.Concatenate-data-01.png)
 
 **Кодът**, който отпечатва описаното в условието на задачата съобщение, трябва да се допише.
 
-![](assets/chapter-2-images/problems/05concatenateData/02Code.png)
+![](assets/chapter-2-1-images/10.Concatenate-data-02.png)
 
 На горната картинка кодът е нарочно даден замъглен, за да помислите как да си го напишете сами.
 
@@ -576,13 +576,13 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 На фигурата по-долу е показан трапец със страни 8 и 13 и височина 7. Той има лице **(8 + 13) * 7 / 2 = 73.5**.
 
-![](assets/chapter-2-images/problems/06trapezoidArea/mockUp.png)
+![](assets/chapter-2-1-images/11.Trapezoid-area-01.png)
 
 #### Насоки и подсказки
 
 Отново трябва да добавим към текущия проект в IntelliJ IDEA още един **Java клас** с име ""TrapezoidArea" и да напишем **кода, който чете входните данни от конзолата, пресмята лицето на трапеца и го отпечатва**:
 
-![](assets/chapter-2-images/problems/06trapezoidArea/02Code.png)
+![](assets/chapter-2-1-images/11.Trapezoid-area-02.png)
 
 Кодът на картинката е нарочно размазан, за да помислите върху него и да го допишете сами.
 
@@ -617,7 +617,7 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 **Правоъгълник** е зададен с **координатите** на два от своите срещуположни ъгъла (x1, y1) – (x2, y2). Да се пресметнат **площта и периметъра** му. **Входът** се чете от конзолата. Числата **x1, y1, x2 и y2** са дадени по едно на ред. **Изходът** се извежда на конзолата и трябва да съдържа два реда с по една число на всеки от тях – лицето и периметъра.
 
-![](/assets/chapter-2-images/problems/08rectangleAreaAndP/rectangleMockUp.png)
+![](/assets/chapter-2-1-images/12.Rectangle-area-01.png)
 
 #### Примерен вход и изход
 
