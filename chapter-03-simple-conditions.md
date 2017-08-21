@@ -29,7 +29,7 @@
 
 ### Пример: 
 
-![](assets/chapter-3-images/00.Comparing-numbers-01.png)
+![](assets/chapter-3-1-images/00.Comparing-numbers-01.png)
 
 ### Оператори за сравнение
 
@@ -59,7 +59,7 @@
 
 ### Пример:
 
-![](assets/chapter-3-images/00.Comparing-numbers-02.png)
+![](assets/chapter-3-1-images/00.Comparing-numbers-02.png)
 
 ## Прости проверки
 
@@ -75,7 +75,7 @@ if (булев израз) {
 
 Въвеждаме оценка в конзолата и проверяваме дали тя е отлична (**`≥ 5.50`**).
 
-![](assets/chapter-3-images/01.Еxcellent-result-01.png)
+![](assets/chapter-3-1-images/01.Еxcellent-result-01.png)
 
 #### Тестване в Judge системата
 
@@ -97,7 +97,7 @@ if () {
 
 Подобно на горния пример, въвеждаме оценка, проверяваме дали е отлична, но **изписваме резултат и в двата случая**.
 
-![](assets/chapter-3-images/02.Excellent-or-not-01.png)
+![](assets/chapter-3-1-images/02.Excellent-or-not-01.png)
 
 #### Тестване в Judge системата
 
@@ -113,19 +113,19 @@ if () {
 
 Ето един пример, в който изпускането на къдравите скоби води до объркване:
 
-![](assets/chapter-3-images/00.Brackets-tip-01.png)
+![](assets/chapter-3-1-images/00.Brackets-tip-01.png)
 
 Изпълнението на горния код ще изведе следния резултат на конзолата:
 
-![](assets/chapter-3-images/00.Brackets-tip-03.png)
+![](assets/chapter-3-1-images/00.Brackets-tip-03.png)
 
 С използването на къдрави скоби:
 
-![](assets/chapter-3-images/00.Brackets-tip-02.png)
+![](assets/chapter-3-1-images/00.Brackets-tip-02.png)
 
 На конзолата ще бъде отпечатано следното:
 
-![](assets/chapter-3-images/00.Brackets-tip-04.png)
+![](assets/chapter-3-1-images/00.Brackets-tip-04.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td>Абсолютно и двата начина на използване са <strong>правилни</strong> и може да се използват в зависимост от конкретния случай, изискванията в документацията или други изисквания, но абсолютно винаги трябва да се внимава и да се съобразим с резултатите.</td>
@@ -137,11 +137,11 @@ if () {
 
 Задачата можем да решим с помощта на една **`if-else`** конструкция и оператора **`%`**, който връща **остатък при деление** на две числа.
 
-![](assets/chapter-3-images/03.Even-or-odd-02.png)
+![](assets/chapter-3-1-images/03.Even-or-odd-02.png)
 
 Трябва да се получи следният отговор:
 
-![](assets/chapter-3-images/03.Even-or-odd-01.png)
+![](assets/chapter-3-1-images/03.Even-or-odd-01.png)
 
 #### Тестване в Judge системата
 
@@ -153,11 +153,11 @@ if () {
 
 Първата ни задача е да **прочетем** двете цели числа. След което, чрез проста **`if-else`** конструкция, в съчетание с **оператора за по-голямо** (**`>`**), да направим проверка. Част от кода е замъглена умишлено, за да изпробваме наученото до момента.
 
-![](assets/chapter-3-images/04.Greater-number-02.png)
+![](assets/chapter-3-1-images/04.Greater-number-02.png)
 
 Ако всичко е вярно трябва да получите този отговор за числата 3 и 5.
 
-![](assets/chapter-3-images/04.Greater-number-01.png)
+![](assets/chapter-3-1-images/04.Greater-number-01.png)
 
 #### Тестване в Judge системата
 
@@ -169,7 +169,7 @@ if () {
 
 В примерa по-долу, на последния ред, на който се опитваме да отпечатаме променливата **`salary`**, която е дефинирана в **`if` конструкцията**, ще получим **грешка**, защото нямаме достъп до нея (в случай и самото **IDE** ни предупреждава за **variable scope**).
 
-![](assets/chapter-3-images/00.Variable-scope-01.png)
+![](assets/chapter-3-1-images/00.Variable-scope-01.png)
 
 ## Серии от проверки
 
@@ -223,11 +223,11 @@ if (условие) {
 
 Основните и допълнителните бонус точки можем да изчислим с поредица от няколко **`if-else-if-else`** проверки. Като за **основните бонус точки имаме 3 случая** (когато въведеното число е до 100, между 100 и 1000 и по-голямо от 1000), а за **допълнителните бонус точки - още 2 случая** (когато числото е четно и нечетно).
 
-![](assets/chapter-3-images/06.Bonus-score-01.png)
+![](assets/chapter-3-1-images/06.Bonus-score-01.png)
 
 Ето как би могло да изглежда решението на задачата:
 
-![](assets/chapter-3-images/06.Bonus-score-02.png)
+![](assets/chapter-3-1-images/06.Bonus-score-02.png)
 
 #### Тестване в Judge системата
 
@@ -255,11 +255,11 @@ if (условие) {
 - Ако резултатът е между 120 и 179, отпечатваме 2 минути + изчислените секунди минус 120.
 - Ако секундите са по-малко от 10, изваждаме водеща нула преди тях.
 
-![](assets/chapter-3-images/07.Sum-seconds-01.png)
+![](assets/chapter-3-1-images/07.Sum-seconds-01.png)
 
 Вторият начин, който не използва конструкции **`if-else`**, е по-удачен, защото може да се използва за големи стойности на времената:
 
-![](assets/chapter-3-images/07.Sum-seconds-02.png)
+![](assets/chapter-3-1-images/07.Sum-seconds-02.png)
 
 #### Тестване в Judge системата
 
@@ -301,7 +301,7 @@ if (условие) {
 <td>Имайте в предвид, че в Java сравняването на стрингове не работи с използването на  <strong>==</strong> и трябва да се използват вградените за тази цел функции за сравнение на стрингове.</td>
 </tr></table>
 
-![](assets/chapter-3-images/08.Metric-converter-01.png)
+![](assets/chapter-3-1-images/08.Metric-converter-01.png)
 
 #### Тестване в Judge системата
 
@@ -313,13 +313,13 @@ if (условие) {
 
 Това е процесът на „**закачане**“ към изпълнението на програмата, който ни позволява да проследим поетапно цялостния процес на изпълнение. Можем да следим **ред по ред** какво се случва с нашата програма, какъв път следва, какви стойности имат дефинираните променливи и много други неща, които ни позволяват да откриваме грешки наречени (**бъгове**).
 
-![](assets/chapter-3-images/00.Debugging-01.png)
+![](assets/chapter-3-1-images/00.Debugging-01.png)
 
 ### Дебъгване във IntelliJ Idea
 
 Чрез комбинация от бутоните [**Shift + F9**], стартираме текущата програма в **debug режим**. Преминаваме към **следващия ред** с [**F8**]. 
 
-![](assets/chapter-3-images/00.Debugging-02.png)
+![](assets/chapter-3-1-images/00.Debugging-02.png)
 
 Чрез [**CTRL + F8**] създаваме стопери – така наречените **breakpoints**, до които можем да стигнем директно при стартирането на програмата.
 
@@ -333,17 +333,17 @@ if (условие) {
 
 Стартираме IntelliJ Idea. Създаваме нов **Java project:** [**File**] -> [**New**] -> [**Project**].
 
-![](assets/chapter-3-images/00.IntelliJ-01.png)
+![](assets/chapter-3-1-images/00.IntelliJ-01.png)
 
 Избираме от левият панел **Java**, без да маркираме нищо друго и натискаме **Next**. В следващият диалогов прозорец имаме няколко варианта, от които единият е да се конфигурира **ConsoleApp**, обикновенно това ще правим, но може да не се маркира нищо и да дадем пак **Next**. На последния диалогов прозорец, даваме име на проекта и място за съхранение и можем да натиснем *Finish**.
 
-![](assets/chapter-3-images/00.IntelliJ-02.png)
-![](assets/chapter-3-images/00.IntelliJ-03.png)
+![](assets/chapter-3-1-images/00.IntelliJ-02.png)
+![](assets/chapter-3-1-images/00.IntelliJ-03.png)
 
 
 Сега вече имаме създаден празен Java проект:  
 
-![](assets/chapter-3-images/00.IntelliJ-04.png)
+![](assets/chapter-3-1-images/00.IntelliJ-04.png)
 
 ### Задача: проверка за отлична оценка
 
@@ -362,31 +362,31 @@ if (условие) {
 
 Създаваме **нов клас** в съществуващият проект в **IntelliJ Idea** кликваме с десен бутон на мишката върху паката **src'**. Избираме [**New**] -> [**Java Class**]:  
 
- ![](assets/chapter-3-images/09.Excellent-result-01.png)
+ ![](assets/chapter-3-1-images/09.Excellent-result-01.png)
 
 Ще се отвори диалогов прозорец с 2 поленца, горното въвеждаме името на класа, а долното е за вида (има и други опции освен класове, но за тях в следващите глави) и създаваме класа. Задаваме име, например “Evaluations”:  
 
- ![](assets/chapter-3-images/09.Excellent-result-02.png)
+ ![](assets/chapter-3-1-images/09.Excellent-result-02.png)
  
 Вече имаме клас с едно конзолно приложение в него. Остава да напишем кода за решаване на задачата.
 
 За целта отиваме в тялото на метода **`main(string[] args)`**, ако не е създаден в **IntelliJ Idea** има комбинация, която го създава автоматично **psvm** и вътре пишем следния код:
 
- ![](assets/chapter-3-images/09.Excellent-result-03.png)
+ ![](assets/chapter-3-1-images/09.Excellent-result-03.png)
 
 **Стартираме** програмата от зелената стрлека пред името на класа, за да я **тестваме** с различни входни стойности:
 
- ![](assets/chapter-3-images/09.Excellent-result-04.png)
+ ![](assets/chapter-3-1-images/09.Excellent-result-04.png)
 
- ![](assets/chapter-3-images/09.Excellent-result-05.png)
+ ![](assets/chapter-3-1-images/09.Excellent-result-05.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/651#0](https://judge.softuni.bg/Contests/Practice/Index/651#0)
 
- ![](assets/chapter-3-images/09.Excellent-result-06.png) 
+ ![](assets/chapter-3-1-images/09.Excellent-result-06.png) 
 
- ![](assets/chapter-3-images/09.Excellent-result-07.png)
+ ![](assets/chapter-3-1-images/09.Excellent-result-07.png)
 
 ### Задача: отлична оценка или не
 
@@ -407,18 +407,18 @@ if (условие) {
  
 Следва да **напишем кода** на програмата. Може да си помогнем с примерния код от картинката:  
 
- ![](assets/chapter-3-images/02.Excellent-or-not-01.png)
+ ![](assets/chapter-3-1-images/02.Excellent-or-not-01.png)
 
 Сега **стартираме програмата**, както обикновено с от зелената стрелкичка и я тестваме дали работи коректно:
 
- ![](assets/chapter-3-images/02.Excellent-or-not-04.png)
- ![](assets/chapter-3-images/02.Excellent-or-not-05.png)
+ ![](assets/chapter-3-1-images/02.Excellent-or-not-04.png)
+ ![](assets/chapter-3-1-images/02.Excellent-or-not-05.png)
 
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/651#1](https://judge.softuni.bg/Contests/Practice/Index/651#1)
 
- ![](assets/chapter-3-images/02.Excellent-or-not-06.png)
+ ![](assets/chapter-3-1-images/02.Excellent-or-not-06.png)
 
 ### Задача: четно или нечетно
 
@@ -441,7 +441,7 @@ if (условие) {
 
 Остава да **стартираме** програмата и да я тестваме:  
 
-![](assets/chapter-3-images/03.Even-or-odd-01.png)
+![](assets/chapter-3-1-images/03.Even-or-odd-01.png)
 
 #### Тестване в Judge системата
 
@@ -464,11 +464,11 @@ if (условие) {
 
 Създаваме **нов клас** в съществуващият проект в **IntelliJ Idea** кликваме с десен бутон на мишката върху паката **src'**. Избираме [**New**] -> [**Java Class**]. За кода на програмата ни е необходима единична **`if-else`** конструкция. Може да си помогнете частично с кода от картинката, който е умишлено замъглен, за да помислите как да го допишете сами:  
 
-![](assets/chapter-3-images/04.Greater-number-02.png)
+![](assets/chapter-3-1-images/04.Greater-number-02.png)
 
 След като сме готови с имплементацията на решението, **стартираме** програмата и я тестваме:
 
-![](assets/chapter-3-images/04.Greater-number-01.png)
+![](assets/chapter-3-1-images/04.Greater-number-01.png)
 
 #### Тестване в Judge системата
 
@@ -659,11 +659,11 @@ if (условие) {
 
 Нека разгледаме как да създадем графично (**GUI**) приложение за **конвертиране на валути**. Приложението ще изглежда приблизително като на картинката по-долу:  
 
-![](assets/chapter-3-images/14.Converter-01.png)
+![](assets/chapter-3-1-images/14.Converter-01.png)
 
 Този път създаваме нов **Windows Forms Application** с име “Currency-Converter”:
 
-![](assets/chapter-3-images/14.Converter-02.png)
+![](assets/chapter-3-1-images/14.Converter-02.png)
 
 **Нареждаме следните контроли** във формата: 
 * Една кутийка за въвеждане на число (**`NumericUpDown`**)
@@ -673,7 +673,7 @@ if (условие) {
 
 Нагласяме **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:
  
-![](assets/chapter-3-images/14.Converter-03.png)
+![](assets/chapter-3-1-images/14.Converter-03.png)
  
 Задаваме следните **настройки на контролите**:
 
@@ -716,7 +716,7 @@ if (условие) {
 
 * Събитието **`ValueChanged`** на контролата за въвеждане на число **`numericUpDownAmount`**: 
 
-![](assets/chapter-3-images/14.Converter-04.png)
+![](assets/chapter-3-1-images/14.Converter-04.png)
 
 * Събитието **`Load`** на формата **`FormConverter`**
 * Събитието **`SelectedIndexChanged`** на падащия списък за избор на валута **`comboBoxCurrency`**
