@@ -49,7 +49,7 @@
 
 Докато програмираме, постоянно се налага да пишем цикли, десетки пъти всеки ден. Затова в повечето среди за разработка (IDE) има **шаблони за код** (**code snippets**) за писане на цикли. Един такъв шаблон е **шаблонът за `for` цикъл в IntelliJ IDEA**. Напишете **`fori`** в редактора за Java код в IntelliJ IDEA и **натиснете** [**Enter**]. IntelliJ IDEA ще разгъне за вас шаблон и ще напише цялостен **`for` цикъл**, единствено трябва да добавите крайната стойност:
 
-![](assets/chapter-5-1-images/00.For-loop-code-snippet.png)
+![](assets/chapter-5-1-images/00.For-loop-code-snippet-01.png)
 
 **Опитайте сами**, за да усвоите умението да ползвате шаблона за код за **`for` цикъл** в IntelliJ IDEA.
 
@@ -251,42 +251,42 @@
 
 Стартираме IntelliJ IDEA, избираме: **CREATE NEW PROJECT**.
 
-![](assets/chapter-5-1-images/01_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-01.png)
 
 след това в лявото поле избираме Java, ако не сме посочили **PROJECT SDK: ** избираме пътя до инсталираната Java **JDK** директор след което натискаме **NEXT**.
 
-![](assets/chapter-5-1-images/02_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-02.png)
 
 На следващия прозорец отново избираме **NEXT**
 
-![](assets/chapter-5-1-images/03_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-03.png)
 
 Наименуваме проекта (Project name:) **Loops** и избираме директория където да го запазим (Project location:).
 След което натискаме **FINISH**.
 
-![](assets/chapter-5-1-images/04_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-04.png)
  
 На следващият прозорец избираме **ОК** за да създадем **Project location**, ако не сме създали предварително.
 
-![](assets/chapter-5-1-images/05_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-05.png)
 
 Така създадохме нов проект. Ако в левият прозорец натиснем триъгълника пред **Loops**, ще се отвори и самата структура на проекта.
 
-![](assets/chapter-5-1-images/06_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-06.png)
 
 За да създадем в нашият проект **пакет**, който да съдържа всички класове с решенията на задачите за упражнение, натискаме десен бутон на мишката върху **src**, избираме **New** -> **Package** и наименуваме пакета **tasks** (с малка първа буква).
 
-![](assets/chapter-5-1-images/07_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-07.png)
 
 За да създадем нов клас за първото упражнение, натискаме десен бутон на мишката върху **tasks**, избираме **New** -> **Java Class** и наименуваме класа **Task_01** (с главна първа буква).
 
-![](assets/chapter-5-1-images/08_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-08.png)
 
-![](assets/chapter-5-1-images/09_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-09.png)
 
 След тези промени структурата на проекта ще изглежда по следния начин:
  
-![](assets/chapter-5-1-images/10_NewProject.png)
+![](assets/chapter-5-1-images/10.New-project-10.png)
  
  Като за всяко следващо упражнение създадем нов клас, по описания по-горе начин за създаване на клас. 
  

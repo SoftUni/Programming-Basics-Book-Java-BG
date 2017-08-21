@@ -105,19 +105,19 @@ System.out.println(euro);
 
 Java пакета за разработка се разпространява безплатно и може да бъде изтеглен от тук - [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-![](assets/chapter-1-images/00.jdk-1.png)
+![](assets/chapter-1-images/00.Jdk-1.png)
 
 Отбелязваме полето, с което се съгласяваме с условията на лицензите (Accept License Agreement) и избираме инсталационния файл според операционната ни система. Например Windows 64-bit: 
 
-![](assets/chapter-1-images/00.jdk-2.png)
+![](assets/chapter-1-images/00.Jdk-2.png)
 
 Изтегляме инсталационния файл и го отваряме. Виждаме прозореца за инсталация:
 
-![](assets/chapter-1-images/00.jdk-3.png)
+![](assets/chapter-1-images/00.Jdk-3.png)
 
 Натискаме бутона [**Next**], докато не започне инсталацията на Java пакета за разработка:
 
-![](assets/chapter-1-images/00.jdk-4.png)
+![](assets/chapter-1-images/00.Jdk-4.png)
 
 Изчакваме, докато инсталацията не приключи и затваряме инсталатора от бутона [**Close**].
 
@@ -136,39 +136,39 @@ Java пакета за разработка се разпространява б
 
 В следващите редове подробно са описани **стъпките за инсталация на IntelliJ IDEA** (версия Community 2017). След като свалим инсталационния файл и го стартираме, се появява следният екран:
 
-![](assets/chapter-1-images/00.intellij-idea-1.png)
+![](assets/chapter-1-images/00.Intellij-idea-1.png)
 
 Натискаме бутона [**Next**], след което ще видим прозореца долу:
 
-![](assets/chapter-1-images/00.intellij-idea-2.png)
+![](assets/chapter-1-images/00.Intellij-idea-2.png)
 
 Отново избираме [**Next**] и се зарежда прозорец с инсталационния панел на IntelliJ IDEA.
 
-![](assets/chapter-1-images/00.intellij-idea-3.png)
+![](assets/chapter-1-images/00.Intellij-idea-3.png)
 
 Избираме 32-bit launcher или 64-bit launcher в зависимост от това колко битова е операционната система, която ползваме. Слагаме отметка на [**.java**], [**.groovy**] и [**.kt**], след което натискаме бутона [**Next**]. 
 
-![](assets/chapter-1-images/00.intellij-idea-4.png)
+![](assets/chapter-1-images/00.Intellij-idea-4.png)
 
 Запазваме името на папката в старт менюто и натискаме бутона [**Install**]. Започва инсталацията на IntelliJ IDEA и ще се появи екран като този по-долу:
 
-![](assets/chapter-1-images/00.intellij-idea-5.png)
+![](assets/chapter-1-images/00.Intellij-idea-5.png)
 
 След като IntelliJ IDEA се инсталира, ще се появи информативен екран, в който избираме отметката [**Run IntelliJ IDEA**] и натискаме бутона [**Finish**], за да приключим инсталацията и да стартираме средата за разработка:
 
-![](assets/chapter-1-images/00.intellij-idea-6.png)
+![](assets/chapter-1-images/00.Intellij-idea-6.png)
 
 От началния прозорец на IntelliJ IDEA, избираме [**Create New Project**]:
 
-![](assets/chapter-1-images/00.intellij-idea-7.png)
+![](assets/chapter-1-images/00.Intellij-idea-7.png)
 
 Визуализира се прозорец, в който се вижда, че липсва избран пакет за разработка на софтуер - Software Development Kit (SDK): 
 
-![](assets/chapter-1-images/00.intellij-idea-8.png)
+![](assets/chapter-1-images/00.Intellij-idea-8.png)
 
 Натискаме [**New**] и намираме пътя към вече инсталирания Java пакет за разработка (JDK), като внимаваме да не изберем JRE:
 
-![](assets/chapter-1-images/00.intellij-idea-9.png)
+![](assets/chapter-1-images/00.Intellij-idea-9.png)
 
 Селектираме папката и натискаме бутона [**OK**]. 
 
@@ -193,9 +193,9 @@ Java пакета за разработка се разпространява б
 
 Да се върнем на нашата конзолна програма. Вече имаме IntelliJ IDEA и можем да го стартираме. След това създаваме нов конзолен проект от [**Create New Project**]. Избирaме от диалоговия прозорец [Java] -> [Comand Line App] и даваме подходящо име на проекта, например `HelloJava`:
 
-![](assets/chapter-1-images/01.hello-java-01.png)
+![](assets/chapter-1-images/01.Hello-Java-01.png)
 
-![](assets/chapter-1-images/01.hello-java-02.png)
+![](assets/chapter-1-images/01.Hello-Java-02.png)
 
 IntelliJ IDEA ще създаде за нас **празна Java програма**, която трябва да допишем.
 
@@ -203,7 +203,7 @@ IntelliJ IDEA ще създаде за нас **празна Java програм
 
 Сорс кодът на Java програмите се пише в секцията **`main(String[] args)`**, между отварящата и затварящата скоба **`{ }`**. Това е главният метод (действие), което се изпълнява при стартиране на една Java програма. Натискаме [**Enter**] след **отварящата скоба** **`{`** и **започваме да пишем**. Кодът на програмата се пише **отместен навътре**, като това е част от оформянето на текста, за по-голямо удобство при повторен преглед и/или дебъгване.
 
-![](assets/chapter-1-images/01.hello-java-03.png)
+![](assets/chapter-1-images/01.Hello-Java-03.png)
 
 Пишем следната команда:
 
@@ -213,7 +213,7 @@ System.out.println("Hello Java");
 
 Ето как трябва да изглежда нашата програма в IntelliJ IDEA:
 
-![](assets/chapter-1-images/01.hello-java-04.png)
+![](assets/chapter-1-images/01.Hello-Java-04.png)
 
 Командата **`System.out.println("Hello Java")`** на езика Java означава да изпълним отпечатване върху конзолата (**`out.println(...)`**) и да отпечатаме текстово съобщение **`Hello Java`**. Kавичките служат за пояснение, че това е текст. В края на всяка команда на езика Java се слага символът **`;`** , който указва, че командата свършва на това място (т.е. не продължава на следващия ред).
 
@@ -223,7 +223,7 @@ System.out.println("Hello Java");
 
 За стартиране на програмата натискаме [**Ctrl+Shift+F10**]. Ако няма грешки, програмата ще се изпълни. Резултатът ще се изпише на конзолата (прозорецът, който се намира най-отдолу в IntelliJ IDEA):
 
-![](assets/chapter-1-images/01.hello-java-05.png)
+![](assets/chapter-1-images/01.Hello-Java-05.png)
 
 Всъщност, изходът от програмата е следното текстово съобщение:
 
@@ -239,11 +239,11 @@ Hello Java
 
 Горната програма може да тестваме тук: [https://judge.softuni.bg/Contests/Practice/Index/646#0](https://judge.softuni.bg/Contests/Practice/Index/646#0). Поставяме целия сорс код на програмата в черното поле, като внимаваме дали сме избирали **Java code** от падащото меню:
 
-![](/assets/chapter-1-images/01.hello-java-06.png)
+![](/assets/chapter-1-images/01.Hello-Java-06.png)
 
 Изпращаме решението за оценяване с бутона [**Изпрати**]. Системата връща резултат след няколко секунди в таблицата с изпратени решения. При необходимост може да натиснем бутона за обновяване на резултатите **[refresh]** в горната дясна част на таблицата с изпратени за проверка решения:
 
-![](assets/chapter-1-images/01.hello-java-07.png)
+![](assets/chapter-1-images/01.Hello-Java-07.png)
 
 В таблицата с изпратените решения judge системата ще покаже един от следните **възможни резултати**:
 * **Брой точки** (между 0 и 100), когато предаденият код се компилира успешно (няма синтактични грешки) и може да бъде тестван.
@@ -346,7 +346,7 @@ static void main(String[] args)
 
 В **`static void main(String[] args)`** метода пишем 20 команди **``System.out.println(...)``**, всяка на отделен ред, за да отпечатаме числата от 1 до 20 едно след друго. По-досетливите от вас, сигурно се питат дали няма по-умен начин. Спокойно, има, но за него по-късно.
 
-![](assets/chapter-1-images/03.Numbers-1-to-20-VS-02.png)
+![](assets/chapter-1-images/03.Numbers-1-to-20-02.png)
 
 Сега **стартираме програмата** и проверяваме дали резултатът е какъвто се очаква да бъде:
 ```
