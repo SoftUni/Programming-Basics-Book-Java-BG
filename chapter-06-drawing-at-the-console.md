@@ -41,7 +41,7 @@
 
 За решаване на тази задача, ще използваме класа **`Scanner`**, който ще ни позволи да прихванем подадения размер на фигурата.
 
-![](assets/chapter-6-1-images/02.Rectangle-of-N-x-N-stars-03.png)
+![](assets/chapter-6-1-images/02.Rectangle-of-N-x-N-stars-01.png)
 
 #### Тестване в Judge системата
 
