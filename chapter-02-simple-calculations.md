@@ -494,7 +494,7 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 ![](assets/chapter-2-1-images/08.Inches-to-centimeters-07.png)
 
-ще се изпълни последно компилираната програма(**InchesToCentimeters**). Нея може да видим като име в горния десен ъгъл на прозореца преди едната зелена стрелка:
+ще се изпълни последно компилираната програма (**InchesToCentimeters**). Нея може да видим като име в горния десен ъгъл на прозореца преди едната зелена стрелка:
 
 ![](assets/chapter-2-1-images/08.Inches-to-centimeters-08.png)
 
