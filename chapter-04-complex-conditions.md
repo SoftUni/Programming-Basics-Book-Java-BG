@@ -50,11 +50,11 @@ if (условие1) {
 
 Можем да забележим, че **изходът** на програмата **зависи от няколко неща**. **Първо** трябва да проверим какъв **пол** е въведен и **после** да проверим **възрастта**. Съответно ще използваме **няколко** **`if-else`** блока. Тези блокове ще бъдат **вложени**, т.е. от **резултата** на първия ще **определим** кои от **другите** да изпълним.
 
-![](assets/chapter-4-1-images/Personal-Titles-Java-01.jpg)
+![](assets/chapter-4-1-images/01.Personal-titles-01.jpg)
 
 След **прочитане на входните данни от конзолата** ще трябва да се изпълни следната **примерна програмна логика**:
 
-![](assets/chapter-4-1-images/01.Personal-Titles-Java-01.png)
+![](assets/chapter-4-1-images/01.Personal-titles-02.png)
 #### Тестване на решението:
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/653#0](https://judge.softuni.bg/Contests/Practice/Index/653#0)
@@ -83,7 +83,7 @@ if (условие1) {
 
 **Прехвърляме** всички букви в **долен регистър** с функцията **`.toLowerCase()`**, за да сравняваме продукти и градове **без значение** от малки/главни букви.
 
-![](/assets/chapter-4-1-images/02.Small-shop-Java-01.png)
+![](/assets/chapter-4-1-images/02.Small-shop-01.png)
 
 #### Тестване на решението: 
 
@@ -120,7 +120,7 @@ boolean result = a && b && c && d;
 
 Програмата ще се изпълни по **следния** начин: **започва** проверката от **`а`**, **прочита** я и отчита, че има стойност **`true`**, след което **проверява** **`b`**. След като е **отчелa**, че **`a`** и **`b`** връщат стойност **`true`**, **проверява следващия** аргумент. Стига до **`c`** и отчита, че променливата има стойност **`false`**. След като програмата отчете, че аргументът **`c`** има стойност **`false`**, тя изчислява израза **до `c`**, **независимо** каква е стойността на **`d`**. За това проверката на **`d`** се **прескача** и целият израз бива изчислен като **`false`**.
 
-![](/assets/chapter-4-1-images/00.Logical-and-Java-01.png)
+![](/assets/chapter-4-1-images/00.Logical-and-01.png)
 
 ### Пример: точка в правоъгълник
 
@@ -130,7 +130,7 @@ boolean result = a && b && c && d;
 
 |Вход |Изход |Визуализация|
 |-----|------|:------:|
-|2<br>-3<br>12<br>3<br>8<br>-1|Inside|![shop](/assets/chapter-4-1-images/03.Point-in-rectangle-Java-01.png)|
+|2<br>-3<br>12<br>3<br>8<br>-1|Inside|![shop](/assets/chapter-4-1-images/03.Point-in-rectangle-01.png)|
 
 #### Решение
 
@@ -141,7 +141,7 @@ boolean result = a && b && c && d;
 * Точката е надолу от горната страна на правоъгълника.
 * Точката е нагоре от долната страна на правоъгълника.
 
-![](/assets/chapter-4-1-images/03.Point-in-rectangle-Java-02.png)
+![](/assets/chapter-4-1-images/03.Point-in-rectangle-02.png)
 
 #### Тестване на решението
 
@@ -176,7 +176,7 @@ boolean result = a || b || c || d;
 
 Програмата **проверява `а`**, отчита, че има стойност **`false`** и продължава. Стигайки до **`b`**, отчита, че има стойност **`true`** и целият **израз** получава стойност **`true`**, **без** да се проверява **`c`** и **`d`**, защото техните стойности **не биха променили** резултата на израза.
 
-![](/assets/chapter-4-1-images/00.Logical-or-Java-01.png)
+![](/assets/chapter-4-1-images/00.Logical-or-01.png)
 
 ### Пример: плод или зеленчук
 
@@ -192,7 +192,7 @@ boolean result = a || b || c || d;
 
 Трябва да използваме няколко условни проверки с логическо "**ИЛИ**" (**`||`**):
 
-![](assets/chapter-4-1-images/04.Fruit-or-vegetable-Java-01.png)
+![](assets/chapter-4-1-images/04.Fruit-or-vegetable-01.png)
 
 #### Тестване на решението:
 
@@ -223,7 +223,7 @@ boolean result = a || b || c || d;
 
 #### Решение
 
-![](assets/chapter-4-1-images/05.Invalid-number-Java-01.png)
+![](assets/chapter-4-1-images/05.Invalid-number-01.png)
 
 #### Тестване на решението
 
@@ -239,7 +239,7 @@ boolean result = a || b || c || d;
 
 Да се напише програма, която проверява дали **точка {x, y}** се намира **върху някоя от страните на правоъгълник {x1, y1} - {x2, y2}**. Входните данни се четат от конзолата и се състоят от 6 реда: десетичните числа **x1**, **y1**, **x2**, **y2**, **x** и **y** (като се гарантира, че **x1 < x2** и **y1 < y2**). Да се отпечата "**Border**" (точката лежи на някоя от страните) или "**Inside / Outside**" (в противен случай).
 
-![](assets/chapter-4-1-images/06.Point-on-rectangle-border-Java-01.png)
+![](assets/chapter-4-1-images/06.Point-on-rectangle-border-01.png)
 
 #### Примерен вход и изход
 
@@ -253,7 +253,7 @@ boolean result = a || b || c || d;
 * x съвпада с x1 или x2 и същевременно y е между y1 и y2 или
 * y съвпада с y1 или y2 и същевременно x е между x1 и x2
 
-![](assets/chapter-4-1-images/06.Point-on-rectangle-border-Java-02.png)
+![](assets/chapter-4-1-images/06.Point-on-rectangle-border-02.png)
 
 
 #### Тестване на решението
@@ -288,7 +288,7 @@ boolean result = a || b || c || d;
 
 #### Решение
 
-![](assets/chapter-4-1-images/07.Fruit-shop-Java-01.png)
+![](assets/chapter-4-1-images/07.Fruit-shop-01.png)
 
 #### Тестване на решението
 
@@ -315,7 +315,7 @@ boolean result = a || b || c || d;
 При прочитането на входа можем да обърнем града в малки букви (с функцията **`.toLowerCase()`**). Първоначално задаваме комисионната да е **`-1`**. Тя ще бъде променена, ако градът и ценовият диапазон бъдат намерени в таблицата с комисионните.
 За да изчислим комисионната според града и обема на продажбите се нуждаем от няколко вложени **`if` проверки**, както е в примерния код по-долу:
 
-![](assets/chapter-4-1-images/08.Trade-comissions-Java-01.png)
+![](assets/chapter-4-1-images/08.Trade-comissions-01.png)
 
 #### Тестване на решението
 
@@ -364,7 +364,7 @@ switch (селектор) {
 
 #### Решение
 
-![](assets/chapter-4-1-images/09.Day-of-week-Java-01.png)
+![](assets/chapter-4-1-images/09.Day-of-week-01.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
 <td><b>Добра практика</b> е на <b>първо</b> място да поставяме онези <b><code>case</code> случаи</b>, които обработват <b>най-често случилите се ситуации</b>, а <b><code>case</code> конструкциите</b>, обработващи <b>по-рядко възникващи ситуации</b>, да оставим в <b>края преди <code>default</code> конструкцията</b>. Друга <b>добра практика</b> е да <b>подреждаме <code>case</code> етикетите</b> в <b>нарастващ ред</b>, без значение дали са целочислени или символни.</td>
@@ -408,7 +408,7 @@ switch (селектор) {
 
 #### Решение
 
-![](assets/chapter-4-1-images/10.Animal-type-Java-01.png)
+![](assets/chapter-4-1-images/10.Animal-type-01.png)
 
 #### Тестване на решението
 
@@ -482,7 +482,7 @@ switch (селектор) {
 
 Примерен код (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](assets/chapter-4-1-images/11.Cinema-Java-01.png)
+![](assets/chapter-4-1-images/11.Cinema-01.png)
 
 #### Тестване на решението
 
@@ -516,7 +516,7 @@ switch (селектор) {
 
 Примерен код (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](assets/chapter-4-1-images/11.Volleyball-Java-01.png)
+![](assets/chapter-4-1-images/11.Volleyball-01.png)
 
 #### Тестване на решението
 
@@ -527,7 +527,7 @@ switch (селектор) {
 Фигура се състои от **6 блокчета с размер h \* h**, разположени като на фигурата. Долният ляв ъгъл на сградата е на позиция {0, 0}. Горният десен ъгъл на фигурата е на позиция {**2\*h**, **4\*h**}. На фигурата координатите са дадени при **h = 2**. 
 Да се напише програма, която въвежда цяло число **h** и координатите на дадена **точка {x, y}** (цели числа) и отпечатва дали точката е вътре във фигурата (**inside**), вън от фигурата (**outside**) или на някоя от стените на фигурата (**border**).
 
-![](assets/chapter-4-1-images/13.Point-in-the-figure-Java-01.png)
+![](assets/chapter-4-1-images/13.Point-in-the-figure-01.png)
 
 
 #### Примерен вход и изход
@@ -561,7 +561,7 @@ switch (селектор) {
 
 * Може да разделим фигурата на **два правоъгълника** с обща стена.
 
-![](assets/chapter-4-1-images/13.Point-in-the-figure-Java-03.png)
+![](assets/chapter-4-1-images/13.Point-in-the-figure-03.png)
 
 * Една точка е **външна (outside)** за фигурата, когато е едновременно **извън** двата правоъгълника.
 * Една точка е **вътрешна (inside)** за фигурата, ако е вътре в някой от правоъгълниците (изключвайки стените им) или лежи върху общата им стена.
@@ -569,238 +569,7 @@ switch (селектор) {
 
 Примерен код (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](assets/chapter-4-1-images/13.Point-in-the-figure-Java-02.png)
+![](assets/chapter-4-1-images/13.Point-in-the-figure-02.png)
 
 #### Тестване на решението
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/653#12](https://judge.softuni.bg/Contests/Practice/Index/653#12)
-
-[TODO - DELETE OR PREPARE GUI SOLUTION - Точка в правоъгълник]
-## Упражнения: графично приложения с по-сложни проверки
-
-В тази глава научихме как можем да правим **проверки с нетривиални условия**. Нека сега приложим тези знания, за да създадем нещо интересно: настолно приложение, което визуализира точка и правоъгълник. Това е прекрасна визуализация за една от задачите от упражненията.
-
-### Задача: * точка и правоъгълник – графично (GUI) приложение
-
-Задачата, която си поставяме е да се разработи графично (**GUI**) приложение за **визуализация на точка и правоъгълник**. Приложението трябва да изглежда приблизително по следния начин:
-
-![](assets/chapter-4-1-images/14.Point-in-rectangle-gui-01.png)
-
-![](assets/chapter-4-1-images/14.Point-in-rectangle-gui-02.png)
-
-![](assets/chapter-4-1-images/14.Point-in-rectangle-gui-03.png)
-
-От контролите вляво се задават координатите на **два от ъглите на правоъгълник** (десетични числа) и координатите на **точка**. Приложението **визуализира графично** правоъгълника и точката и изписва дали точката е **вътре** в правоъгълника (**Inside**), **вън** от него (**Outside**) или на някоя от стените му (**Border**).
-Приложението **премества и мащабира** координатите на правоъгълника и точката, за да бъдат максимално големи, но да се събират в полето за визуализация в дясната страна на приложението.
-
-<table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
-<td>Внимание: това приложение е значително <b>по-сложно</b> от предходните графични приложения, които разработвахме до сега, защото изисква ползване на функции за чертане и нетривиални изчисления за преоразмеряване и преместване на правоъгълника и точката. Следват инструкции за изграждане на приложението стъпка по стъпка.</td>
-</tr></table>
-
-Създаваме нов проект **Windows Forms Application** с подходящо име, например “Point-and-Rectangle”:
-
-![](assets/chapter-4-1-images/14.Point-in-rectangle-gui-04.png)
-
-**Нареждаме контролите** във формата, както е показано на фигурата по-долу:
-* 6 кутийки за въвеждане на число (**`NumericUpDown`**).
-* Надписи (**`Label`**) пред всяка кутийка за въвеждане на число.
-* Бутон (**`Button`**) за изчертаване на правоъгълника и точката. 
-* Текстов блок за резултата (**`Label`**).
-
-Нагласяме **размерите** и **свойствата** на контролите, за да изглеждат приблизително като на картинката:
-
-![](assets/chapter-4-1-images/14.Point-in-rectangle-gui-05.png)
-
-Задаваме следните препоръчителни настройки на контролите:
-
-* За **главната форма (Form)**, която съдържа всички контроли:
-  *	(name) = **`FormPointAndRectangle`**
-  *	**`Text`** = **`Point and Rectangle`**
-  *	**`Font.Size`** = **`12`**
-  *	**`Size`** = **`700`**, **`410`**
-  *	**`MinimumSize`** = **`500`**, **`400`**
-  *	**`FormBorderStyle`** = **`FixedSingle`**
-* За **полетата за въвеждане на число (`NumericUpDown`)**:
-  *	(name) = **`numericUpDownX1`**; **`numericUpDownY1`**; **`numericUpDownX2`**; **`numericUpDownY2`**; **`numericUpDownX`**; **`numericUpDownY`**
-  *	**`Value`** = **`2`**; **`-3`**; **`12`**; **`3`**; **`8`**; **`-1`**
-  *	**`Minimum`** = **`-100000`**
-  *	**`Maximum`** = **`100000`**
-  *	**`DecimalPlaces`** = **`2`**
-* За **бутона (`Button`)** за **визуализация** на правоъгълника и точката:
-  *	(name) = **`buttonDraw`**
-  *	**Text** = **`Draw`**
-* За **текстовия блок за резултата (Label)**:
-  *	(name) = **`labelLocation`**
-  *	**`AutoSize`** = **`False`**
-  *	**`BackColor`** = **`PaleGreen`**
-  *	**`TextAlign`** = **`MiddleCenter`**
-* За **полето с чертежа (`PictureBox`)**:
-  *	(name) = **`pictureBox`**
-  *	**`Anchor`** = **`Top`**, **`Bottom`**, **`Left`**, **`Right`**
-
-Следва да хванем следните **събития**, за да напишем C# кода, който ще се изпълни при настъпването им:
-
-*	Събитието **`Click`** на бутона **`buttonDraw`** (извиква се при натискане на бутона).
-*	Събитието **`ValueChanged`** на контролите за въвеждане на числа **`numericUpDownX1`**, **`numericUpDownY1`**, **`numericUpDownX2`**, **`numericUpDownY2`**, **`numericUpDownX`** и **`numericUpDownY`** (извиква се при промяна на стойността в контролата за въвеждане на число).
-*	Събитието **`Load`** на формата **`FormPointAndRectangle`** (извиква се при стартиране на приложението, преди да се появи главната форма на екрана).
-*	Събитието **`Resize`** на формата **`FormPointAndRectangle`** (извиква се при промяна на размера на главната формата).
-
-Всички изброени по-горе събития ще изпълняват едно и също действие – **`Draw()`**, което ще визуализира правоъгълника и точката и ще показва дали тя е вътре, вън или на някоя от страните. Кодът трябва да изглежда така: 
-
-```java
-private void buttonDraw_Click(object sender, EventArgs e)
-{
-    Draw();
-}
-
-private void FormPointAndRectangle_Load(object sender, EventArgs e)
-{
-    Draw();
-}
-
-private void FormPointAndRectangle_Resize(object sender, EventArgs e)
-{
-    Draw();
-}
-
-private void numericUpDownX1_ValueChanged(object sender, EventArgs e)
-{
-    Draw();
-}
-
- /*TODO: implement the same way event handlers numericUpDownY1_ValueChanged, 
-            numericUpDownX2_ValueChanged, numericUpDownY2_ValueChanged, 
-            numericUpDownX_ValueChanged and 
-            numericUpDownY_ValueChanged*/
-
-private void Draw()
-{
-    // TODO: implement this a bit later …
-}
-
-```
-
-Нека започнем от по-лесната част: **печат на информация къде е точката спрямо правоъгълника** (Inside, Outside или Border). Кодът трябва да изглежда така:
-
-```java
-private void Draw()
-{
-    // Get the rectangle and point coordinates from the form
-    var x1 = this.numericUpDownX1.Value;
-    var y1 = this.numericUpDownY1.Value;
-    var x2 = this.numericUpDownX2.Value;
-    var y2 = this.numericUpDownY2.Value;
-    var x = this.numericUpDownX.Value;
-    var y = this.numericUpDownY.Value;
-
-    // Display the location of the point: Inside / Border / Outside
-    DisplayPointLocation(x1, y1, x2, y2, x, y);
-}
-
-private void DisplayPointLocation(
-    decimal x1, decimal y1, decimal x2, decimal y2, decimal x, decimal y)
-{
-    var left = Math.Min(x1, x2);
-    var right = Math.Max(x1, x2);
-    var top = Math.Min(y1, y2);
-    var bottom = Math.Max(y1, y2);
-    if (x > left && x < right && …)
-    {
-        this.labelLocation.Text = "Inside";
-        this.labelLocation.BackColor = Color.LightGreen;
-    }
-    else if (… || y < top || y > bottom)
-    {
-        this.labelLocation.Text = "Outside";
-        this.labelLocation.BackColor = Color.LightSalmon;
-    }
-    else
-    {
-        this.labelLocation.Text = "Border";
-        this.labelLocation.BackColor = Color.Gold;
-    }
-}
-```
-Горният код взима координатите на правоъгълника и точките и проверява дали точката е вътре, вън или на страната на правоъгълника. При    визуализацията на резултата се сменя и цвета на фона на текстовия блок, който го съдържа.
-
-Помислете как **да допишете** недовършените (нарочно) условия в **`if` проверките**! Кодът по-горе **нарочно не се компилира**, защото целта му е да помислите как и защо работи и да **допишете сами липсващите части**.
-
-Остава да се имплементира най-сложната част: визуализация на правоъгълника и точката в контролата **`pictureBox`** с преоразмеряване. Може да си помогнем с **кода по-долу**, който прави малко изчисления и рисува син правоъгълник и тъмносиньо кръгче (точката) според зададените във формата координати. За съжаление сложността на кода надхвърля изучавания до момента материал и е сложно да се обясни в детайли как точно работи. Оставени са коментари за ориентация. Това е пълната версия на действието **`Draw()`**:
-
-```java
-private void Draw()
-{
-  // Get the rectangle and point coordinates from the form
-  var x1 = this.numericUpDownX1.Value;
-  var y1 = this.numericUpDownY1.Value;
-  var x2 = this.numericUpDownX2.Value;
-  var y2 = this.numericUpDownY2.Value;
-  var x = this.numericUpDownX.Value;
-  var y = this.numericUpDownY.Value;
-
-  // Display the location of the point: Inside / Border / Outside
-  DisplayPointLocation(x1, y1, x2, y2, x, y);
-
-  // Calculate the scale factor (ratio) for the diagram holding the
-  // rectangle and point in order to fit them well in the picture box
-  var minX = Min(x1, x2, x);
-  var maxX = Max(x1, x2, x);
-  var minY = Min(y1, y2, y);
-  var maxY = Max(y1, y2, y);
-  var diagramWidth = maxX - minX;
-  var diagramHeight = maxY - minY;
-  var ratio = 1.0m;
-  var offset = 10;
-  if (diagramWidth != 0 && diagramHeight != 0)
-  {
-    var ratioX = (pictureBox.Width - 2 * offset - 1) / diagramWidth;
-    var ratioY = (pictureBox.Height - 2 * offset - 1) / diagramHeight;
-    ratio = Math.Min(ratioX, ratioY);
-  }
-
-  // Calculate the scaled rectangle coordinates
-  var rectLeft = offset + (int)Math.Round((Math.Min(x1, x2) - minX) * ratio);
-  var rectTop = offset + (int)Math.Round((Math.Min(y1, y2) - minY) * ratio);
-  var rectWidth = (int)Math.Round(Math.Abs(x2 - x1) * ratio);
-  var rectHeight = (int)Math.Round(Math.Abs(y2 - y1) * ratio);
-  var rect = new Rectangle(rectLeft, rectTop, rectWidth, rectHeight);
-
-  // Calculate the scalled point coordinates
-  var pointX = (int)Math.Round(offset + (x - minX) * ratio);
-  var pointY = (int)Math.Round(offset + (y - minY) * ratio);
-  var pointRect = new Rectangle(pointX - 2, pointY - 2, 5, 5);
-
-  // Draw the rectangle and point
-  pictureBox.Image = new Bitmap(pictureBox.Width, pictureBox.Height);
-  using (var g = Graphics.FromImage(pictureBox.Image))
-  {
-    // Draw diagram background (white area)
-    g.Clear(Color.White);
-
-    // Draw the rectangle (scalled to the picture box size)
-    var pen = new Pen(Color.Blue, 3);
-    g.DrawRectangle(pen, rect);
-
-    // Draw the point (scalled to the picture box size)
-    pen = new Pen(Color.DarkBlue, 5);
-    g.DrawEllipse(pen, pointRect);
-  }
-}
-
-private decimal Min(decimal val1, decimal val2, decimal val3)
-{
-  return Math.Min(val1, Math.Min(val2, val3));
-}
-
-private decimal Max(decimal val1, decimal val2, decimal val3)
-{
-  return Math.Max(val1, Math.Max(val2, val3));
-}
-```
-
-В горния код се срещат доста **преобразувания на типове**, защото се работи с различни типове числа (десетични числа, реални числа и цели числа) и понякога се изисква да се преминава между тях.
-
-Накрая **компилираме кода**. Ако има грешки, ги отстраняваме. Най-вероятната **причина** за грешка е **несъответстващо име на някоя от контролите** или ако **сте написали кода на неправилно място**.
-
-**Стартираме приложението** и го **тестваме**. Въвеждаме различни данни, за да видим дали се държи коректно.
-
-Ако имате проблеми с примерния проект по-горе, **гледайте видеото** в началото на тази глава. Там приложението е направено на живо стъпка по стъпка с много обяснения. Или питайте във **форума на СофтУни**: https://softuni.bg/forum.
