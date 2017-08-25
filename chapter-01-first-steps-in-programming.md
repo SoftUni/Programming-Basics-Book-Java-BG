@@ -105,19 +105,19 @@ System.out.println(euro);
 
 Java пакета за разработка се разпространява безплатно и може да бъде изтеглен от тук - [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
-![](assets/chapter-1-images/00.jdk-1.png)
+![](assets/chapter-1-images/00.Jdk-1.png)
 
 Отбелязваме полето, с което се съгласяваме с условията на лицензите (Accept License Agreement) и избираме инсталационния файл според операционната ни система. Например Windows 64-bit: 
 
-![](assets/chapter-1-images/00.jdk-2.png)
+![](assets/chapter-1-images/00.Jdk-2.png)
 
 Изтегляме инсталационния файл и го отваряме. Виждаме прозореца за инсталация:
 
-![](assets/chapter-1-images/00.jdk-3.png)
+![](assets/chapter-1-images/00.Jdk-3.png)
 
 Натискаме бутона [**Next**], докато не започне инсталацията на Java пакета за разработка:
 
-![](assets/chapter-1-images/00.jdk-4.png)
+![](assets/chapter-1-images/00.Jdk-4.png)
 
 Изчакваме, докато инсталацията не приключи и затваряме инсталатора от бутона [**Close**].
 
