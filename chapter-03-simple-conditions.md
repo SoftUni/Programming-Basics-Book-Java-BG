@@ -13,17 +13,17 @@
 
 В програмирането на **Java** можем да сравняваме стойности чрез следните **оператори**:
 
-*	Оператор **`<`** (по-малко).
+*	Оператор **`<`** (по-малко)
 
-*	Оператор **`>`** (по-голямо).
+*	Оператор **`>`** (по-голямо)
 
-*	Оператор **`<=`** (по-малко или равно).
+*	Оператор **`<=`** (по-малко или равно)
 
-*	Оператор **`>=`** (по-голямо или равно).
+*	Оператор **`>=`** (по-голямо или равно)
 
-*	Оператор **`==`** (равно).
+*	Оператор **`==`** (равно)
 
-*	Оператор **`!=`** (различно).
+*	Оператор **`!=`** (различно)
 
 При сравнение резултатът е булева стойност - **`True`** или **`False`**, в зависимост от това дали сравнението е вярно или грешно.
 
@@ -650,122 +650,3 @@ if (условие) {
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/651#15](https://judge.softuni.bg/Contests/Practice/Index/651#15)
-
-## Графично (desktop) приложение
-
-След като направихме няколко упражнения върху **условни конструкции (проверки)**, сега нека направим нещо по-интересно: приложение с графичен потребителски интерфейс за конвертиране на валути. Ще използваме знанията от тази глава, за да избираме измежду няколко налични валути и съответно да извършваме пресмятания по различен курс спрямо избраната валута.
-
-### Задача: конвертор за валути
-
-Нека разгледаме как да създадем графично (**GUI**) приложение за **конвертиране на валути**. Приложението ще изглежда приблизително като на картинката по-долу:  
-
-![](assets/chapter-3-1-images/14.Converter-01.png)
-
-Този път създаваме нов **Windows Forms Application** с име “Currency-Converter”:
-
-![](assets/chapter-3-1-images/14.Converter-02.png)
-
-**Нареждаме следните контроли** във формата: 
-* Една кутийка за въвеждане на число (**`NumericUpDown`**)
-* Един падащ списък с валути (**`ComboBox`**)
-* Текстов блок за резултата (**`Label`**) 
-* Няколко надписа (**`Label`**)
-
-Нагласяме **размерите** и свойствата им, за да изглеждат долу-горе като на картинката:
- 
-![](assets/chapter-3-1-images/14.Converter-03.png)
- 
-Задаваме следните **настройки на контролите**:
-
-* **За главната форма** (**`Form`**), която съдържа всички контроли:
-  * **`(name)`** = **`FormConverter`**
-  * **`Text`** = "**`Currency Converter`**"
-  * **`Font.Size`** = **`12`**
-  * **`MaximizeBox`** = **`False`**
-  * **`MinimizeBox`** = **`False`**
-  * **`FormBorderStyle`** = **`FixedSingle`**
-<br>
-
-* За **полето за въвеждане на число** (**`NumericUpDown`**):
-  * **`(name)`** = **`numericUpDownAmount`**
-  * **`Value`** = **`1`**
-  * **`Minimum`** = **`0`**
-  * **`Maximum`** = **`1000000`**
-  * **`TextAlign`** = **`Right`**
-  * **`DecimalPlaces`** = **`2`**
-<br>  
-
-* За **падащия списък с валутите** (**`ComboBox`**):
-  * **`(name)`** = **`comboBoxCurrency`**
-  * **`DropDownStyle`** = **`DropDownList`**
-  * **`Items`** =
-    * **EUR**
-    * **USD**
-    * **GBP**
-<br> 
-
-* За **текстовия блок за резултата** (**`Label`**):
-  * **`(name)`** = **`labelResult`**
-  * **`AutoSize`** = **`False`**
-  * **`BackColor`** = **`PaleGreen`**
-  * **`TextAlign`** = **`MiddleCenter`**
-  * **`Font.Size`** = **`14`**
-  * **`Font.Bold`** = **`True`**
-     
-Трябва да хванем следните **събития**, за да напишем Java кода, който ще се изпълни при настъпването им:
-
-* Събитието **`ValueChanged`** на контролата за въвеждане на число **`numericUpDownAmount`**: 
-
-![](assets/chapter-3-1-images/14.Converter-04.png)
-
-* Събитието **`Load`** на формата **`FormConverter`**
-* Събитието **`SelectedIndexChanged`** на падащия списък за избор на валута **`comboBoxCurrency`**
-  
-Ще използваме следния **Java код** за обработка на събитията:
-
-```java
-private void FormConverter_Load(object sender, EventArgs e)
-{
-  this.comboBoxCurrency.SelectedItem = "EUR";
-}
-        
-private void numericUpDownAmount_ValueChanged(object sender, EventArgs e)
-{
-  ConvertCurrency();
-}
-        
-private void comboBoxCurrency_SelectedIndexChanged(object sender, EventArgs e)
-{
-  ConvertCurrency();
-}
-```
-
-Задачата на горния код е да избере при стартиране на програмата валута “**EUR**” и при промяна на стойностите в полето за сума или при смяна на валутата, да изчисли резултата, извиквайки **`ConvertCurrency()`** метода.
-
-Следва да напишем действието **`ConvertCurrency()`** за конвертиране на въведената сума от лева в избраната валута:
- 
-```java
-private void ConvertCurrency()
-{
-  var originalAmount = this.numericUpDownAmount.Value;
-  var convertedAmount = originalAmount;
-  if (this.comboBoxCurrency.SelectedItem.ToString() == "EUR")
-      {
-        convertedAmount = originalAmount / 1.95583m;
-      }
-  else if (this.comboBoxCurrency.SelectedItem.ToString() == "USD")
-      {
-        convertedAmount = originalAmount / 1.80810m;
-      }
-  else if (this.comboBoxCurrency.SelectedItem.ToString() == "GBP")
-      {
-        convertedAmount = originalAmount / 2.54990m;
-      }
-  this.labelResult.Text = originalAmount + " лв. = " +
-  Math.Round(convertedAmount, 2) + " " + this.comboBoxCurrency.SelectedItem;
-}
-```
-
-Горният код взима **сумата** за конвертиране от полето **`numericUpDownAmount`** и **избраната валута** за резултата от полето **`comboBoxCurrency`**. След това с **условна конструкция**, според избраната валута, сумата се дели на **валутния курс** (който е фиксиран твърдо в сорс кода). Накрая се генерира текстово **съобщение с резултата** (закръглен до 2 цифри след десетичния знак) и се записва в зелената кутийка **`labelResult`**. Опитайте!
-
-Ако имате проблеми с примера по-горе, **гледайте видеото** в началото на тази глава или питайте във **форума на СофтУни**: https://softuni.bg/forum.
