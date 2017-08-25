@@ -756,4 +756,4 @@ static void main(String[] args) {
 
 ![](assets/chapter-1-images/test.png)
 
-![](assets/chapter-1-images/test2.png)
+![](assets/chapter-1-images/test2.PNG)
