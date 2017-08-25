@@ -677,7 +677,7 @@ static void main(String[] args) {
 
 За нашето уеб приложение ще използваме технологията **Spring MVC**, която позволява създаване на уеб приложения с езика за програмиране **Java** в средата за разработка **IntelliJ IDEA**. 
 
-В IntelliJ IDEA, вкарайте проекта от скелета [https://github.com/SoftUni/Programming-Basics-Book-Java-BG/raw/master/resources/Java-Course-SoftUni/1.%20First-Steps-in-Coding-Exercises-Web-Skeleton.zip](https://github.com/SoftUni/Programming-Basics-Book-Java-BG/raw/master/resources/Java-Course-SoftUni/1.%20First-Steps-in-Coding-Exercises-Web-Skeleton.zip), чрез **Import Project**:
+В IntelliJ IDEA, вкарайте проекта от скелета [https://github.com/SoftUni/Programming-Basics-Book-Java-BG/blob/master/assets/chapter-1-assets/1.%20First-Steps-in-Coding-Exercises-Web-Skeleton.zip](https://github.com/SoftUni/Programming-Basics-Book-Java-BG/blob/master/assets/chapter-1-assets/1.%20First-Steps-in-Coding-Exercises-Web-Skeleton.zip), чрез **Import Project**:
 
 ![](assets/chapter-1-images/08.Numbers-sum-web-02.png)
 
