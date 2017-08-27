@@ -212,7 +212,7 @@ if (num == 1) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/651#4](https://judge.softuni.bg/Contests/Practice/Index/651#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/651#4](https://judge.softuni.bg/Contests/Practice/Index/651#4).
 
 ## Упражнения: прости проверки
 
