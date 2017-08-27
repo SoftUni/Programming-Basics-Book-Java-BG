@@ -244,13 +244,15 @@ if (num == 1) {
 
 ![](assets/chapter-3-1-images/06.Bonus-score-01.png)
 
-Ето как би могло да изглежда решението на задачата:
+Ето как би могло да изглежда решението на задачата в действие:
 
 ![](assets/chapter-3-1-images/06.Bonus-score-02.png)
 
+Обърнете внимание, че за тази задача judge е настроен да игнорира всичко, което не е число, така че можем да печатаме не само числата, но и уточняващ текст.
+
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/651#5](https://judge.softuni.bg/Contests/Practice/Index/651#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/651#5](https://judge.softuni.bg/Contests/Practice/Index/651#5).
 
 ### Задача: сумиране на секунди
 
