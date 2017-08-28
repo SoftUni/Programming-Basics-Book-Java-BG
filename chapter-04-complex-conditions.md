@@ -516,7 +516,7 @@ switch (селектор) {
 
 Примерен код (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](assets/chapter-4-1-images/11.Volleyball-01.png)
+![](assets/chapter-4-1-images/12.Volleyball-01.png)
 
 #### Тестване на решението
 
@@ -561,7 +561,7 @@ switch (селектор) {
 
 * Може да разделим фигурата на **два правоъгълника** с обща стена.
 
-![](assets/chapter-4-1-images/13.Point-in-the-figure-03.png)
+![](assets/chapter-4-1-images/13.Point-in-the-figure-02.png)
 
 * Една точка е **външна (outside)** за фигурата, когато е едновременно **извън** двата правоъгълника.
 * Една точка е **вътрешна (inside)** за фигурата, ако е вътре в някой от правоъгълниците (изключвайки стените им) или лежи върху общата им стена.
@@ -569,7 +569,7 @@ switch (селектор) {
 
 Примерен код (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](assets/chapter-4-1-images/13.Point-in-the-figure-02.png)
+![](assets/chapter-4-1-images/13.Point-in-the-figure-03.png)
 
 #### Тестване на решението
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/653#12](https://judge.softuni.bg/Contests/Practice/Index/653#12)
