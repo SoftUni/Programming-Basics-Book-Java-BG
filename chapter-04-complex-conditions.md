@@ -251,7 +251,7 @@ boolean result = a || b || c || d;
 
 Точка лежи върху някоя от страните на правоъгълник, ако:
 * x съвпада с x1 или x2 и същевременно y е между y1 и y2 или
-* y съвпада с y1 или y2 и същевременно x е между x1 и x2
+* y съвпада с y1 или y2 и същевременно x е между x1 и x2.
 
 ![](assets/chapter-4-1-images/06.Point-on-rectangle-border-02.png)
 
@@ -322,7 +322,7 @@ boolean result = a || b || c || d;
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/653#7](https://judge.softuni.bg/Contests/Practice/Index/653#7)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
-<td><b>Добра практика</b> е да използваме <b>блокове</b>, които <b>заграждаме</b> с къдрави скоби <b><code>{ }</code></b> след <b><code>if</code></b> и <b><code>else</code></b>. Също така, препоръчително e при писане да <b>отместваме</b> кода <b>след <code>if</code> и <code>else</code></b> с една табулация <b>навътре</b>, за да направим кода по-лесно четим.</td>
+<td>Добра практика е да използваме <b>блокове</b>, които <b>заграждаме</b> с къдрави скоби <b><code>{ }</code></b> след <b><code>if</code></b> и <b><code>else</code></b>. Също така, препоръчително e при писане да <b>отместваме</b> кода <b>след <code>if</code> и <code>else</code></b> с една табулация навътре, за да направим кода по-лесно четим.</td>
 </tr></table>
 
 ## Условна конструкция switch-case
@@ -561,7 +561,7 @@ switch (селектор) {
 
 * Може да разделим фигурата на **два правоъгълника** с обща стена.
 
-![](assets/chapter-4-1-images/13.Point-in-the-figure-03.png)
+![](assets/chapter-4-1-images/12.Point-in-the-figure-03.png)
 
 * Една точка е **външна (outside)** за фигурата, когато е едновременно **извън** двата правоъгълника.
 * Една точка е **вътрешна (inside)** за фигурата, ако е вътре в някой от правоъгълниците (изключвайки стените им) или лежи върху общата им стена.
@@ -569,7 +569,7 @@ switch (селектор) {
 
 Примерен код (части от кода са замъглени с цел да се стимулира самостоятелно мислене и решение):
 
-![](assets/chapter-4-1-images/13.Point-in-the-figure-02.png)
+![](assets/chapter-4-1-images/12.Point-in-the-figure-02.png)
 
 #### Тестване на решението
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/653#12](https://judge.softuni.bg/Contests/Practice/Index/653#12)
