@@ -518,7 +518,7 @@ int age = Integer.parseInt(scanner.nextLine());
 #### Насоки и подсказки
 
 ```java
-public static double integerToBase(double number, double position){
+public static double integerToBase(double number, double position) {
         //TODO: logic of method
 }
 ```
