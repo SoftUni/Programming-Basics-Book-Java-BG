@@ -378,7 +378,7 @@
 * Статия за “turtle graphics” в Wikipedia – [https://en.wikipedia.org/wiki/Turtle_graphics](https://en.wikipedia.org/wiki/Turtle_graphics)
 * Интерактивен онлайн инструмент за чертане с костенурка – [https://blockly-games.appspot.com/turtle](https://blockly-games.appspot.com/turtle)
 
-Започваме, като създаваме нов **Java проект** в **IntelliJ IDEA**. След това, добавяме нов пакет **app**. (описано по-рано в тази глава). 
+Започваме, като създаваме нов **Java проект** в **IntelliJ IDEA**. След това, добавяме нов пакет **app** (описано е как се прави по-рано в тази глава). 
 Сваляме **MyTurtle.java** и **jturtle-0.1.1.jar** от [https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets](https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets). **MyTurtle.java** е предварително написан клас, който ще ни помогне по-бързо да се запознаем с библиотеката **jturtle-0.1.1.jar**, която управлява **костенурката**. Като използваме файл навигатор, копираме **MyTurtle.java** в директорията **app** на създадения проект. След това трябва да добавим външната библиотека **jturtle-0.1.1.jar** в нашия проект. Това става по следния начин:
 
 * Избираме **File** от **File menu**.
