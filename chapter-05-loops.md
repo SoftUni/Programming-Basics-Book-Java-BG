@@ -401,14 +401,14 @@
   
 ![](assets/chapter-5-1-images/13.Turtle-graphics-06.png)
 
-#### Основни Методи на класа Turtle
+#### Основни методи на класа Turtle
 
 | Връщана <br> стойност | Метод и неговото описание |
 | --- | --- |
-| Turtle| **back**(double distance) - Same as bk(double distance). | 
-| Turtle| **bk**(double distance) - Moves the Turtle backwards.|
-| Turtle| **fd**(double distance) - Moves the Turtle forwards. |
-| Turtle| **forward**(double distance) - Same as fd(double distance). |
+| Turtle| **back** (double distance) - Same as bk (double distance). | 
+| Turtle| **bk** (double distance) - Moves the Turtle backwards.|
+| Turtle| **fd** (double distance) - Moves the Turtle forwards. |
+| Turtle| **forward** (double distance) - Same as fd(double distance). |
 | Turtle| **hideTurtle()** - Hides the turtle. |
 | Turtle| **home()** - Move the Turtle back "home", i.e. set its position to the origin, facing NORTH. |
 | Turtle| **ht()** - Hides the turtle. |
@@ -417,18 +417,17 @@
 | Turtle| **pd()** - Lowers the Turtles Pen down so it will draw a line when moving. |
 | Turtle| **penDown()** - Lowers the Turtles Pen down so it will draw a line when moving. |
 | Turtle| **penUp()** - Lifts the Turtles Pen up so it won't draw a line anymore when moving. |
-| Turtle| **penWidth**(int newWidth) - Set the pen width.|
-| Turtle| **pu**(int newWidth) - Lifts the Turtles Pen up so it won't draw a line anymore when moving.|
-| Turtle| **right**(double degrees) - Same as rt(double degrees).|
-| Turtle| **rt**(double degrees) - Turns the Turtle degrees degrees to the right.|
-| Turtle| **setColor**(Color color) - Set the turtle's color to the specified one.|
-| Turtle| **setLineWidth**(double lineWidth) - Set the Line Thickness.|
-| Turtle| **setPenColor**(Color color) - Set the Turtles Pen color.|
-| Turtle| **setPos**(double x, double y) - Put the turtle to a new position with specified x- and y-coordinates.|
+| Turtle| **penWidth** (int newWidth) - Set the pen width.|
+| Turtle| **pu** (int newWidth) - Lifts the Turtles Pen up so it won't draw a line anymore when moving.|
+| Turtle| **right** (double degrees) - Same as rt(double degrees).|
+| Turtle| **rt** (double degrees) - Turns the Turtle degrees degrees to the right.|
+| Turtle| **setColor** (Color color) - Set the turtle's color to the specified one.|
+| Turtle| **setLineWidth** (double lineWidth) - Set the Line Thickness.|
+| Turtle| **setPenColor** (Color color) - Set the Turtles Pen color.|
+| Turtle| **setPos** (double x, double y) - Put the turtle to a new position with specified x- and y-coordinates.|
 | Turtle| **showTurtle**() - The same as st().|
-| Turtle| **speed**(double newSpeed) - Set the Turtles speed.|
+| Turtle| **speed** (double newSpeed) - Set the Turtles speed.|
 | Turtle| **st**() - Sets the turtle to show mode.|
-
 
 За да създадем метод който чертае триъгълник, в **MyTurtle.java** намираме празния метода **`drawTriangle()`** и написваме следния код: 
 
