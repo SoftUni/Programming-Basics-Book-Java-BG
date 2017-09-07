@@ -405,29 +405,30 @@
 
 | Връщана <br> стойност | Метод и неговото описание |
 | --- | --- |
-| Turtle| **back** (double distance) - Same as bk (double distance). | 
-| Turtle| **bk** (double distance) - Moves the Turtle backwards.|
-| Turtle| **fd** (double distance) - Moves the Turtle forwards. |
-| Turtle| **forward** (double distance) - Same as fd(double distance). |
-| Turtle| **hideTurtle()** - Hides the turtle. |
-| Turtle| **home()** - Move the Turtle back "home", i.e. set its position to the origin, facing NORTH. |
-| Turtle| **ht()** - Hides the turtle. |
-| Turtle| **left()** - Same as lt(double degrees)|
-| Turtle| **lt()** - Turns the Turtle degrees degrees to the left.|
-| Turtle| **pd()** - Lowers the Turtles Pen down so it will draw a line when moving. |
-| Turtle| **penDown()** - Lowers the Turtles Pen down so it will draw a line when moving. |
-| Turtle| **penUp()** - Lifts the Turtles Pen up so it won't draw a line anymore when moving. |
-| Turtle| **penWidth** (int newWidth) - Set the pen width.|
+| Turtle| **back** (double distance) - Мести костенурката назад. | 
+| Turtle| **bk** (double distance) - Действието е същото като back(double distance).  |
+| Turtle| **fd** (double distance) - Мести костенурката напред. |
+| Turtle| **forward** (double distance) - Действието е същото като fd(double distance). |
+| Turtle| **hideTurtle()** - Скрива костенурката. |
+| Turtle| **ht()** - Действието е същото като hideTurtle(). |
+| Turtle| **home()** - Измества костенурката обратно до началната и позиция, обърната на север. |
+| Turtle| **left** (double degrees) - Завърта костенурката на ляво (в градуси).  |
+| Turtle| **lt()** (double degrees) - Действието е същото като left(double degrees).|
+| Turtle| **penDown()** -Закача писалка за костенурката, която оставя линия, когато костенурката се движи. |
+| Turtle| **pd()** -  Действието е същото като penDown().|
+| Turtle| **penUp()** - Откача писалката от костенурката. |
 | Turtle| **pu** (int newWidth) - Lifts the Turtles Pen up so it won't draw a line anymore when moving.|
-| Turtle| **right** (double degrees) - Same as rt(double degrees).|
-| Turtle| **rt** (double degrees) - Turns the Turtle degrees degrees to the right.|
-| Turtle| **setColor** (Color color) - Set the turtle's color to the specified one.|
-| Turtle| **setLineWidth** (double lineWidth) - Set the Line Thickness.|
+| Turtle| **penWidth** (int newWidth) - Задава широчина на писалката.|
+| Turtle| **right** (double degrees)  -Завърта костенурката на дясно (в градуси). |
+| Turtle| **rt** (double degrees) - Действието е същото като right (double degrees).|
+| Turtle| **setColor** (Color color) - Задава цвят на костенурката. |
+| Turtle| **setLineWidth** (double lineWidth) - Задава дебелина на линията.|
 | Turtle| **setPenColor** (Color color) - Set the Turtles Pen color.|
-| Turtle| **setPos** (double x, double y) - Put the turtle to a new position with specified x- and y-coordinates.|
-| Turtle| **showTurtle**() - The same as st().|
-| Turtle| **speed** (double newSpeed) - Set the Turtles speed.|
-| Turtle| **st**() - Sets the turtle to show mode.|
+| Turtle| **setPos** (double x, double y) - Измества костенурката на нова позиция с кординати (x, y).|
+| Turtle| **showTurtle**() - Показва костенурката.|
+| Turtle| **st**() - Действието е същото като showTurtle().|
+| Turtle| **speed** (double newSpeed) - Задава скорост на костенурката.|
+
 
 За да създадем метод който чертае триъгълник, в **MyTurtle.java** намираме празния метода **`drawTriangle()`** и написваме следния код: 
 
