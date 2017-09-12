@@ -399,7 +399,7 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 ## Какво научихме от тази глава?
 
 Да резюмираме какво научихме от тази глава на книгата:
-- **Въвеждане на текст**: **`String str = scanner.nextLine();`** (като предварително направим **`Scanner scanner = new Scanner(System.in);`**)
+- **Въвеждане на текст**: **`String str = scanner.nextLine();`** (като предварително направим **`Scanner scanner = new Scanner(System.in);`**).
 - **Въвеждане на цяло число**: **`int num = Integer.parseInt(scanner.nextLine());`**.
 - **Въвеждане на дробно число**: **`double num = Double.parseDouble(scanner.nextLine());`**.
 - **Извършване на пресмятания с числа** и използване на съответните **аритметични оператори** [`+`, `-`, `*`, `/`, `(`, `)`]: **`int sum = 5 + 3;`**.
