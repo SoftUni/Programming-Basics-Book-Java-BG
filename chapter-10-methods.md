@@ -628,11 +628,11 @@ public static double integerToBase(double number, double position) {
 
 |Вход|Изход|
 |---|---|
-|7<br>S<br>o<br>f<br>t<br>U<br>n<br>i|V83Kp11nh12ez16sZ85Mn10mn15h|
+|7<br>S<br>o<br>f<br>t<br>U<br>n<br>i| V83Kp11nh12ez16sZ85Mn10mn15h |
 
 |Вход|Изход| 
 |---|---|
-|7<br>B<br>i<br>r<br>a<br>H<br>a<br>x|J72Ah97Xl99Zr17jH66<n15hv14qh97X|
+|7<br>B<br>i<br>r<br>a<br>H<br>a<br>x| H66<n15hv14qh97XJ72Ah97xx10w |
 
 #### Насоки и подсказки
 На променливата от тип **`String`**, в която ще се пази стойността на резултата, ще присвоим първоначална стойност **`String str = ""`** (Empty String/ празен стринг). Трябва да се завърти цикъл **`n`** пъти, като на всяка итерация към променливата, в която пазим стойността на резултата, ще прибавяме криптирания символ. 
