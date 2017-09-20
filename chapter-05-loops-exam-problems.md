@@ -467,6 +467,8 @@
 <th align="left"><strong>Изход</strong></th>
 <th align="left"><strong>Вход</strong></th>
 <th align="left"><strong>Изход</strong></th>
+<th align="left"><strong>Вход</strong></th>
+<th align="left"><strong>Изход</strong></th>
 </tr>
 </thead>
 <tbody>
