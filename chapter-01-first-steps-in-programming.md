@@ -333,7 +333,7 @@ static void main(String[] args)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#1](https://judge.softuni.bg/Contests/Practice/Index/646#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#1](https://judge.softuni.bg/Contests/Practice/Index/646#1).
 
 ![](assets/chapter-1-images/02.Expression-03.png)
 
@@ -362,7 +362,7 @@ static void main(String[] args)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#2](https://judge.softuni.bg/Contests/Practice/Index/646#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#2](https://judge.softuni.bg/Contests/Practice/Index/646#2).
 
 Сега помислете дали може да напишем програмата по **по-умен начин**, така че да не повтаряме 20 пъти една и съща команда. Потърсете в Интернет информация за "**[for loop Java](https://www.google.bg/search?q=for+loop+Java&oq=for+loop+Java)**".
 
@@ -396,7 +396,7 @@ System.out.println("**");
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#3](https://judge.softuni.bg/Contests/Practice/Index/646#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#3](https://judge.softuni.bg/Contests/Practice/Index/646#3).
 
 Опитайте да **подобрите решението**, така че да няма много повтарящи се команди. Може ли това да стане с **`for`** цикъл? Успяхте ли да намерите умно решение (например с цикъл) на предната задача? При тази задача може да се ползва нещо подобно, но малко по-сложно (два цикъла един в друг). Ако не успеете, няма проблем, ще учим цикли след няколко глави и ще си спомните за тази задача тогава.
 
@@ -441,7 +441,7 @@ static void main(String[] args)
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#4](https://judge.softuni.bg/Contests/Practice/Index/646#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#4](https://judge.softuni.bg/Contests/Practice/Index/646#4).
 
 
 ### \* Задача: квадрат от звездички
@@ -473,7 +473,7 @@ static void main(String[] args) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#5](https://judge.softuni.bg/Contests/Practice/Index/646#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#5](https://judge.softuni.bg/Contests/Practice/Index/646#5).
 
 
 ## Конзолни, графични и уеб приложения

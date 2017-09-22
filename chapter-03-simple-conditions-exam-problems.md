@@ -93,7 +93,8 @@ if (булев израз) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#0](https://judge.softuni.bg/Contests/Practice/Index/652#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#0](https://judge.softuni.bg/Contests/Practice/Index/652#0).
+
 
 ### Задача: тръби в басейн
 
@@ -148,7 +149,8 @@ if (булев израз) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#1](https://judge.softuni.bg/Contests/Practice/Index/652#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#1](https://judge.softuni.bg/Contests/Practice/Index/652#1).
+
 
 ### Задача: поспаливата котка Том
 
@@ -218,7 +220,8 @@ if (булев израз) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#2](https://judge.softuni.bg/Contests/Practice/Index/652#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#2](https://judge.softuni.bg/Contests/Practice/Index/652#2).
+
 
 ### Задача: реколта
 
@@ -282,7 +285,8 @@ if (булев израз) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#3](https://judge.softuni.bg/Contests/Practice/Index/652#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#3](https://judge.softuni.bg/Contests/Practice/Index/652#3).
+
 
 ### Задача: фирма
 
@@ -339,4 +343,4 @@ if (булев израз) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#4](https://judge.softuni.bg/Contests/Practice/Index/652#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/652#4](https://judge.softuni.bg/Contests/Practice/Index/652#4).

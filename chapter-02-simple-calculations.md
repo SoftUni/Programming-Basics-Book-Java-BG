@@ -80,6 +80,7 @@ System.out.println(area);
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#0](https://judge.softuni.bg/Contests/Practice/Index/649#0).
 
+
 ## Пресмятания в програмирането
 
 За компютрите знаем, че са машини, които обработват данни. Всички **данни** се записват в компютърната памет (RAM памет) в **променливи**. Променливите са именовани области от паметта, които пазят данни от определен тип, например число или текст. Всяка една **променлива** в Java има **име**, **тип** и **стойност**. Ето как бихме дефинирали една променлива, като едновременно с декларацията ѝ, ѝ присвояваме и стойност:
@@ -128,7 +129,8 @@ System.out.println(centimeters);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#1](https://judge.softuni.bg/Contests/Practice/Index/649#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#1](https://judge.softuni.bg/Contests/Practice/Index/649#1).
+
 
 ## Четене и печатане на текст
 
@@ -158,7 +160,8 @@ System.out.printf("Hello, %s!", name);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#2](https://judge.softuni.bg/Contests/Practice/Index/649#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#2](https://judge.softuni.bg/Contests/Practice/Index/649#2).
+
 
 ## Съединяване на текст и числа
 
@@ -180,6 +183,10 @@ System.out.printf("You are %s %s, a %d-years old person from %s.",
 ![](assets/chapter-2-1-images/04.Console-output-03.png)
 
 Обърнете внимание как всяка една променлива трябва да бъде подадена в **реда, в който искаме да се печата, и да съответства на типа подаден в plceholder-a**. По същество, шаблонът (**placeholder**) **приема променливи от всякакъв вид**.
+
+### Тестване в Judge системата
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#3](https://judge.softuni.bg/Contests/Practice/Index/649#3).
 
 
 ## Аритметични операции
@@ -333,7 +340,8 @@ Trapezoid area = 17.5
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#4](https://judge.softuni.bg/Contests/Practice/Index/649#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#4](https://judge.softuni.bg/Contests/Practice/Index/649#4).
+
 
 ### Пример: периметър и лице на кръг 
 
@@ -359,7 +367,8 @@ System.out.println("Perimeter = " + 2 * Math.PI * r);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#5](https://judge.softuni.bg/Contests/Practice/Index/649#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#5](https://judge.softuni.bg/Contests/Practice/Index/649#5).
+
 
 ### Пример: лице на правоъгълник в равнината
 
@@ -394,7 +403,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#6](https://judge.softuni.bg/Contests/Practice/Index/649#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#6](https://judge.softuni.bg/Contests/Practice/Index/649#6).
+
 
 ## Какво научихме от тази глава?
 
@@ -465,6 +475,7 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 ![](assets/chapter-2-1-images/07.Square-area-06.png)
 
+
 ### Задача:	от инчове към сантиметри
 
 Да се напише програма, която **чете от конзолата число** (не непременно цяло) и преобразува числото от **инчове в сантиметри.** За целта **умножава инчовете по 2.54** (тъй като 1 инч = 2.54 сантиметра).
@@ -531,6 +542,7 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 ![](assets/chapter-2-1-images/08.Inches-to-centimeters-13.png)
 
+
 ### Задача: поздрав по име
 
 Да се напише програма, която **чете от конзолата име на човек** и отпечатва **`Hello, <name>!`**, където **`<name>`** е въведеното преди това име.
@@ -551,7 +563,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/649#2](hhttps://judge.softuni.bg/Contests/Practice/Index/649#2)
+Тествайте решението си тук:  [https://judge.softuni.bg/Contests/Practice/Index/649#2](hhttps://judge.softuni.bg/Contests/Practice/Index/649#2).
+
 
 ### Задача:	съединяване на текст и числа
 
@@ -573,7 +586,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#3](https://judge.softuni.bg/Contests/Practice/Index/649#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#3](https://judge.softuni.bg/Contests/Practice/Index/649#3).
+
 
 ### Задача:	лице на трапец
 
@@ -595,7 +609,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#4](https://judge.softuni.bg/Contests/Practice/Index/649#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#4](https://judge.softuni.bg/Contests/Practice/Index/649#4).
+
 
 ### Задача:	периметър и лице на кръг
 
@@ -616,7 +631,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#5](https://judge.softuni.bg/Contests/Practice/Index/649#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#5](https://judge.softuni.bg/Contests/Practice/Index/649#5).
+
 
 ### Задача: лице на правоъгълник в равнината
 
@@ -634,7 +650,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#6]( https://judge.softuni.bg/Contests/Practice/Index/649#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#6](https://judge.softuni.bg/Contests/Practice/Index/649#6).
+
 
 ### Задача:	лице на триъгълник
 
@@ -651,7 +668,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/504#7](https://judge.softuni.bg/Contests/Practice/Index/504#7)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#7](https://judge.softuni.bg/Contests/Practice/Index/649#7).
+
 
 ### Задача:	конзолен конвертор - от градуси °C към градуси °F
 
@@ -668,7 +686,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#8](https://judge.softuni.bg/Contests/Practice/Index/649#8)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#8](https://judge.softuni.bg/Contests/Practice/Index/649#8).
+
 
 ### Задача:	конзолен конвертор - от радиани в градуси
 
@@ -685,7 +704,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#9](https://judge.softuni.bg/Contests/Practice/Index/649#9)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#9](https://judge.softuni.bg/Contests/Practice/Index/649#9).
+
 
 ### Задача: конзолен конвертор - USD към BGN
 
@@ -701,7 +721,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#10](https://judge.softuni.bg/Contests/Practice/Index/649#10)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#10](https://judge.softuni.bg/Contests/Practice/Index/649#10).
+
 
 ### Задача:	\* конзолен междувалутен конвертор
 
@@ -724,7 +745,8 @@ System.out.println(decimalFormat.format(2 * (width + height)));
  
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#11](https://judge.softuni.bg/Contests/Practice/Index/649#11)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#11](https://judge.softuni.bg/Contests/Practice/Index/649#11).
+
 
 ### Задача:	** пресмятане с дати - 1000 дни на Земята
 
@@ -746,4 +768,4 @@ System.out.println(decimalFormat.format(2 * (width + height)));
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#12](https://judge.softuni.bg/Contests/Practice/Index/649#12)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/649#12](https://judge.softuni.bg/Contests/Practice/Index/649#12).

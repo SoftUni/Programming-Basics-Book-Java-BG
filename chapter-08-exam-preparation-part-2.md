@@ -91,7 +91,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#0](https://judge.softuni.bg/Contests/Practice/Index/662#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#0](https://judge.softuni.bg/Contests/Practice/Index/662#0).
+
 
 ### Задача: смяна на плочки
 
@@ -150,7 +151,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#1](https://judge.softuni.bg/Contests/Practice/Index/662#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#1](https://judge.softuni.bg/Contests/Practice/Index/662#1).
+
 
 ### Задача: магазин за цветя
 
@@ -219,7 +221,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#2](https://judge.softuni.bg/Contests/Practice/Index/662#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#2](https://judge.softuni.bg/Contests/Practice/Index/662#2).
+
 
 ### Задача: оценки
 
@@ -279,7 +282,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#3](https://judge.softuni.bg/Contests/Practice/Index/662#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#3](https://judge.softuni.bg/Contests/Practice/Index/662#3).
+
 
 ### Задача: коледна шапка
 
@@ -334,7 +338,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#4](https://judge.softuni.bg/Contests/Practice/Index/662#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#4](https://judge.softuni.bg/Contests/Practice/Index/662#4).
+
 
 ### Задача: комбинации от букви
 
@@ -387,4 +392,4 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#5](https://judge.softuni.bg/Contests/Practice/Index/662#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#5](https://judge.softuni.bg/Contests/Practice/Index/662#5).

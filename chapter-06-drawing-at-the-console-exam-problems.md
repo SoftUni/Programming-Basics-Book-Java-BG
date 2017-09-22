@@ -85,7 +85,8 @@ for (int row = 1; row <= 5; row++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#0](https://judge.softuni.bg/Contests/Practice/Index/658#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#0](https://judge.softuni.bg/Contests/Practice/Index/658#0).
+
 
 ### Задача: пеперуда
 
@@ -137,7 +138,8 @@ for (int row = 1; row <= 5; row++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#1](https://judge.softuni.bg/Contests/Practice/Index/658#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#1](https://judge.softuni.bg/Contests/Practice/Index/658#1).
+
 
 ### Задача: знак "Стоп"
 
@@ -201,7 +203,8 @@ for (int row = 1; row <= 5; row++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#2](https://judge.softuni.bg/Contests/Practice/Index/658#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#2](https://judge.softuni.bg/Contests/Practice/Index/658#2).
+
 
 ### Задача: стрелка
 Да се напише програма, която прочита от конзолата **цяло нечетно число n** и чертае **вертикална стрелка** с размери като в примерите по-долу.
@@ -262,7 +265,8 @@ for (int row = 1; row <= 5; row++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#3](https://judge.softuni.bg/Contests/Practice/Index/658#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#3](https://judge.softuni.bg/Contests/Practice/Index/658#3).
+
 
 ### Задача: брадва
 
@@ -316,4 +320,4 @@ for (int row = 1; row <= 5; row++) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#4](https://judge.softuni.bg/Contests/Practice/Index/658#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/658#4](https://judge.softuni.bg/Contests/Practice/Index/658#4).

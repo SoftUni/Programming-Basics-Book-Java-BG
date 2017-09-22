@@ -101,7 +101,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#0](https://judge.softuni.bg/Contests/Practice/Index/665#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#0](https://judge.softuni.bg/Contests/Practice/Index/665#0).
+
 
 ## Методи с параметри
 
@@ -151,7 +152,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#1](https://judge.softuni.bg/Contests/Practice/Index/665#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#1](https://judge.softuni.bg/Contests/Practice/Index/665#1).
+
 
 ### Пример: принтиране на триъгълник
 
@@ -183,7 +185,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#2](https://judge.softuni.bg/Contests/Practice/Index/665#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#2](https://judge.softuni.bg/Contests/Practice/Index/665#2).
+
 
 ### Пример: рисуване на запълнен квадрат
 
@@ -210,7 +213,9 @@
 ![](assets/chapter-10-images/08.Draw-filled-square-03.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#3](https://judge.softuni.bg/Contests/Practice/Index/665#3)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#3](https://judge.softuni.bg/Contests/Practice/Index/665#3).
+
 
 ## Връщане на резултат от метод
 
@@ -288,7 +293,9 @@ int age = Integer.parseInt(scanner.nextLine());
 ![](assets/chapter-10-images/11.Calculate-triangle-area-02.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#4](https://judge.softuni.bg/Contests/Practice/Index/665#4)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#4](https://judge.softuni.bg/Contests/Practice/Index/665#4).
+
 
 ### Пример: степен на число
 
@@ -309,7 +316,9 @@ int age = Integer.parseInt(scanner.nextLine());
 След като сме направили нужните изчисления, ни остава да разпечатаме резултата в главния метод (**`main()`**) на програмата.
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#5](https://judge.softuni.bg/Contests/Practice/Index/665#5)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#5](https://judge.softuni.bg/Contests/Practice/Index/665#5).
+
 
 ## Варианти на методи
 
@@ -366,7 +375,9 @@ int age = Integer.parseInt(scanner.nextLine());
 ![](assets/chapter-10-images/15.Greater-of-two-values-04.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#6](https://judge.softuni.bg/Contests/Practice/Index/665#6)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#6](https://judge.softuni.bg/Contests/Practice/Index/665#6).
+
 
 ## Именуване на методи. Добри практики при работа с методи
 
@@ -456,7 +467,9 @@ int age = Integer.parseInt(scanner.nextLine());
 |Peter|Hello, Peter!|
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#7](https://judge.softuni.bg/Contests/Practice/Index/665#7)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#7](https://judge.softuni.bg/Contests/Practice/Index/665#7).
+
 
 ### Задача: по-малко число
 
@@ -469,7 +482,9 @@ int age = Integer.parseInt(scanner.nextLine());
 |1<br>2<br>3|1|-100<br>-101<br>-102|-102|
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#8](https://judge.softuni.bg/Contests/Practice/Index/665#8)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#8](https://judge.softuni.bg/Contests/Practice/Index/665#8).
+
 
 ### Задача: повтаряне на низ
 
@@ -486,7 +501,9 @@ int age = Integer.parseInt(scanner.nextLine());
 ![](assets/chapter-10-images/17.Repeated-string-01.png)
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#9](https://judge.softuni.bg/Contests/Practice/Index/665#9)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#9](https://judge.softuni.bg/Contests/Practice/Index/665#9).
+
 
 ### Задача: n-та цифра
 
@@ -503,7 +520,9 @@ int age = Integer.parseInt(scanner.nextLine());
 За да изпълним алгоритъма, ще използваме **`while`** цикъл, докато дадено число не стане 0. На всяка итерация на **`while`** цикъла ще проверяваме дали настоящият индекс на цифрата не отговаря на индекса, който търсим. Ако отговаря, ще върнем като резултат цифрата на индекса (**`number % 10`**). Ако не отговаря, ще премахнем последната цифра на числото (**`number / 10`**). Трябва да следим коя цифра проверяваме по индекс (от дясно на ляво, започвайки от 1). Когато намерим цифрата, ще върнем индекса. 
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#10](https://judge.softuni.bg/Contests/Practice/Index/665#10)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#10](https://judge.softuni.bg/Contests/Practice/Index/665#10).
+
 
 ### Задача: число към бройна система
 
@@ -530,7 +549,9 @@ public static double integerToBase(double number, double position) {
 * Повтаряме алгоритъма, докато входното число не стане 0.
 
 #### Тестване в Judge системата 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#11](https://judge.softuni.bg/Contests/Practice/Index/665#11)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#11](https://judge.softuni.bg/Contests/Practice/Index/665#11).
+
 
 ### Задача: известия
 
@@ -572,7 +593,9 @@ public static double integerToBase(double number, double position) {
 |3<br>success<br>Database query<br>Updated 2 rows<br>warning<br>error<br>credit card purchase<br>2|Successfully executed Database query.<br>==============================<br>Message: Updated 2 rows.<br>Error: Failed to execute credit card purchase.<br>==============================<br>Error Code: 2.<br>Reason: Invalid Client Data.|
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#12](https://judge.softuni.bg/Contests/Practice/Index/665#12)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#12](https://judge.softuni.bg/Contests/Practice/Index/665#12).
+
 
 ### Задача: числа към думи
 
@@ -600,7 +623,9 @@ public static double integerToBase(double number, double position) {
 Третият специален случай е когато числото, формирано от последните две цифри на входното число, е **по-голямо от 10 и по-малко от 20** (напр. 111, 814, 919 и т.н.). В този случай отпечатваме "one-hundred and eleven", "eight-hundred and fourteen", "nine-hundred and nineteen" и т.н.
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#13](https://judge.softuni.bg/Contests/Practice/Index/665#13)
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#13](https://judge.softuni.bg/Contests/Practice/Index/665#13).
+
 
 ### Задача: криптиране на низ
 
@@ -640,5 +665,5 @@ public static double integerToBase(double number, double position) {
 За да намерим първата и последната цифри от ASCII кода, ще използваме алгоритъма, който използвахме за решаване на задача "Число към бройна система".
 
 #### Тестване в Judge системата
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#14](https://judge.softuni.bg/Contests/Practice/Index/665#14)
-  
+
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#14](https://judge.softuni.bg/Contests/Practice/Index/665#14).

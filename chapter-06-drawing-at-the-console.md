@@ -27,7 +27,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#0](https://judge.softuni.bg/Contests/Practice/Index/657#0)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#0](https://judge.softuni.bg/Contests/Practice/Index/657#0).
+
 
 ### Пример: правоъгълник от N x N звездички
 
@@ -45,7 +46,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#1](https://judge.softuni.bg/Contests/Practice/Index/657#1)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#1](https://judge.softuni.bg/Contests/Practice/Index/657#1).
+
 
 ## Вложени цикли
 
@@ -71,7 +73,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#2](https://judge.softuni.bg/Contests/Practice/Index/657#2)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#2](https://judge.softuni.bg/Contests/Practice/Index/657#2).
+
 
 ### Пример: триъгълник от долари
 
@@ -89,7 +92,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#3](https://judge.softuni.bg/Contests/Practice/Index/657#3)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#3](https://judge.softuni.bg/Contests/Practice/Index/657#3).
+
 
 ### Пример: квадратна рамка
 
@@ -116,7 +120,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#4](https://judge.softuni.bg/Contests/Practice/Index/657#4)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#4](https://judge.softuni.bg/Contests/Practice/Index/657#4).
+
 
 ### Пример: ромб от звездички
 
@@ -146,7 +151,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#5](https://judge.softuni.bg/Contests/Practice/Index/657#5)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#5](https://judge.softuni.bg/Contests/Practice/Index/657#5).
+
 
 ### Пример: коледна елха
 
@@ -168,7 +174,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#6](https://judge.softuni.bg/Contests/Practice/Index/657#6)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#6](https://judge.softuni.bg/Contests/Practice/Index/657#6).
+
 
 ## Чертане на по-сложни фигури
 
@@ -197,7 +204,8 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#7](https://judge.softuni.bg/Contests/Practice/Index/657#7)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#7](https://judge.softuni.bg/Contests/Practice/Index/657#7).
+
 
 ### Пример: къщичка
 
@@ -295,7 +303,8 @@ int result = (int) Math.ceil(3 / 2f);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#8](https://judge.softuni.bg/Contests/Practice/Index/657#8)
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#8](https://judge.softuni.bg/Contests/Practice/Index/657#8).
+
 
 ### Пример: диамант
 
@@ -371,14 +380,12 @@ int result = (int) Math.ceil(3 / 2f);
 <td><b>Повторението на едно и също парче код се смята за лоша практика</b>, тъй като кодът става труден за поддръжка. Да си представим, че имаме код (напр. логиката за чертането на ред от диаманта) на още няколко места в програмата и се налга да направим някаква промяна. За целта би било необходимо да коригираме кода на всяко едно място, където сме сложили този код. А сега нека се замислим върху следния казус: Какво би станало, ако същият този код трябва да се използва не 1, 2 или 3 пъти, а десетки пъти. Един от подходите за справяне с този проблем е използването на методи. Допълнителна информация за тях можете да откриете в глава 10 на тази книга, както и в Интернет.</td>
 </tr></table>
 
-
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#9](https://judge.softuni.bg/Contests/Practice/Index/657# )
+Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#9](https://judge.softuni.bg/Contests/Practice/Index/657#9).
 
 
 ## Какво научихме от тази глава?
-
 
 Научихме се да чертаем фигури с вложени **`for`** цикли:
 
@@ -391,5 +398,5 @@ for (int r = 1; r <= 5; r++)
    System.out.println();
 }
 ```
-Научихме се, също така, да използваме методи за да избягваме повторението на едно и също парче код няколко пъти.
 
+Научихме се, също и как **да използваме методи** за да избягваме повторението на едно и също парче код няколко пъти.
