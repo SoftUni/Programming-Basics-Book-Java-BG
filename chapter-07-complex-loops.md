@@ -256,7 +256,7 @@ print а;
 
 ![](assets/chapter-7-1-images/09.Sum-of-digits-01.png)
 
-<table><tr><td><img src="assets/alert-icon.png" style="max-width: 50px" /></td>
+<table><tr><td><img src="assets/alert-icon.png" style="max-width:50px" /></td>
 <td><code><strong>n % 10</strong></code>: <b>връща</b> последната цифра на числото <code><strong>n</strong></code>.<br>
 <code><strong>n / 10</strong></code>: <b>изтрива</b> последната цифра на <strong><code>n</code></strong>.</td>
 </tr></table>
