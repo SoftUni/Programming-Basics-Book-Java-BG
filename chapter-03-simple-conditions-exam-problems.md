@@ -315,7 +315,7 @@ if (булев израз) {
 
 |Вход|Изход|Вход|Изход|
 |----|-----|----|-----|
-|90<br>7<br>3<br>|Not enough time!2 hours needed.|50<br>5<br>2|Yes!4 hours left.|
+|90<br>7<br>3<br>|Yes!99 hours left.|99<br>3<br>1|Not enough time!72 hours needed.|
 
 #### Насоки и подсказки
 
