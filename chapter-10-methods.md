@@ -492,6 +492,10 @@ int age = Integer.parseInt(scanner.nextLine());
 |---|---|
 |Peter|Hello, Peter!|
 
+#### Насоки и подсказки
+
+Дефинирайте метод **`PrintName(string name)`** и го имплементирайте, след което го извикайте от главната програма.
+
 #### Тестване в Judge системата
 
 Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#7](https://judge.softuni.bg/Contests/Practice/Index/665#7).
