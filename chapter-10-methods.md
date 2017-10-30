@@ -592,7 +592,7 @@ public static String integerToBase(double number, double toBase) {
 	while (number != 0) {
 	    // Implement the missing conversion logic
 	}
-	return result;
+    return result;
 }
 ```
 
