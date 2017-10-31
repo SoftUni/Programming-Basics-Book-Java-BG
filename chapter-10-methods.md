@@ -585,7 +585,7 @@ var min = getMin(getMin(num1, num2), num3);
 Допишете липсващата логика в метода по-долу:
 
 ```java
-public static String integerToBase(double number, double toBase) {
+static String integerToBase(double number, double toBase) {
     String result = "";
     while (number != 0) {
         // Implement the missing conversion logic
