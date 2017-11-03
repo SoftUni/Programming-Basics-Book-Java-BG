@@ -22,7 +22,7 @@
 
 ```java
 if (true) {
-    System.out.println("влязох в if-a");
+    System.out.println("Inside the if statement");
 }
 ```
 
@@ -31,7 +31,7 @@ if (true) {
 ```java
 if (true) {
    if (true) {
-       System.out.println("влязох в if-a");
+       System.out.println("Inside the if statement");
    }
 }
 ```
@@ -41,7 +41,7 @@ if (true) {
 ```java
 if(true)
 {
-System.out.println("влязох в if-a");}
+System.out.println("Inside the if statement");}
 ```
 
 Първото, което се забелязва са **къдравите скоби `{}`**. Първата (отваряща) скоба трябва да е **след `if` условието**, a втората (затваряща) скоба - **под командата `System.out.println(…)`, на отделен празен ред**. В допълнение, командата вътре в **`if`** конструкцията трябва да бъде **4 празни полета навътре (един таб)**. Същото правило важи и за **`for` цикли и всякакви други конструкции с къдрави скоби `{}`**. Ето още няколко примера:
