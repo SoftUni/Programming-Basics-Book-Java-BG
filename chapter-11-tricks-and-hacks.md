@@ -279,9 +279,10 @@ System.out.println(Math.round(number));
 
 ```java
 double numberToFloor = 5.99;
-double numberToCeiling = 5.11;
 System.out.println(Math.floor(numberToFloor));
 // Tова ще отпечата на конзолата 5.0
+
+double numberToCeiling = 5.11;
 System.out.println(Math.ceil(numberToCeiling));
 // Tова ще отпечата на конзолата 6.0
 ```
