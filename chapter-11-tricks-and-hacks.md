@@ -151,6 +151,8 @@ for (int i = 0; i < 5; i++) {
 
 ![](/assets/chapter-11-images/01.Code-snippet-01.png)
 
+### Да си направим собствен шаблон за код
+
 В тази секция ще покажем как сами да си **направим собствен шаблон**. Ще разгледаме **как се прави code snippet** за **`scanner.nextLine();`**. Като за начало ще си създадем нов празен проект и ще отидем на [**File → Settings → Editor → Live Templates**], като избираме [**+** → **Live Template**], както е показано на снимката по-долу.
 
 ![](/assets/chapter-11-images/01.Code-snippet-02.png)
