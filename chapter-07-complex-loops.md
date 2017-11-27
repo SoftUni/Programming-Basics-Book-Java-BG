@@ -590,10 +590,10 @@ System.out.println("Even number entered: {0}", n);
 
 ```java
 try {
-   System.out.println("Enter even number: ");
-   n = Integer.parseInt(scanner.nextLine());
-} catch 
-   System.out.println("Invalid number."); 
+    System.out.println("Enter even number: ");
+    int n = Integer.parseInt(scanner.nextLine());
+} catch (Exception ex){
+    System.out.println("Invalid number.");
 }
 // Ако Integer.parseInt(…) гръмне, ще се изпълни catch { … } блокът
 ```
