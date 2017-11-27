@@ -592,7 +592,7 @@ System.out.println("Even number entered: {0}", n);
 try {
     System.out.println("Enter even number: ");
     int n = Integer.parseInt(scanner.nextLine());
-} catch (Exception ex){
+} catch (Exception ex) {
     System.out.println("Invalid number.");
 }
 // Ако Integer.parseInt(…) гръмне, ще се изпълни catch { … } блокът
