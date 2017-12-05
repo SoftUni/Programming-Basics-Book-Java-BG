@@ -262,7 +262,7 @@ DecimalFormat formatter = new DecimalFormat("0.00");
 
 ![](assets/chapter-4-2-images/02.Trip-06.png)
 
-##### Отпечатване на резултата
+#### Отпечатване на резултата
 
 Остава ни да покажем изчисления резултат на конзолата:
 
