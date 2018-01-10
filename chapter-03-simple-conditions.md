@@ -79,7 +79,7 @@ if (булев израз) {
 
 #### Тестване в Judge системата
 
-Тествайте програмата от примера в judge системата на СофтУни:
+Тествайте решението си тук:
 [https://judge.softuni.bg/Contests/Practice/Index/651#0](https://judge.softuni.bg/Contests/Practice/Index/651#0).
 
 

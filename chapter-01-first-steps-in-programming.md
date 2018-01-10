@@ -152,27 +152,25 @@ Java пакета за разработка се разпространява б
 
 Избираме 32-bit launcher или 64-bit launcher в зависимост от това колко битова е операционната система, която използваме. Слагаме отметка на [**.java**], [**.groovy**] и [**.kt**], след което натискаме бутона [**Next**]. 
 
-![](assets/chapter-1-images/00.Intellij-idea-4.png)
-
 Запазваме името на папката в старт менюто и натискаме бутона [**Install**]. Започва инсталацията на IntelliJ IDEA и трябва да се появи екран като този по-долу:
 
-![](assets/chapter-1-images/00.Intellij-idea-5.png)
+![](assets/chapter-1-images/00.Intellij-idea-4.png)
 
 След като IntelliJ IDEA се инсталира, ще се появи информативен екран, в който избираме отметката [**Run IntelliJ IDEA**] и натискаме бутона [**Finish**], за да приключим инсталацията и да стартираме средата за разработка:
 
-![](assets/chapter-1-images/00.Intellij-idea-6.png)
+![](assets/chapter-1-images/00.Intellij-idea-5.png)
 
 От началния прозорец на IntelliJ IDEA, избираме [**Create New Project**]:
 
-![](assets/chapter-1-images/00.Intellij-idea-7.png)
+![](assets/chapter-1-images/00.Intellij-idea-6.png)
 
 Визуализира се прозорец, в който се вижда, че липсва избран пакет за разработка на софтуер - Software Development Kit (SDK): 
 
-![](assets/chapter-1-images/00.Intellij-idea-8.png)
+![](assets/chapter-1-images/00.Intellij-idea-7.png)
 
 Натискаме [**New**] и намираме пътя към вече инсталирания Java пакет за разработка (JDK), като внимаваме да не изберем JRE:
 
-![](assets/chapter-1-images/00.Intellij-idea-9.png)
+![](assets/chapter-1-images/00.Intellij-idea-8.png)
 
 Селектираме папката и натискаме бутона [**OK**]. 
 
