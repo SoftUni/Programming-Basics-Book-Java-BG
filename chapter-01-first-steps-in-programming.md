@@ -112,7 +112,7 @@ System.out.println(euro);
 
 ## Инсталация на Java пакет за разработка (JDK)
 
-Java пакета за разработка се разпространява безплатно и може да бъде изтеглен от тук: [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+Java пакетът за разработка (JDK) се разпространява безплатно и може да бъде изтеглен от тук: https://oracle.com/technetwork/java/javase/downloads. Изберете последна версия **Java SE** (Java Standard Edition).
 
 ![](assets/chapter-1-images/00.Jdk-1.png)
 
