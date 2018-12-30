@@ -41,6 +41,8 @@
 
 Алтернативи на IntelliJ IDEA са **Eclipse** (https://eclipse.org/downloads/packages), **NetBeans** (https://netbeans.org/downloads) и **JDeveloper** (http://www.oracle.com/technetwork/developer-tools/jdev/downloads/index.html) и много други. В настоящата книга ще използваме средата за разработка IntelliJ IDEA.
 
+Ако не разполагате с възможност да си инсталирате среда за разработка, може да използвате и някое онлайн Java IDE като Repl.it: https://repl.it/languages/java.
+
 ### Езици от ниско и високо ниво, среди за изпълнение (Runtime Environments)
 
 Програмата в своята същност е **набор от инструкции**, които карат компютъра да свърши определена задача. Те се въвеждат от програмиста и се **изпълняват безусловно от машината**.
