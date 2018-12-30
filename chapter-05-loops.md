@@ -385,64 +385,59 @@
 ![](assets/chapter-5-1-images/13.Turtle-graphics-01.png)
 
 Нека първо се запознаем с **концепцията за рисуване “Turtle Graphics”**. Може да разгледаме следните източници:
+  * Дефиниция на понятието “turtle graphics”: [http://c2.com/cgi/wiki?TurtleGraphics](http://c2.com/cgi/wiki?TurtleGraphics)
+  * Статия за “turtle graphics” в Wikipedia – [https://en.wikipedia.org/wiki/Turtle_graphics](https://en.wikipedia.org/wiki/Turtle_graphics)
+  * Интерактивен онлайн инструмент за чертане с костенурка – [https://blockly-games.appspot.com/turtle](https://blockly-games.appspot.com/turtle)
 
-* Дефиниция на понятието “turtle graphics”: [http://c2.com/cgi/wiki?TurtleGraphics](http://c2.com/cgi/wiki?TurtleGraphics)
-* Статия за “turtle graphics” в Wikipedia – [https://en.wikipedia.org/wiki/Turtle_graphics](https://en.wikipedia.org/wiki/Turtle_graphics)
-* Интерактивен онлайн инструмент за чертане с костенурка – [https://blockly-games.appspot.com/turtle](https://blockly-games.appspot.com/turtle)
-
-Започваме, като създаваме нов **Java проект** в **IntelliJ IDEA**. След това, добавяме нов пакет **app** (описано е как се прави по-рано в тази глава). 
-Сваляме **MyTurtle.java** и **jturtle-0.1.1.jar** от [https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets](https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets). **MyTurtle.java** е предварително написан клас, който ще ни помогне по-бързо да се запознаем с библиотеката **jturtle-0.1.1.jar**, която управлява **костенурката**. Като използваме файл навигатор, копираме **MyTurtle.java** в директорията **app** на създадения проект. След това трябва да добавим външната библиотека **jturtle-0.1.1.jar** в нашия проект. Това става по следния начин:
-
-* Избираме **File** от **File menu**.
-* Натискаме **Project Structure** (CTRL + SHIFT + ALT + S).
-* Натискаме **Select Modules** в левия панел.
-* Натискаме **Dependencies tab**.
-* Натискаме **'+'** → **JARs or directories**.
+Започваме, като създаваме нов **Java проект** в **IntelliJ IDEA**. След това, добавяме нов пакет **`app`** (описано е как се прави по-рано в тази глава). Сваляме **`MyTurtle.java`** и **`jturtle-0.1.1.jar`** от [https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets](https://github.com/SoftUni/Programming-Basics-Book-Java-BG/tree/master/assets/chapter-5-1-assets). **`MyTurtle.java`** е предварително написан клас, който ще ни помогне по-бързо да се запознаем с библиотеката **`jturtle-0.1.1.jar`**, която управлява **костенурката**. Като използваме файл навигатор, копираме **`MyTurtle.java`** в директорията **`app`** на създадения проект. След това трябва да добавим външната библиотека **`jturtle-0.1.1.jar`** в нашия проект. Това става по следния начин:
+  * Избираме от **File** менюто **Project Structure** (CTRL + SHIFT + ALT + S).
+  * Натискаме **Select Modules** в левия панел.
+  * Натискаме **Dependencies** таба.
+  * Натискаме **'+'** → **JARs or directories**.
 
 ![](assets/chapter-5-1-images/13.Turtle-graphics-02.png)
 
-На следващият прозорец задаваме пътя до **jturtle-0.1.1.jar**, след това натискаме **ОК**.
+На следващия прозорец задаваме пътя до **jturtle-0.1.1.jar**, след това натискаме [**ОК**].
  
 ![](assets/chapter-5-1-images/13.Turtle-graphics-03.png)
 
-На следващият прозорец маркираме само **classes check box**, след това натискаме **ОК**.
+На следващия прозорец маркираме само **classes** кутийката, след това натискаме [**ОК**].
  
 ![](assets/chapter-5-1-images/13.Turtle-graphics-04.png)
 
-На следващият прозорец избираме **ОК** и сме готови да отворим **MyTurtle.java**.
+На следващия прозорец избираме [**ОК**] и сме готови да отворим **`MyTurtle.java`**.
   
 ![](assets/chapter-5-1-images/13.Turtle-graphics-06.png)
 
-#### Основни методи на класа Turtle
+#### Основни методи на класа `Turtle`
 
 | Връщана <br> стойност | Метод и неговото описание |
-| --- | --- |
-| Turtle| **back** (double distance) - Мести костенурката назад. | 
-| Turtle| **bk** (double distance) - Действието е същото като back(double distance).  |
-| Turtle| **fd** (double distance) - Мести костенурката напред. |
-| Turtle| **forward** (double distance) - Действието е същото като fd(double distance). |
-| Turtle| **hideTurtle()** - Скрива костенурката. |
-| Turtle| **ht()** - Действието е същото като hideTurtle(). |
-| Turtle| **home()** - Измества костенурката обратно до началната и позиция, обърната на север. |
-| Turtle| **left** (double degrees) - Завърта костенурката на ляво (в градуси).  |
-| Turtle| **lt()** (double degrees) - Действието е същото като left(double degrees).|
-| Turtle| **penDown()** -Закача писалка за костенурката, която оставя линия, когато костенурката се движи. |
-| Turtle| **pd()** -  Действието е същото като penDown().|
-| Turtle| **penUp()** - Откача писалката от костенурката. |
-| Turtle| **pu** (int newWidth) - Lifts the Turtles Pen up so it won't draw a line anymore when moving.|
-| Turtle| **penWidth** (int newWidth) - Задава широчина на писалката.|
-| Turtle| **right** (double degrees)  -Завърта костенурката на дясно (в градуси). |
-| Turtle| **rt** (double degrees) - Действието е същото като right (double degrees).|
-| Turtle| **setColor** (Color color) - Задава цвят на костенурката. |
-| Turtle| **setLineWidth** (double lineWidth) - Задава дебелина на линията.|
-| Turtle| **setPenColor** (Color color) - Set the Turtles Pen color.|
-| Turtle| **setPos** (double x, double y) - Измества костенурката на нова позиция с кординати (x, y).|
-| Turtle| **showTurtle**() - Показва костенурката.|
-| Turtle| **st**() - Действието е същото като showTurtle().|
-| Turtle| **speed** (double newSpeed) - Задава скорост на костенурката.|
+| ------ | ---------------------------------------- |
+| Turtle | **back**(double distance) – мести костенурката назад | 
+| Turtle | **bk**(double distance) – работи като **back**(double distance) |
+| Turtle | **forward**(double distance) – мести костенурката напред |
+| Turtle | **fd**(double distance) – работи като **forward**(double distance) |
+| Turtle | **hideTurtle**() – скрива костенурката |
+| Turtle | **ht**() – действието е същото като **hideTurtle**() |
+| Turtle | **home**() – измества костенурката обратно до началната й позиция, обърната на север |
+| Turtle | **left**(double degrees) – завърта костенурката на ляво(в градуси) |
+| Turtle | **lt**(double degrees) – действа като **left**(double degrees) |
+| Turtle | **penDown**() – закача писалка за костенурката, която оставя линия, когато костенурката се движи |
+| Turtle | **pd**() – работи като **penDown**() |
+| Turtle | **penUp**() – откача писалката от костенурката |
+| Turtle | **penWidth**(int newWidth) – задава широчина на писалката |
+| Turtle | **right**(double degrees) – завърта костенурката на дясно (в градуси) |
+| Turtle | **rt**(double degrees) – работи като **right**(double degrees) |
+| Turtle | **setColor**(Color color) – задава цвят на писалката |
+| Turtle | **setLineWidth**(double lineWidth) – задава дебелина на линията |
+| Turtle | **setPenColor**(Color color) – задава цвят на писалката за чертане |
+| Turtle | **setPos**(double x, double y) – измества костенурката на нова позиция с координати(x, y) |
+| Turtle | **showTurtle**() – показва костенурката |
+| Turtle | **st**() – работи като **showTurtle**() |
+| Turtle | **speed**(double newSpeed) – задава скорост на костенурката |
 
 
-За да създадем метод който чертае триъгълник, в **MyTurtle.java** намираме празния метода **`drawTriangle()`** и написваме следния код: 
+За да създадем метод който чертае триъгълник, в **`MyTurtle.java`** намираме празния метода **`drawTriangle()`** и написваме следния код: 
 
 ![](assets/chapter-5-1-images/13.Turtle-graphics-07.png)
 
@@ -486,7 +481,7 @@
 
 ### Добавяне на нов бутон за чертане на фигура
 
-За добавяне нов бутон за чертане на нова фигура, може да проследим логиката в **MyTurtle.java** за бутона **Draw** и да създадем нов бутон за чертане на шестоъгълник **Hexagon**.
+За добавяне нов бутон за чертане на нова фигура, може да проследим логиката в **`MyTurtle.java`** за бутона [**Draw**] и да създадем нов бутон за чертане на шестоъгълник **Hexagon**.
 
 Първо добавяме новата фигура в **`enum Shape`**:
 
