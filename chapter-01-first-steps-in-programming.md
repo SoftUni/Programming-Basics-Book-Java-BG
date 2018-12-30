@@ -37,7 +37,9 @@
 
 **Средите за програмиране** са удобни, защото интегрират всичко необходимо за разработката на програмата, без да се напуска средата. Ако не ползваме среда за разработка, ще трябва да пишем кода в текстов редактор, да го компилираме с команда от конзолата, да го изпълняваме с друга команда от конзолата и да пишем още допълнителни команди, когато се налага, и това ще ни губи време. Затова повечето програмисти ползват IDE в ежедневната си работа.
 
-За програмиране на **езика Java** често се ползва средата за разработка **IntelliJ IDEA**, която се разработва и разпространява от JetBrains и може да се изтегли от: https://www.jetbrains.com/idea/. Алтернативи на IntelliJ IDEA са **Eclipse** (https://www.eclipse.org/downloads/), **NetBeans** (https://netbeans.org/downloads/) и **JDeveloper** (http://www.oracle.com/technetwork/developer-tools/jdev/downloads/index.html). В настоящата книга ще използваме средата за разработка IntelliJ IDEA.
+За програмиране на **езика Java** често се ползва средата за разработка **IntelliJ IDEA**, която се разработва и разпространява от JetBrains и може да се изтегли безплатно от техния сайт: https://jetbrains.com/idea.
+
+Алтернативи на IntelliJ IDEA са **Eclipse** (https://eclipse.org/downloads/packages), **NetBeans** (https://netbeans.org/downloads) и **JDeveloper** (http://www.oracle.com/technetwork/developer-tools/jdev/downloads/index.html) и много други. В настоящата книга ще използваме средата за разработка IntelliJ IDEA.
 
 ### Езици от ниско и високо ниво, среди за изпълнение (Runtime Environments)
 
