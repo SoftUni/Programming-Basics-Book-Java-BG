@@ -39,7 +39,7 @@
 * Заглавие: **Основи на програмирането с Java**
 * Автори: **Светлин Наков и колектив**
 * ISBN: **978-619-00-0636-7**
-* Издание: **Faber Publishing, София, юли 2017 г.**
+* Издание: **Faber Publishing, София, декември 2017 г.**
 * Лиценз: **CC-BY-NC-SA**
 * Сорс код: https://github.com/SoftUni/Programming-Basics-Book-Java-BG
 
