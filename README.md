@@ -2,7 +2,7 @@
 
 Книгата "**Основи на програмирането с Java**" запознава читателите с писането на **програмен код** на начално ниво (работа с данни, проверки, цикли и методи) с езика **Java**.
 
-<img src="/assets/Java-Programming-Basics-Book-Cover.png" alt="Книга основи на програмирането със Java - корица" class="readme-book-cover-image" />
+<a href="https://github.com/SoftUni/Programming-Basics-Book-Java-BG/blob/master/resources/Programming-Basics-Java-v2017.pdf"><img src="/assets/Java-Programming-Basics-Book-Cover.png" alt="Книга основи на програмирането с Java - корица" class="readme-book-cover-image"/></a>
 
 * [Предговор](chapter-00-preface.md)
 * [1. Първи стъпки в програмирането](chapter-01-first-steps-in-programming.md)
