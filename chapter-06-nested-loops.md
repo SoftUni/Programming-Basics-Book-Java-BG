@@ -301,7 +301,7 @@ int result = (int) Math.ceil(3 / 2f);
 ![](assets/chapter-6-1-images/09.House-07.png)
 
 <table><tr><td><img src="/assets/alert-icon.png" style="max-width:50px" /></td>
-<td>Не е добра идея да правим събирания на много на брой символни низове по показания по-горе начин, защото това води до **проблеми със скоростта** (performance issues). За повече информация посетете:  <a href="https://bg.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B7#String_Builder">https://bg.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B7#String_Builder</a></td>
+<td>Не е добра идея да правим събирания на много на брой символни низове по показания по-горе начин, защото това води до <b>проблеми със скоростта</b> (performance issues). За повече информация посетете:  <a href="https://bg.wikipedia.org/wiki/%D0%9D%D0%B8%D0%B7#String_Builder">https://bg.wikipedia.org/wiki/Низ#String_Builder</a></td>
 </tr></table>
 
 След като сме приключили с **покрива**, е време за **основата**. Тя е по-лесна за печатане:
