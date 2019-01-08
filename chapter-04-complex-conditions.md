@@ -8,7 +8,6 @@
   href="https://www.youtube.com/watch?v=1ZXBO_fCZ4w">
   https://www.youtube.com/watch?v=1ZXBO_fCZ4w</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 
 ## Вложени проверки
