@@ -8,7 +8,6 @@
 <div class="video-player">
   Гледайте видео-урок по тази глава тук: <a target="_blank" href="https://www.youtube.com/watch?v=96SoFtFTPBc">https://www.youtube.com/watch?v=96SoFtFTPBc</a>.
 </div>
-<script src="/assets/js/video.js"></script>
 
 
 ### Пример: правоъгълник от 10 x 10 звездички
