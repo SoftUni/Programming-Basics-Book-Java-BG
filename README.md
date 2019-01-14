@@ -26,6 +26,9 @@
 * [11. Хитрости и хакове](chapter-11-tricks-and-hacks.md)
 * [Заключение](chapter-12-conclusion.md)
 
+Изтеглете книгата "Основи на програмирането с Java" в PDF формат:
+* <a href="https://github.com/SoftUni/Programming-Basics-Book-Java-BG/blob/master/resources/Programming-Basics-Java-v2017.pdf">Programming-Basics-Java-v2017.pdf</a>
+
 Настоящата книга е достъпна в няколко варианта с различни езици за програмиране:
 * [Основи на програмирането със C#](https://csharp-book.softuni.bg)
 * [Programming Basics with C# (English)](https://csharp-book.softuni.org)
