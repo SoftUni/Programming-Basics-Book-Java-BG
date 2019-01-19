@@ -31,16 +31,16 @@
 
 <table>
 <tr>
-<th>Оператор</th> <th>Означение</th> <th>Работи за</th>
+<th>Оператор</th> <th>Означение</th>
 </tr>
 <tr>
-<td>Проверка за равенство</td><td align="center"> == </td><td rowspan="2">числа, символи</td>
+<td>Проверка за равенство</td><td align="center"> == </td>
 </tr>
 <tr>
 <td>Проверка за различие</td><td align="center"> != </td>
 </tr>
 <tr>
-<td>По-голямо</td><td align="center"> &gt; </td><td rowspan="4">числа, символи</td>
+<td>По-голямо</td><td align="center"> &gt; </td>
 </tr>
 <tr>
 <td>По-голямо или равно</td><td align="center"> &gt;= </td>
