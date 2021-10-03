@@ -38,7 +38,7 @@
 
 За програмиране на **езика Java** често се ползва средата за разработка **IntelliJ IDEA**, която се разработва и разпространява от JetBrains и може да се изтегли безплатно от техния сайт: https://jetbrains.com/idea.
 
-Алтернативи на IntelliJ IDEA са **Eclipse** (https://eclipse.org/downloads/packages), **NetBeans** (https://netbeans.org/downloads) и **JDeveloper** (http://www.oracle.com/technetwork/developer-tools/jdev/downloads/index.html) и много други. В настоящата книга ще използваме средата за разработка IntelliJ IDEA.
+Алтернативи на IntelliJ IDEA са **Eclipse** (https://eclipse.org/downloads/packages), **NetBeans** (https://netbeans.apache.org/download) и **JDeveloper** (https://www.oracle.com/tools/downloads/jdeveloper-12c-downloads.html) и много други. В настоящата книга ще използваме средата за разработка IntelliJ IDEA.
 
 Ако не разполагате с възможност да си инсталирате среда за разработка, може да използвате и някое онлайн Java IDE като **Repl.it**: https://repl.it/languages/java.
 
@@ -245,9 +245,9 @@ Hello Java
 
 #### Тестване на програмата в Judge системата
 
-Тестването на задачите от тази книга е автоматизирано и се осъществява през Интернет, от сайта на **Judge системата**: [https://judge.softuni.bg](https://judge.softuni.bg). Оценяването на задачите се извършва на момента от системата. Всяка задача минава поредица от тестове, като всеки успешно преминат тест дава предвидените за него точки. Тестовете, които се подават на задачите, са скрити.
+Тестването на задачите от тази книга е автоматизирано и се осъществява през Интернет, от сайта на **Judge системата**: [https://judge.softuni.org](https://judge.softuni.org). Оценяването на задачите се извършва на момента от системата. Всяка задача минава поредица от тестове, като всеки успешно преминат тест дава предвидените за него точки. Тестовете, които се подават на задачите, са скрити.
 
-Горната програма може да тестваме тук: [https://judge.softuni.bg/Contests/Practice/Index/646#0](https://judge.softuni.bg/Contests/Practice/Index/646#0). Поставяме целия сорс код на програмата в черното поле, като внимаваме дали сме избирали **Java code** от падащото меню:
+Горната програма може да тестваме тук: [https://judge.softuni.org/Contests/Practice/Index/646#0](https://judge.softuni.org/Contests/Practice/Index/646#0). Поставяме целия сорс код на програмата в черното поле, като внимаваме дали сме избирали **Java code** от падащото меню:
 
 ![](/assets/chapter-1-images/01.Hello-java-06.png)
 
@@ -364,7 +364,7 @@ public class Example {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#1](https://judge.softuni.bg/Contests/Practice/Index/646#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/646#1](https://judge.softuni.org/Contests/Practice/Index/646#1).
 
 ![](assets/chapter-1-images/02.Expression-03.png)
 
@@ -393,7 +393,7 @@ public class Example {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#2](https://judge.softuni.bg/Contests/Practice/Index/646#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/646#2](https://judge.softuni.org/Contests/Practice/Index/646#2).
 
 Сега помислете дали може да напишем програмата по **по-умен начин**, така че да не повтаряме 20 пъти една и съща команда. Потърсете в Интернет информация за "**[for loop Java](https://www.google.bg/search?q=for+loop+Java&oq=for+loop+Java)**".
 
@@ -427,7 +427,7 @@ System.out.println("**");
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#3](https://judge.softuni.bg/Contests/Practice/Index/646#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/646#3](https://judge.softuni.org/Contests/Practice/Index/646#3).
 
 Опитайте да **подобрите решението**, така че да няма много повтарящи се команди. Може ли това да стане с **`for`** цикъл? Успяхте ли да намерите умно решение (например с цикъл) на предната задача? При тази задача може да се ползва нещо подобно, но малко по-сложно (два цикъла един в друг). Ако не успеете, няма проблем, ще учим цикли след няколко глави и ще си спомните за тази задача тогава.
 
@@ -477,7 +477,7 @@ public class RectangleArea {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#4](https://judge.softuni.bg/Contests/Practice/Index/646#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/646#4](https://judge.softuni.org/Contests/Practice/Index/646#4).
 
 
 ### \* Задача: квадрат от звездички
@@ -507,7 +507,7 @@ int n = Integer.parseInt(console.nextLine());
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/646#5](https://judge.softuni.bg/Contests/Practice/Index/646#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/646#5](https://judge.softuni.org/Contests/Practice/Index/646#5).
 
 
 ## Конзолни, графични и уеб приложения

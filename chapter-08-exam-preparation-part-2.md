@@ -77,7 +77,7 @@
 
 За извършване на **пресмятанията** избираме да използваме тип **`double`**.
 
-Повече за различните **типове данни** в езика Java може да прочетете тук: [http://www.introprogramming.info/intro-java-book/read-online/glava2-primitivni-tipove-i-promenlivi/](http://www.introprogramming.info/intro-java-book/read-online/glava2-primitivni-tipove-i-promenlivi/)
+Повече за различните **типове данни** в езика Java може да прочетете тук: [https://introprogramming.info/intro-java-book/read-online/glava2-primitivni-tipove-i-promenlivi/](https://introprogramming.info/intro-java-book/read-online/glava2-primitivni-tipove-i-promenlivi/)
 
 По този начин успяхме да се справим успешно с първата подзадача. Следващата стъпка е да **преобразуваме входните данни** в подходящи **типове**, за да можем да извършим необходимите пресмятания. Избираме да използваме тип **`Integer`** или **`int`**, тъй като в условието на задачата e упоменато, че входните данни ще бъдат в определен интервал, за който този тип данни е напълно достатъчен. Преобразуването извършваме по следния начин:
 
@@ -112,7 +112,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#0](https://judge.softuni.bg/Contests/Practice/Index/662#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/662#0](https://judge.softuni.org/Contests/Practice/Index/662#0).
 
 
 ## Задача: смяна на плочки
@@ -173,7 +173,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#1](https://judge.softuni.bg/Contests/Practice/Index/662#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/662#1](https://judge.softuni.org/Contests/Practice/Index/662#1).
 
 
 ## Задача: магазин за цветя
@@ -242,7 +242,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#2](https://judge.softuni.bg/Contests/Practice/Index/662#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/662#2](https://judge.softuni.org/Contests/Practice/Index/662#2).
 
 
 ## Задача: оценки
@@ -304,7 +304,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#3](https://judge.softuni.bg/Contests/Practice/Index/662#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/662#3](https://judge.softuni.org/Contests/Practice/Index/662#3).
 
 
 ## Задача: коледна шапка
@@ -360,7 +360,7 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#4](https://judge.softuni.bg/Contests/Practice/Index/662#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/662#4](https://judge.softuni.org/Contests/Practice/Index/662#4).
 
 
 ## Задача: комбинации от букви
@@ -394,7 +394,7 @@
 
 ### Насоки и подсказки
 
-За последната задача имаме по условие входни данни на **3 реда**, които са представени от по един символ от **ASCII таблицата** ([http://www.asciitable.com/](http://www.asciitable.com/)). Бихме могли да използваме вече **дифинираните функции** в езика Java, за да прочетем един единствен символ от конзолата и го запазим в променлива от тип **`char`**: 
+За последната задача имаме по условие входни данни на **3 реда**, които са представени от по един символ от **ASCII таблицата** ([https://www.asciitable.com/](https://www.asciitable.com/)). Бихме могли да използваме вече **дифинираните функции** в езика Java, за да прочетем един единствен символ от конзолата и го запазим в променлива от тип **`char`**: 
 
 ![](assets/chapter-8-2-images/06.Letters-01.png)
 
@@ -414,4 +414,4 @@
 
 ### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/662#5](https://judge.softuni.bg/Contests/Practice/Index/662#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/662#5](https://judge.softuni.org/Contests/Practice/Index/662#5).

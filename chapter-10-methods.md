@@ -103,7 +103,7 @@
 
 #### Тестване в Judge системата
 
-Програмата с общо пет метода, които се извикват един от друг, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в judge системата: [https://judge.softuni.bg/Contests/Practice/Index/665#0](https://judge.softuni.bg/Contests/Practice/Index/665#0).
+Програмата с общо пет метода, които се извикват един от друг, е готова и можем **да я изпълним и тестваме**, след което да я пратим за проверка в judge системата: [https://judge.softuni.org/Contests/Practice/Index/665#0](https://judge.softuni.org/Contests/Practice/Index/665#0).
 
 
 ## Методи с параметри
@@ -154,7 +154,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#1](https://judge.softuni.bg/Contests/Practice/Index/665#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#1](https://judge.softuni.org/Contests/Practice/Index/665#1).
 
 
 ### Пример: принтиране на триъгълник
@@ -189,7 +189,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#2](https://judge.softuni.bg/Contests/Practice/Index/665#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#2](https://judge.softuni.org/Contests/Practice/Index/665#2).
 
 
 ### Пример: рисуване на запълнен квадрат
@@ -218,7 +218,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#3](https://judge.softuni.bg/Contests/Practice/Index/665#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#3](https://judge.softuni.org/Contests/Practice/Index/665#3).
 
 
 ## Връщане на резултат от метод
@@ -312,7 +312,7 @@ int age = Integer.parseInt(scanner.nextLine());
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#4](https://judge.softuni.bg/Contests/Practice/Index/665#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#4](https://judge.softuni.org/Contests/Practice/Index/665#4).
 
 
 ### Пример: степен на число
@@ -335,7 +335,7 @@ int age = Integer.parseInt(scanner.nextLine());
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#5](https://judge.softuni.bg/Contests/Practice/Index/665#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#5](https://judge.softuni.org/Contests/Practice/Index/665#5).
 
 
 ## Варианти на методи
@@ -396,7 +396,7 @@ int age = Integer.parseInt(scanner.nextLine());
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#6](https://judge.softuni.bg/Contests/Practice/Index/665#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#6](https://judge.softuni.org/Contests/Practice/Index/665#6).
 
 
 ## Именуване на методи. Добри практики при работа с методи
@@ -501,7 +501,7 @@ int age = Integer.parseInt(scanner.nextLine());
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#7](https://judge.softuni.bg/Contests/Practice/Index/665#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#7](https://judge.softuni.org/Contests/Practice/Index/665#7).
 
 
 ### Задача: по-малко число
@@ -524,7 +524,7 @@ int min = getMin(getMin(num1, num2), num3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#8](https://judge.softuni.bg/Contests/Practice/Index/665#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#8](https://judge.softuni.org/Contests/Practice/Index/665#8).
 
 
 ### Задача: повтаряне на низ
@@ -547,7 +547,7 @@ int min = getMin(getMin(num1, num2), num3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#9](https://judge.softuni.bg/Contests/Practice/Index/665#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#9](https://judge.softuni.org/Contests/Practice/Index/665#9).
 
 
 ### Задача: n-та цифра
@@ -566,7 +566,7 @@ int min = getMin(getMin(num1, num2), num3);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#10](https://judge.softuni.bg/Contests/Practice/Index/665#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#10](https://judge.softuni.org/Contests/Practice/Index/665#10).
 
 
 ### Задача: число към бройна система
@@ -601,7 +601,7 @@ static String integerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата 
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#11](https://judge.softuni.bg/Contests/Practice/Index/665#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#11](https://judge.softuni.org/Contests/Practice/Index/665#11).
 
 
 ### Задача: известия
@@ -633,7 +633,7 @@ static String integerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#12](https://judge.softuni.bg/Contests/Practice/Index/665#12).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#12](https://judge.softuni.org/Contests/Practice/Index/665#12).
 
 
 ### Задача: числа към думи
@@ -667,7 +667,7 @@ static String integerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#13](https://judge.softuni.bg/Contests/Practice/Index/665#13).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#13](https://judge.softuni.org/Contests/Practice/Index/665#13).
 
 
 ### Задача: криптиране на низ
@@ -713,4 +713,4 @@ static String integerToBase(int number, int toBase) {
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/665#14](https://judge.softuni.bg/Contests/Practice/Index/665#14).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/665#14](https://judge.softuni.org/Contests/Practice/Index/665#14).

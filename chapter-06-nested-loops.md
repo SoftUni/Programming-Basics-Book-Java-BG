@@ -27,7 +27,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#0](https://judge.softuni.bg/Contests/Practice/Index/657#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#0](https://judge.softuni.org/Contests/Practice/Index/657#0).
 
 
 ### Пример: правоъгълник от N x N звездички
@@ -46,7 +46,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#1](https://judge.softuni.bg/Contests/Practice/Index/657#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#1](https://judge.softuni.org/Contests/Practice/Index/657#1).
 
 
 ## Вложени цикли
@@ -80,7 +80,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#2](https://judge.softuni.bg/Contests/Practice/Index/657#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#2](https://judge.softuni.org/Contests/Practice/Index/657#2).
 
 
 ### Пример: триъгълник от долари
@@ -99,7 +99,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#3](https://judge.softuni.bg/Contests/Practice/Index/657#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#3](https://judge.softuni.org/Contests/Practice/Index/657#3).
 
 
 ### Пример: квадратна рамка
@@ -128,7 +128,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#4](https://judge.softuni.bg/Contests/Practice/Index/657#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#4](https://judge.softuni.org/Contests/Practice/Index/657#4).
 
 
 ### Пример: ромб от звездички
@@ -159,7 +159,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#5](https://judge.softuni.bg/Contests/Practice/Index/657#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#5](https://judge.softuni.org/Contests/Practice/Index/657#5).
 
 
 ### Пример: коледна елха
@@ -182,7 +182,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#6](https://judge.softuni.bg/Contests/Practice/Index/657#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#6](https://judge.softuni.org/Contests/Practice/Index/657#6).
 
 
 ## Чертане на по-сложни фигури
@@ -214,7 +214,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#7](https://judge.softuni.bg/Contests/Practice/Index/657#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#7](https://judge.softuni.org/Contests/Practice/Index/657#7).
 
 
 ### Пример: къщичка
@@ -313,7 +313,7 @@ int result = (int) Math.ceil(3 / 2f);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#8](https://judge.softuni.bg/Contests/Practice/Index/657#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#8](https://judge.softuni.org/Contests/Practice/Index/657#8).
 
 
 ### Пример: диамант
@@ -392,7 +392,7 @@ int result = (int) Math.ceil(3 / 2f);
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/657#9](https://judge.softuni.bg/Contests/Practice/Index/657#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/657#9](https://judge.softuni.org/Contests/Practice/Index/657#9).
 
 
 ## Какво научихме от тази глава?

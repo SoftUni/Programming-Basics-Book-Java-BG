@@ -40,7 +40,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#0](https://judge.softuni.bg/Contests/Practice/Index/655#0).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#0](https://judge.softuni.org/Contests/Practice/Index/655#0).
 
 
 Трябва да получите **100 точки** (напълно коректно решение).
@@ -65,7 +65,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#1](https://judge.softuni.bg/Contests/Practice/Index/655#1).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#1](https://judge.softuni.org/Contests/Practice/Index/655#1).
 
 
 ### Пример: всички латински букви
@@ -80,7 +80,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#2](https://judge.softuni.bg/Contests/Practice/Index/655#2).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#2](https://judge.softuni.org/Contests/Practice/Index/655#2).
 
 
 ### Пример: сумиране на числа
@@ -115,7 +115,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#3](https://judge.softuni.bg/Contests/Practice/Index/655#3).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#3](https://judge.softuni.org/Contests/Practice/Index/655#3).
 
 
 ### Пример: най-голямо число
@@ -140,7 +140,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#4](https://judge.softuni.bg/Contests/Practice/Index/655#4).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#4](https://judge.softuni.org/Contests/Practice/Index/655#4).
 
 
 ### Пример: най-малко число
@@ -163,7 +163,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#5](https://judge.softuni.bg/Contests/Practice/Index/655#5).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#5](https://judge.softuni.org/Contests/Practice/Index/655#5).
 
 
 ### Пример: лява и дясна сума
@@ -184,7 +184,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#6](https://judge.softuni.bg/Contests/Practice/Index/655#6).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#6](https://judge.softuni.org/Contests/Practice/Index/655#6).
 
 
 ### Пример: четна / нечетна сума
@@ -210,7 +210,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#7](https://judge.softuni.bg/Contests/Practice/Index/655#7).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#7](https://judge.softuni.org/Contests/Practice/Index/655#7).
 
 
 ### Пример: сумиране на гласните букви
@@ -236,7 +236,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#8](https://judge.softuni.bg/Contests/Practice/Index/655#8).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#8](https://judge.softuni.org/Contests/Practice/Index/655#8).
 
 
 ## Какво научихме от тази глава?
@@ -318,7 +318,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#9](https://judge.softuni.bg/Contests/Practice/Index/655#9).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#9](https://judge.softuni.org/Contests/Practice/Index/655#9).
 
 
 ### Задача: четни / нечетни позиции
@@ -342,7 +342,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#10](https://judge.softuni.bg/Contests/Practice/Index/655#10).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#10](https://judge.softuni.org/Contests/Practice/Index/655#10).
 
 
 ### Задача: еднакви двойки
@@ -370,7 +370,7 @@
 
 #### Тестване в Judge системата
 
-Тествайте решението си тук: [https://judge.softuni.bg/Contests/Practice/Index/655#11](https://judge.softuni.bg/Contests/Practice/Index/655#11).
+Тествайте решението си тук: [https://judge.softuni.org/Contests/Practice/Index/655#11](https://judge.softuni.org/Contests/Practice/Index/655#11).
 
 
 ## Упражнения: графични и уеб приложения
@@ -384,7 +384,7 @@
 ![](assets/chapter-5-1-images/13.Turtle-graphics-01.png)
 
 Нека първо се запознаем с **концепцията за рисуване “Turtle Graphics”**. Може да разгледаме следните източници:
-  * Дефиниция на понятието “turtle graphics”: [http://c2.com/cgi/wiki?TurtleGraphics](http://c2.com/cgi/wiki?TurtleGraphics)
+  * Дефиниция на понятието “turtle graphics”: [https://wiki.c2.com/?TurtleGraphics](https://wiki.c2.com/?TurtleGraphics)
   * Статия за “turtle graphics” в Wikipedia – [https://en.wikipedia.org/wiki/Turtle_graphics](https://en.wikipedia.org/wiki/Turtle_graphics)
   * Интерактивен онлайн инструмент за чертане с костенурка – [https://blockly-games.appspot.com/turtle](https://blockly-games.appspot.com/turtle)
 
