@@ -139,14 +139,14 @@ span.run-code-loading {
         padding-top: 0.5em;
         padding-left: 1.5em;
         width: 80px;
-        display: inline-block;
     }
     .topnav {
         white-space: normal;
+        display: flex;
+        flex-direction: row;
     }
      .topnav a {
         padding-left: 0em;
         padding-bottom: 0.3em;
-        display: inline-block;
     }
 }
