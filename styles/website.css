@@ -147,6 +147,8 @@ span.run-code-loading {
     }
      .topnav a {
         padding-left: 0em;
+        padding-right: 1.5em;
         padding-bottom: 0.3em;
+        font-size: 75%
     }
 }
