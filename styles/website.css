@@ -142,4 +142,8 @@ span.run-code-loading {
         position: left;
         padding-left: 1.5em;
     }
+     .topnav a {
+        padding-left: 0em;
+        padding-bottom: 0.3em;
+        display: inline-block;
 }
