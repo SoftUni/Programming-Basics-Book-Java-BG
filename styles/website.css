@@ -135,12 +135,14 @@ span.run-code-loading {
 
 @media screen and (max-width: 768px) {
     .logo {
-        content: url("/assets/software-university-vertical-logo.png");
+        content: url("/assets/software-university-vertical-logo.svg");
         padding-top: 0.5em;
         width: 80px;
-        display: inline-block;
-        position: left;
+        display: flex;
+        align-items: center;
+        margin-right: auto;
         padding-left: 1.5em;
+       
     }
      .topnav a {
         padding-left: 0em;
