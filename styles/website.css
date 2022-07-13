@@ -137,17 +137,18 @@ span.run-code-loading {
     .logo {
         content: url("/assets/software-university-vertical-logo.svg");
         padding-top: 0.5em;
-        width: 80px;
-        display: flex;
-        align-items: center;
-        margin-right: auto;
         padding-left: 1.5em;
+        width: 80px;
+        display: inline-block;
+        white-space: nowrap
        
+    }
+    .topnav {
+        white-space: nowrap;
     }
      .topnav a {
         padding-left: 0em;
         padding-bottom: 0.3em;
-        display: flex;
-        align-items: center;
-        margin-left: auto;
+        display: inline-block;
+        white-space: nowrap
 }
