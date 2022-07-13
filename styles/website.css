@@ -140,15 +140,12 @@ span.run-code-loading {
         padding-left: 1.5em;
         width: 80px;
         display: inline-block;
-        white-space: nowrap
-       
     }
     .topnav {
-        white-space: nowrap;
+        white-space: normal;
     }
      .topnav a {
         padding-left: 0em;
         padding-bottom: 0.3em;
         display: inline-block;
-        white-space: nowrap
 }
