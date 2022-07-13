@@ -136,6 +136,8 @@ span.run-code-loading {
     .logo {
         content: url("/assets/software-university-vertical-logo.png");
         padding-top: 0.5em;
-        float: left;
+        position: absolute;
+        left: 0;
+        width: 30px;
     }
 }
