@@ -125,18 +125,22 @@ span.run-code-loading {
     }
 }
 
-@media screen and (min-width: 800px) {
-    .logo {
-        content: url("/assets/software-university-logo.png");
-        padding-top: 0.5em;
-        width: 120px;
-    }
 }
 @media screen and (max-width: 768px) {
+     .topnav {
+        display: grid;
+    }
+    .topnav a {
+        padding-left: 0em;
+        padding-bottom: 0.3em;
+    }
+    .logobox {
+        padding-top: 0.3em;
+    }
     .logo {
         content: url("/assets/software-university-vertical-logo.png");
         padding-top: 0.5em;
-        width: 50px;
+        width: 80px;
         display: inline-block;
         padding-left: 1.5em;
     }
