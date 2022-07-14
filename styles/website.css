@@ -106,7 +106,7 @@ span.run-code-loading {
     padding-left: 1.5em;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1080px) {
     .topnav {
         display: flex;
     }
@@ -126,7 +126,7 @@ span.run-code-loading {
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 800px) {
     .logo {
         content: url("/assets/software-university-vertical-logo.svg");
         padding-top: 0.5em;
