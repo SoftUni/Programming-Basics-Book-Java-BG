@@ -125,14 +125,6 @@ span.run-code-loading {
     }
 }
 
-@media screen and (max-width: 1000) {
-    .logo {
-        content: url("/assets/software-university-logo.png");
-        padding-top: 0.5em;
-        width: 120px;
-    }
-}
-
 @media screen and (max-width: 768px) {
     .logo {
         content: url("/assets/software-university-vertical-logo.svg");
