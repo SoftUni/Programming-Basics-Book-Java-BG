@@ -106,21 +106,6 @@ span.run-code-loading {
     padding-left: 1.5em;
 }
 
-@media screen and (max-width: 1000px) {
-    .topnav {
-        display: flex;
-        font-size: inherit;
-    }
-    .topnav a {
-        padding-left: 0em;
-        padding-bottom: 0.3em;
-        padding-inline: 0.3em;
-    }
-    .logobox {
-        padding-top: 0.3em;
-    }
-}
-
 @media screen and (max-width: 300px) {
     .topnav {
         display: none;
